@@ -1,0 +1,40 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: meshtastic
+Label: meshtastic
+Suite: unstable
+Codename: unstable
+Version: 1.0
+Architectures: all
+Components: main
+Description: A repository for packages released by meshtastic
+Date: Mon, 30 Sep 2024 12:34:25 +0000
+MD5Sum:
+ 6109ff165106186653ef2dba00748a2c 933 main/binary-all/Packages.bz2
+ 7e2dd9696a4bc7523df502d1e0b3b84c 2200 main/binary-all/Packages
+ a4cd1f06200e1d0a0c0e48e0ceaa7ad7 787 main/binary-all/Packages.gz
+SHA1:
+ a5c4652006c4f4241ddc23b18b8b9d213f91f18c 933 main/binary-all/Packages.bz2
+ 497eea59c99621571412ada7a565c26c5e7edfbb 2200 main/binary-all/Packages
+ 4491ac54e85054a4d48b9cb2806d19a70c017572 787 main/binary-all/Packages.gz
+SHA256:
+ 61c53d9a82e43715573c93394aafbf53fd7fe9b99195476b2cfee6b731f82ddd 933 main/binary-all/Packages.bz2
+ 3c92e33d214107907ef1878b8ebc09138399f0249f7eca77827c1906dc91870a 2200 main/binary-all/Packages
+ 464f9fecb0ea333318de4c9fd9bab10b729d61c3c051f8caf81c982cf8fa3447 787 main/binary-all/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEVu4BAGGmGPks4ilUpLK46M5pWycFAmb6mtIACgkQpLK46M5p
+WydebQ/8D8JxEe82a3AANGoOSrDf94X+CTlG7eCiGiPj4siIzIjdMRRVkoTgkcvm
+o3D18u3LtF/aYoSCIuvlfwnrl3jWbmXZxBXn79hbkan247IHw0DB0hdXPAmLrNFb
+sqx0TO79lHk2fs4IX+S4IfsUFyzTmluBRciG4A/NcSH1mcLhlaV+ggPaF7EqrOU2
+D6GT77xU7wEeqea6PBLj685rMvV9g+sOIOpHeNf/AF+tfUE1xYNYiZ8Fn77IXGTs
+rKSMgrzZf0msHqIU17Dh4AW8Ba393AFAecYNb1WpwXQ5SQMO8dUvqWiZkWKz/J1T
+sGAkeDRtFbtYDvMIkQ2XdNb1lb1HO4YNflTAP96RDBzuRm6F7/pigr8xBLFyL1bR
+Uyy8ZmlazrJWka4WReL+ht+Vkq2jkOhdUOSMsyNEIu8jyKYOaDcpPB6EtpGNINa/
+4q36sURCBSiNi9oOQ33SzIqCNYzDsKli4PtEvN4x/IJZVRzYkdFwjCP391jPfRyN
+aWy9yzCXFb+j/5/cw+0CsKaPTG9nH355rxUIE0Xeeo6thhvpP6cAmBQ/2x9eghqQ
+9pbKBvgXjvWZROY441SY7yyvo23/kNU0kwClm8zOuxtqWaxbOplpSjWMihGmuRIv
+JlPzsph2Ccs4Bnx9G0GzCXLzwUMQLizFeYrISLbmJGpSx+tL+Hg=
+=XKe7
+-----END PGP SIGNATURE-----

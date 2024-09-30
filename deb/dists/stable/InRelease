@@ -1,0 +1,40 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: meshtastic
+Label: meshtastic
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: all
+Components: main
+Description: A repository for packages released by meshtastic
+Date: Mon, 30 Sep 2024 12:34:22 +0000
+MD5Sum:
+ 48ac2530381e3650e962a8fd5080d3a8 656 main/binary-all/Packages.bz2
+ a615db4ea15ac820bb3ebab522a0e6ba 1320 main/binary-all/Packages
+ 9f089f8bb6f7804d2a374fe915a6bde7 562 main/binary-all/Packages.gz
+SHA1:
+ 9c97862288a2d77bf28b85ec0f3882f3caf9b4b3 656 main/binary-all/Packages.bz2
+ fa315da5ffbb863a63078b8bc9d8fd5817d1340a 1320 main/binary-all/Packages
+ 6c258e5fc92116e022a870aeaafb82602792c921 562 main/binary-all/Packages.gz
+SHA256:
+ 9d9c6ba771364c681d55d9d26681a12287681f6e1b368eab857758165f58abf9 656 main/binary-all/Packages.bz2
+ d608096eccb0e2b6a4846297b8fcca4530eecc853fd91f47fb66c8f0349f7cb1 1320 main/binary-all/Packages
+ 89fe319d8a08f6549978c63be52fdf58b1328182a512f18e0b850187281d120e 562 main/binary-all/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEVu4BAGGmGPks4ilUpLK46M5pWycFAmb6ms4ACgkQpLK46M5p
+WydTjA/+PaR8eeMcXgwdl4ItPs27XMOFItm7uD3+W/EUfTDUysEzvDmTHoBYWXM6
+GEIzq9/w/o6hJ72e+GC0ob5MpqN+fnMT+VxVdcXGe9bm29i89jKkFnFdrJcor5Zi
+kwsmofP1uiJ/DX6vTdCMAYcd1x4TGoKksFXTdf+3r+qLVZ+8CzwWZ/9h3d3nPeQf
+i1hKvhd5hjrAe9sBDuSq/5kWqi+XZFt0I2yKZTPGxk3erzE3tzxQEqrj7DvVWOWB
+iHJZoCyAA2J2oeefMuGW38c708ZcIFnA8nGyAmUepFDc+Kz2pXWRM4gostMivKME
+DQnjRcYdnaSi+54LA1M6oKuJaMj70f++Z3Pltv9MSwSo5KjbRNfQRriquJlM7vH/
+9SoR3ZKhAHLfeaDUtcM12NdyXbULjfQaTX0ZksTWxsUrEml78wt5RIfWxKG2/4aI
+boikBZH5RosoSq5tEDYLdHyJlQs7qa9VQdGi9hjjBPTkpgxjxBoXOnRLsbdytgjK
+YAld1JhiAnTuKsC6on9L2PRlnnvafQU+gcusMmJXC2YKjCcRVhXjN8Tz8uVzjO5j
+CKj3JA+fOMieP8FF8BznwPNzLQFmTM2MML/kkBcHk3lFU75KIjMUqjcatApxQrbf
+Smksoc9XvGnRpgen0DlH8kYyGGrW3dzTeNcStCWzG83UcQ6H/9Y=
+=4dUq
+-----END PGP SIGNATURE-----
