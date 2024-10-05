@@ -61,6 +61,9 @@ jobs:
           export GPG_FINGERPRINT="${{ steps.import_gpg.outputs.fingerprint }}"
           export ORIGIN="${{ steps.import_gpg.outputs.name }}"
           .github/scripts/build_repo.sh
+      
+      - name: Fetch release zips and unpack them
+        run: .github/scripts/fetch_release.sh
 
       - name: Upload to original repo
         uses: EndBug/add-and-commit@v9
