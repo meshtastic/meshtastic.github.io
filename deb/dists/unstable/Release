@@ -6,16 +6,16 @@ Version: 1.0
 Architectures: all
 Components: main
 Description: A repository for packages released by meshtastic
-Date: Sun, 06 Oct 2024 16:04:28 +0000
+Date: Sun, 06 Oct 2024 16:18:19 +0000
 MD5Sum:
  e373725f438daf6e4ca71cceff3472f7 795 main/binary-all/Packages.bz2
  9da2c410dfd560d690cf379c51943912 1760 main/binary-all/Packages
- 0ab03021640bb40d8f16147a3e80ab39 675 main/binary-all/Packages.gz
+ eeb18e3e98cbadfc5cbab4fe9b339271 675 main/binary-all/Packages.gz
 SHA1:
  d3597166559c2af2e9139d64face654a1dcedce0 795 main/binary-all/Packages.bz2
  b1cc3b74256d1ce2a658c51ec2610732ba2d4a08 1760 main/binary-all/Packages
- 8e540e0f664cd1374c7214c99860fc6360ac2756 675 main/binary-all/Packages.gz
+ 0c5df9896d7fc65f374a7a5307147755f9f8859b 675 main/binary-all/Packages.gz
 SHA256:
  058b9dc50f1c8d2a2e7828efc3a9494509bbdc61e7d0193898cbb03ddb605d44 795 main/binary-all/Packages.bz2
  50a2d4cef94e9e67fbff973d7e07ebc82e6596c57fcfcaeb4b25bca2eed2ef8e 1760 main/binary-all/Packages
- 1e146cfa1f011f777eb2ee7f6c081e935a30536e1b3d2962239411087d2d751d 675 main/binary-all/Packages.gz
+ c68b7dca7438ef91e454fdb586510d16e66cac76c3154c9a954273f2a4cdb261 675 main/binary-all/Packages.gz
