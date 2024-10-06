@@ -9,32 +9,32 @@ Version: 1.0
 Architectures: all
 Components: main
 Description: A repository for packages released by meshtastic
-Date: Sat, 05 Oct 2024 21:55:18 +0000
+Date: Sun, 06 Oct 2024 14:05:45 +0000
 MD5Sum:
  e373725f438daf6e4ca71cceff3472f7 795 main/binary-all/Packages.bz2
  9da2c410dfd560d690cf379c51943912 1760 main/binary-all/Packages
- 900763abcf0bbd80f377ce70ff1dd2fa 675 main/binary-all/Packages.gz
+ 22031c2d1cfbdb31dad053636e833add 675 main/binary-all/Packages.gz
 SHA1:
  d3597166559c2af2e9139d64face654a1dcedce0 795 main/binary-all/Packages.bz2
  b1cc3b74256d1ce2a658c51ec2610732ba2d4a08 1760 main/binary-all/Packages
- bc6ad48a70ddad38fd28d3765537a276a091fb3a 675 main/binary-all/Packages.gz
+ 96027c2af525f6c1bcb9f966e7b08c67e2911df7 675 main/binary-all/Packages.gz
 SHA256:
  058b9dc50f1c8d2a2e7828efc3a9494509bbdc61e7d0193898cbb03ddb605d44 795 main/binary-all/Packages.bz2
  50a2d4cef94e9e67fbff973d7e07ebc82e6596c57fcfcaeb4b25bca2eed2ef8e 1760 main/binary-all/Packages
- cedfb4da88d3a42faacad79bfd99ac0c1586a11c8fe6d9ff26997e6d1b11f2fc 675 main/binary-all/Packages.gz
+ 1addc830103d64e44830bd39806cbb61b666df699f2dd04f00c1878a3ac3a57e 675 main/binary-all/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEVu4BAGGmGPks4ilUpLK46M5pWycFAmcBtcYACgkQpLK46M5p
-WydRZw//RqNIEHKew0sSa1v6FoGP9s9eU3zU+3lhKNP0VdBFVvXj+1raXpGuTds7
-FJa4zFryOvPTmYDV+XXluh7RTNZvU4jahRQwQhnyurF5N6c2U8KwOWTSowuCCmya
-ITuHDUN+HbDUDcnOL74IenP9hyUTvdi7Att8jI+KpN4CKnzygOiRLnpEB09kqO2L
-UBPWGGbUfqZ5zgjwHldXTrIbLUBgpTMWdVFSjdTWRsCCuuX/xGHzPnLRB0u7Zt6z
-83amAVO6p5AyiZ1+ueHwjMjrIlEBwCl/97+lqXoY6IB2NiXz+KapTVzJnCePvXuW
-RFKt5CmN+3/SBut757DJ3F6FD7OqC1EcZgTJXDtncKMe3tkrF//voKfDSIMt0Go1
-SSbX8omtIt0w5+Vt8C1B93+LRV4R73ovxrv4sTCL4PUYfU6lTdazCUjdmiBQWERm
-Nof4QAfiVvabvd3HZTXk5WuvrZViWdJyDs8kiilpVCvn79RsK7dk7Ys8idTs/GCl
-HG8N84knMNM2icIJ6jCtB7pBeMXzLGXNDCwW9lsyBDMkjLPSdLOYLzDUoYMqjNEO
-kMyf3Q84Sjd4NIshhlg33fVzk1SgVK5cUS5bl76jgaKqNwxSQVV/lpcSpfERU/GW
-4EG8yISai91G0lRWe7P9J04LLfBdK/Hc+2FakXyvklHhxfSbC44=
-=Whvs
+iQIzBAEBCgAdFiEEVu4BAGGmGPks4ilUpLK46M5pWycFAmcCmTkACgkQpLK46M5p
+WyeOTw/9F9jooFDKTr6XQsHOIQKrhKGpkBdMMKqTZFNDIVEqknZ+OeR1SZ9j0qkj
+BUqPuOyoczGjZPFXHSBsJfZyqZ5GFk5lfhqtW/BhZgjdDH98AvTg/+wk8MBFGv4a
+1ZEmPlklyspq0T2hYv8XEmWAp6IKFrPgCteewwNEvGBQC7PJbLnObPnTHusMuriF
+DZk1TcaxJiDG58t9XI5fTzB0FH9KQSk54FGBAwYWxtddoXQyTV2tsSK002E/rINg
+aa76bMEvmE700h5qcb2p+dj2MQzvV721sWMdWU5AKOcZINodiwurKOqTHOiRARZW
+4OPDCVk8sLx2MncMcgwi41yK+A3Lce7xi6NUNN2G74xA9d3Uz01enHZUW2QAnCQz
+XtgV7puOCaYF4sS5lMsXdgoebbnBwqlSboES6feZn+CuK9yXzE/1qW/dO5NSJ+Sb
+4y2K1JCBtICNe5A2UhwyESBmnXZL4xUlajcS5oTHo5EW92DKw+02h3INwkT+q59K
+wEKFjq4f3//6gEfG00XWV3dH4ZmVR1EFZYKr5SbiDuP17TDN3GD55iQmg9J/disS
+7LD7ywUVhpnEM1xLPQd5AIQN5sA4q+aTGxuIYTewDginkjcZDF9fKHu+aNpgRGRT
+yKYtezA8hKRp5DrIf6RxdA/07+Xp9B3zwg2M0N9wt+w6H3KsIag=
+=xPtn
 -----END PGP SIGNATURE-----
