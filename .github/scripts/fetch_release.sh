@@ -13,7 +13,7 @@ main() {
                 while IFS= read -r zip_file || [[ -n $zip_file ]]; do
                     echo "Getting ZIP ${zip_file}"
                     wget -q "https://github.com/${repo}/releases/download/${tag}/${zip_file}"
-                    unzip -q "$zip_file"
+                    unzip -n -q "$zip_file"
                     rm -f "$zip_file"
                 done < <(printf '%s' "$zip_files")
                 popd >/dev/null
