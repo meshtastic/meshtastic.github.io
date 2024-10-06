@@ -61,7 +61,7 @@ jobs:
           export GPG_FINGERPRINT="${{ steps.import_gpg.outputs.fingerprint }}"
           export ORIGIN="${{ steps.import_gpg.outputs.name }}"
           .github/scripts/build_repo.sh
-      
+
       - name: Fetch release zips and unpack them
         run: |
           export ARTIFACTS_TOKEN="${{ secrets.ARTIFACTS_TOKEN }}"
@@ -70,4 +70,4 @@ jobs:
       - name: Upload to original repo
         uses: EndBug/add-and-commit@v9
         with:
-          add: deb
+          add: '["deb", "firmware-*/*"]'

@@ -5,7 +5,7 @@ main() {
         if release=$(curl -fqs -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${ARTIFACTS_TOKEN}" -H "X-GitHub-Api-Version: 2022-11-28" https://api.github.com/repos/${repo}/releases); then
             echo $release
             tag="$(echo "$release" | jq -r '.[0].tag_name')"
-            zip_files="$(echo "$release" | jq -r '.[0].assets[] | select(.name | endswith(".zip")) | .name')"
+            zip_files="$(echo "$release" | jq -r '.[0].assets[] | select(().name | startswith("firmware-")) and (.name | endswith(".zip"))) | .name')"
             echo "Parsing repo $repo at $tag"
             if [ -n "$zip_files" ]; then
                 mkdir -p "firmware-$tag"
