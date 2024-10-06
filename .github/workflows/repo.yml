@@ -1,4 +1,4 @@
-name: Deploy Debian Repo
+name: Deploy Repo and Firmware
 
 on:
   push:
