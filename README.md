@@ -15,4 +15,4 @@ echo "deb [arch=all signed-by=/etc/apt/keyrings/meshtastic-deb.asc] {{ site.url 
 
 If you want to have the latest version of the software, you can replace `stable` with `unstable`.
 
-Then run `apt update && apt install -y meshtasticd`.
+Then run `sudo apt update && sudo apt install -y meshtasticd`.
