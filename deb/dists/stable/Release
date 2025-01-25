@@ -6,16 +6,16 @@ Version: 1.0
 Architectures: all
 Components: main
 Description: A repository for packages released by meshtastic
-Date: Thu, 16 Jan 2025 12:00:59 +0000
+Date: Sat, 25 Jan 2025 12:49:32 +0000
 MD5Sum:
- 10a4c30b4c95a6ed7bc94cb2611c7206 658 main/binary-all/Packages.bz2
- 1de164c6fdea63522c7a56a26a60603a 1326 main/binary-all/Packages
- 75698ede57681741a07c1b6f75ee41de 561 main/binary-all/Packages.gz
+ a1606f39c5fa6d0d93fb52b3762cc727 666 main/binary-all/Packages.bz2
+ 498219ee45dd770e809a87910da0890d 566 main/binary-all/Packages.gz
+ f055fcf24cb7a2996ca7e8d544385d13 1353 main/binary-all/Packages
 SHA1:
- cd75810c3975252ef5bc0aa7abea32d6aaba7ffc 658 main/binary-all/Packages.bz2
- 36c5cbccb7de83d09d63de3f35b548700a41bb9f 1326 main/binary-all/Packages
- f2d252203b864325611b932bc3016484131fe339 561 main/binary-all/Packages.gz
+ d4dcec671ec4a71066a68c13a6ff3b9490db2b1e 666 main/binary-all/Packages.bz2
+ 2750b8082b75064b3b97a15564469da2686f5090 566 main/binary-all/Packages.gz
+ 3dbbeb2456d1863d66afb8a94ff0ebc3ec7e4ca8 1353 main/binary-all/Packages
 SHA256:
- d2aabf64c616b31b5c6a8df4bc839c3da45a81e5398bbbb1f1607d7760ceb852 658 main/binary-all/Packages.bz2
- fb29b8977ba43c06ae37c8f0c68bae74f628139e54f340484434656496349277 1326 main/binary-all/Packages
- 56d1d79c432e335acdf9a7d7bb214df33648c2813e8dcc34bd573bd8754da363 561 main/binary-all/Packages.gz
+ 49c56db2da519786efe5e02805160264ca6a1f4828f9ff3cffbeec7d2469b144 666 main/binary-all/Packages.bz2
+ 60b1282219ef1774a72e85fcf6f39d80f9cd71aa153d842baa8f58ecb8d38264 566 main/binary-all/Packages.gz
+ 4c88a628364cbc9722eb976a771058a03ccb41a6534b28664e46ee45bdefc984 1353 main/binary-all/Packages

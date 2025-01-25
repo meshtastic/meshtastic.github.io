@@ -1,78 +1,78 @@
 Package: meshtasticd
-Version: 2.5.15.79da236
+Version: 2.5.18.89ebafc
 Architecture: armhf
 Maintainer: Jonathan Bennett
-Installed-Size: 71289
-Depends: libyaml-cpp0.7, openssl, libulfius2.7
-Filename: pool/main/meshtasticd_2.5.15.79da236_armhf.deb
-Size: 45339228
-MD5sum: aa47e399aa31aa20c257aba5b51b8c72
-SHA1: 12e45be8181ba641488335359631e3ac2b73f444
-SHA256: e8768518c5ec7af022fe19a6c614c0a8d316178afb4ba7489f4f6cafd0f469d8
+Installed-Size: 71698
+Depends: libyaml-cpp0.7, openssl, libulfius2.7, libi2c0
+Filename: pool/main/meshtasticd_2.5.18.89ebafc_armhf.deb
+Size: 45477420
+MD5sum: 76274a0bc852efafb84891f156573144
+SHA1: 78a67da25326ccbfaddf06af658c5df797d3e0ba
+SHA256: 6097a2b503873950161c24d2539a53c8b26fc28ed03303a84a91e593df3cbd56
 Description: Native Linux Meshtastic binary.
 
 Package: meshtasticd
-Version: 2.5.15.79da236
-Architecture: arm64
-Maintainer: Jonathan Bennett
-Installed-Size: 71062
-Depends: libyaml-cpp0.7, openssl, libulfius2.7
-Filename: pool/main/meshtasticd_2.5.15.79da236_arm64.deb
-Size: 45273224
-MD5sum: 46038f86a11bb76dd30f33cf19c828a9
-SHA1: 33b1bca925fde32f1ed842aa58cad092d28b470d
-SHA256: bee5beca33ad42ba97f5458f32d5ad25a03053007fdb3fe56d03e9dc71a7c26e
-Description: Native Linux Meshtastic binary.
-
-Package: meshtasticd
-Version: 2.5.15.79da236
+Version: 2.5.18.89ebafc
 Architecture: amd64
 Maintainer: Jonathan Bennett
-Installed-Size: 70785
-Depends: libyaml-cpp0.7, openssl, libulfius2.7
-Filename: pool/main/meshtasticd_2.5.15.79da236_amd64.deb
-Size: 45323464
-MD5sum: 4e33f0f8c09eb66e13c63a5e926eead6
-SHA1: ca4e34fa62c2bfb087357afd9f1fe9d3cea873ba
-SHA256: f6ceb715d5dafa8a579bcdaab0b5fdb782441666d0eb96128570abaf12dda86d
+Installed-Size: 71173
+Depends: libyaml-cpp0.7, openssl, libulfius2.7, libi2c0
+Filename: pool/main/meshtasticd_2.5.18.89ebafc_amd64.deb
+Size: 45439408
+MD5sum: 912c43d967d40eedfcf7d5b844f365a8
+SHA1: 3c80368f37b07bfa6a55ea89d6ecbc4cdf088b82
+SHA256: a937b37bbdec1d70350128116f28376822f9ec44605a933b69a5e359ad9a8958
 Description: Native Linux Meshtastic binary.
 
 Package: meshtasticd
-Version: 2.5.19.f9876cf
+Version: 2.5.18.89ebafc
 Architecture: arm64
 Maintainer: Jonathan Bennett
-Installed-Size: 69303
+Installed-Size: 71431
 Depends: libyaml-cpp0.7, openssl, libulfius2.7, libi2c0
-Filename: pool/main/meshtasticd_2.5.19.f9876cf_arm64.deb
-Size: 44419304
-MD5sum: 59048a44f6a897b594ff7bb751a71dd8
-SHA1: 58bffcda46f3399f8e7fb1c2d5d8089e842c01a5
-SHA256: 10a059044d972987af4bb2cff97a09a54e58f00bc2ac8af423450e2f6bf324dd
+Filename: pool/main/meshtasticd_2.5.18.89ebafc_arm64.deb
+Size: 45406922
+MD5sum: f2acd1cea685dbf79054ac7b63d31927
+SHA1: 98dfae03d09a2133f4c42c2a0d26c98f75c4bd66
+SHA256: 11fc2ca3aff07ab485193d4abb300d0cd91bd957587a83dc2f23aba29abc178a
 Description: Native Linux Meshtastic binary.
 
 Package: meshtasticd
-Version: 2.5.19.f9876cf
+Version: 2.5.20.4c97351
+Architecture: arm64
+Maintainer: Jonathan Bennett
+Installed-Size: 69312
+Depends: libyaml-cpp0.7, openssl, libulfius2.7, libi2c0
+Filename: pool/main/meshtasticd_2.5.20.4c97351_arm64.deb
+Size: 44459852
+MD5sum: 30103340943c5d8b972b36e090127751
+SHA1: 11fb4bd2813e80dfebbc0ac9783bcbc4e80d98ef
+SHA256: 29943a6a7a590779afd158a32c50307a3a50b3de6e2637d8e4c88d34b79acabf
+Description: Native Linux Meshtastic binary.
+
+Package: meshtasticd
+Version: 2.5.20.4c97351
 Architecture: amd64
 Maintainer: Jonathan Bennett
-Installed-Size: 69025
+Installed-Size: 66206
 Depends: libyaml-cpp0.7, openssl, libulfius2.7, libi2c0
-Filename: pool/main/meshtasticd_2.5.19.f9876cf_amd64.deb
-Size: 44462976
-MD5sum: 8a2cd7355014ad7d69beaf34132bce6f
-SHA1: 5c82e1cf4afc85688331a9594036bea5e298e564
-SHA256: 57f85f4471b792c07a8f09485ae7c8b0de514d81289598a56a15721ef3b9df77
+Filename: pool/main/meshtasticd_2.5.20.4c97351_amd64.deb
+Size: 43188260
+MD5sum: 419e086d3a4f0dcf24feb587acbbfd6d
+SHA1: c1929570bcf4ff04e97c1af1135e261f00fa3079
+SHA256: 343e283a5f3a426c8ec0072688256e5eb3b17f4baf3b83ab8944c8370dfd4f43
 Description: Native Linux Meshtastic binary.
 
 Package: meshtasticd
-Version: 2.5.19.f9876cf
+Version: 2.5.20.4c97351
 Architecture: armhf
 Maintainer: Jonathan Bennett
-Installed-Size: 69479
+Installed-Size: 69557
 Depends: libyaml-cpp0.7, openssl, libulfius2.7, libi2c0
-Filename: pool/main/meshtasticd_2.5.19.f9876cf_armhf.deb
-Size: 44471952
-MD5sum: a84319633bd7ad833ab13df173e1aac6
-SHA1: 631c2a0590c4449a193aac348111a92a99a5ce26
-SHA256: 1f32fd6353d869c4c09017a80b56067e760fdc8ac5d24ba1863dbc3402974679
+Filename: pool/main/meshtasticd_2.5.20.4c97351_armhf.deb
+Size: 44511854
+MD5sum: 1061ca9052a43b832ba309cab8a34d2c
+SHA1: 8bc39bf9f00546788163f353821941d3b0dd8ff1
+SHA256: 756155083855089bd0db920e9305759044a4c485e4253734be9da63b685615d7
 Description: Native Linux Meshtastic binary.
 
