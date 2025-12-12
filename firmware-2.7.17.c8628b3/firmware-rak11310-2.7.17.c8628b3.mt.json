@@ -1,0 +1,27 @@
+{
+  "version": "2.7.17.c8628b3",
+  "build_epoch": 1765497600,
+  "board": "rak11310",
+  "mcu": "rp2040",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-rak11310-2.7.17.c8628b3.elf",
+      "md5": "97b7539c457a809f491af9764750c0db",
+      "bytes": 9737412
+    },
+    {
+      "name": "firmware-rak11310-2.7.17.c8628b3.bin",
+      "md5": "2139d88e00ae2e77d54fa582e0b5bfae",
+      "bytes": 910620
+    },
+    {
+      "name": "firmware-rak11310-2.7.17.c8628b3.uf2",
+      "md5": "61d5aac3ad4859e346622a6f8b1fe942",
+      "bytes": 1821696
+    }
+  ],
+  "part": null,
+  "has_mui": false,
+  "has_inkhud": false
+}

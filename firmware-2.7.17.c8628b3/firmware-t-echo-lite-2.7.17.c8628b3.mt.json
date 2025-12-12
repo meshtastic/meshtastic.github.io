@@ -1,0 +1,32 @@
+{
+  "version": "2.7.17.c8628b3",
+  "build_epoch": 1765497600,
+  "board": "t-echo-lite",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-t-echo-lite-2.7.17.c8628b3.elf",
+      "md5": "a43a8f96c2e162dce0bf2b3f4a115542",
+      "bytes": 1288172
+    },
+    {
+      "name": "firmware-t-echo-lite-2.7.17.c8628b3.hex",
+      "md5": "361fa57b9c7ac6c8079e0c66a268bfca",
+      "bytes": 1881189
+    },
+    {
+      "name": "firmware-t-echo-lite-2.7.17.c8628b3.uf2",
+      "md5": "51d2ff577155268e115f1254abea2c39",
+      "bytes": 1337856
+    },
+    {
+      "name": "firmware-t-echo-lite-2.7.17.c8628b3.zip",
+      "md5": "8ad4b4ab60dde49059ced0c41b08891b",
+      "bytes": 669749
+    }
+  ],
+  "part": null,
+  "has_mui": false,
+  "has_inkhud": false
+}

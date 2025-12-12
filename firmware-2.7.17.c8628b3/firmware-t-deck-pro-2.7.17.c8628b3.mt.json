@@ -1,0 +1,73 @@
+{
+  "version": "2.7.17.c8628b3",
+  "build_epoch": 1765497600,
+  "board": "t-deck-pro",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-t-deck-pro-2.7.17.c8628b3.elf",
+      "md5": "63f9bc273a39d0ed0cb1632d251a4958",
+      "bytes": 22129124
+    },
+    {
+      "name": "firmware-t-deck-pro-2.7.17.c8628b3.bin",
+      "md5": "3cbb1555b355ecb1e322fc4490f77d51",
+      "bytes": 2067552
+    },
+    {
+      "name": "firmware-t-deck-pro-2.7.17.c8628b3.factory.bin",
+      "md5": "b4eece5e8c4badf44b6bbfe60942d0f8",
+      "bytes": 2133088
+    },
+    {
+      "name": "littlefs-t-deck-pro-2.7.17.c8628b3.bin",
+      "md5": "673818c6507edf2155a428501ee12605",
+      "bytes": 1048576
+    }
+  ],
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false
+}

@@ -1,0 +1,32 @@
+{
+  "version": "2.7.17.c8628b3",
+  "build_epoch": 1765497600,
+  "board": "seeed_solar_node",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-seeed_solar_node-2.7.17.c8628b3.elf",
+      "md5": "be74fe1e2b5bb0e5ef46388c16534479",
+      "bytes": 1280496
+    },
+    {
+      "name": "firmware-seeed_solar_node-2.7.17.c8628b3.hex",
+      "md5": "6b5e566f24b1218106bee6ac5a1f53a7",
+      "bytes": 1854340
+    },
+    {
+      "name": "firmware-seeed_solar_node-2.7.17.c8628b3.uf2",
+      "md5": "a23084ed83e327e2bf307d54601b492b",
+      "bytes": 1318912
+    },
+    {
+      "name": "firmware-seeed_solar_node-2.7.17.c8628b3.zip",
+      "md5": "d51fd785a10571a0c1601ed6f9648e34",
+      "bytes": 660234
+    }
+  ],
+  "part": null,
+  "has_mui": false,
+  "has_inkhud": false
+}
