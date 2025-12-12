@@ -1,0 +1,81 @@
+{
+  "version": "2.7.17.c8628b3",
+  "build_epoch": 1765497600,
+  "board": "seeed-xiao-s3",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-seeed-xiao-s3-2.7.17.c8628b3.elf",
+      "md5": "c3aa7665848c88c2ba56df085408e15f",
+      "bytes": 22573008
+    },
+    {
+      "name": "firmware-seeed-xiao-s3-2.7.17.c8628b3.bin",
+      "md5": "23c35683a59d702948a8a2d4b21e13fc",
+      "bytes": 2052448
+    },
+    {
+      "name": "firmware-seeed-xiao-s3-2.7.17.c8628b3.factory.bin",
+      "md5": "5a81f3509a895bac925fdbdbc5980e9a",
+      "bytes": 2117984
+    },
+    {
+      "name": "littlefs-seeed-xiao-s3-2.7.17.c8628b3.bin",
+      "md5": "c9cfa193ce0170450b8b5ee9f506e2aa",
+      "bytes": 1572864
+    }
+  ],
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false
+}

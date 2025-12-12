@@ -1,0 +1,27 @@
+{
+  "version": "2.7.17.c8628b3",
+  "build_epoch": 1765497600,
+  "board": "rp2040-lora",
+  "mcu": "rp2040",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-rp2040-lora-2.7.17.c8628b3.elf",
+      "md5": "85fa4aff7078bf8af94873f5dee55c4b",
+      "bytes": 9690328
+    },
+    {
+      "name": "firmware-rp2040-lora-2.7.17.c8628b3.bin",
+      "md5": "9c10e0fa43a130cb4446eba667d724d2",
+      "bytes": 887196
+    },
+    {
+      "name": "firmware-rp2040-lora-2.7.17.c8628b3.uf2",
+      "md5": "19bc3990a656653acb44f41786385b37",
+      "bytes": 1774592
+    }
+  ],
+  "part": null,
+  "has_mui": false,
+  "has_inkhud": false
+}

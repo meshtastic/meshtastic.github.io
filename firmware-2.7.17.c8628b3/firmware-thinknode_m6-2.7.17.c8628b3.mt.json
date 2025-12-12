@@ -1,0 +1,32 @@
+{
+  "version": "2.7.17.c8628b3",
+  "build_epoch": 1765497600,
+  "board": "thinknode_m6",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-thinknode_m6-2.7.17.c8628b3.elf",
+      "md5": "90027d651b2e8f80bad1b8a90d742fec",
+      "bytes": 1282076
+    },
+    {
+      "name": "firmware-thinknode_m6-2.7.17.c8628b3.hex",
+      "md5": "5e63826e10c0f5cbf8847458a47b613d",
+      "bytes": 1860579
+    },
+    {
+      "name": "firmware-thinknode_m6-2.7.17.c8628b3.uf2",
+      "md5": "f21fbd00e24d339fd04dd7b0514c6bcf",
+      "bytes": 1323008
+    },
+    {
+      "name": "firmware-thinknode_m6-2.7.17.c8628b3.zip",
+      "md5": "aefb06d0e7dda54c575e810c894b7eaf",
+      "bytes": 662427
+    }
+  ],
+  "part": null,
+  "has_mui": false,
+  "has_inkhud": false
+}

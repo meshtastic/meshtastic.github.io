@@ -1,0 +1,32 @@
+{
+  "version": "2.7.17.c8628b3",
+  "build_epoch": 1765497600,
+  "board": "wio-tracker-wm1110",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-wio-tracker-wm1110-2.7.17.c8628b3.elf",
+      "md5": "881a073aa91b11e70faf769ae28479f1",
+      "bytes": 1212748
+    },
+    {
+      "name": "firmware-wio-tracker-wm1110-2.7.17.c8628b3.hex",
+      "md5": "5edb49c4be5e000313812b6a5f6df173",
+      "bytes": 1838259
+    },
+    {
+      "name": "firmware-wio-tracker-wm1110-2.7.17.c8628b3.uf2",
+      "md5": "78000eccdc917ad71c7e74be0b31c503",
+      "bytes": 1307136
+    },
+    {
+      "name": "firmware-wio-tracker-wm1110-2.7.17.c8628b3.zip",
+      "md5": "b5e56b07df10f9f7340de70ee317c53f",
+      "bytes": 654526
+    }
+  ],
+  "part": null,
+  "has_mui": false,
+  "has_inkhud": false
+}
