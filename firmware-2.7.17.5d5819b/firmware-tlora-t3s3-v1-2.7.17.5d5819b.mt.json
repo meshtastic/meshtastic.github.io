@@ -1,0 +1,73 @@
+{
+  "version": "2.7.17.5d5819b",
+  "build_epoch": 1765497600,
+  "board": "tlora-t3s3-v1",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-tlora-t3s3-v1-2.7.17.5d5819b.elf",
+      "md5": "59d85a71bf49ac25c5f831a8e9d7ebb0",
+      "bytes": 23300728
+    },
+    {
+      "name": "firmware-tlora-t3s3-v1-2.7.17.5d5819b.bin",
+      "md5": "37fb7ee6fe44f46454e3b3c8d0c3ebc3",
+      "bytes": 2221248
+    },
+    {
+      "name": "firmware-tlora-t3s3-v1-2.7.17.5d5819b.factory.bin",
+      "md5": "3955c579c23c88ce1c5b72b734e9d92a",
+      "bytes": 2286784
+    },
+    {
+      "name": "littlefs-tlora-t3s3-v1-2.7.17.5d5819b.bin",
+      "md5": "a73e53fd1aa6693f61cec8491ce7d4cc",
+      "bytes": 1048576
+    }
+  ],
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false
+}

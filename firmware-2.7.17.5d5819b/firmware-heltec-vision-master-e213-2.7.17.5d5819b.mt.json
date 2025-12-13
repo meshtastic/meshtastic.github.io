@@ -1,0 +1,81 @@
+{
+  "version": "2.7.17.5d5819b",
+  "build_epoch": 1765497600,
+  "board": "heltec-vision-master-e213",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-heltec-vision-master-e213-2.7.17.5d5819b.elf",
+      "md5": "0f9e95d33c5a64d33169e27c2d06005a",
+      "bytes": 22605376
+    },
+    {
+      "name": "firmware-heltec-vision-master-e213-2.7.17.5d5819b.bin",
+      "md5": "6c5a6a2a153bc4bc3fb91b0f7d9ef0ca",
+      "bytes": 2070480
+    },
+    {
+      "name": "firmware-heltec-vision-master-e213-2.7.17.5d5819b.factory.bin",
+      "md5": "07c2fbdaf4387f0ad89c00389d25f812",
+      "bytes": 2136016
+    },
+    {
+      "name": "littlefs-heltec-vision-master-e213-2.7.17.5d5819b.bin",
+      "md5": "a08b0a093c7250fd06277825d79426f0",
+      "bytes": 1572864
+    }
+  ],
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false
+}

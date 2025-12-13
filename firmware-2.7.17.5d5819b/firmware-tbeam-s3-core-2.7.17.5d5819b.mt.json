@@ -1,0 +1,81 @@
+{
+  "version": "2.7.17.5d5819b",
+  "build_epoch": 1765584000,
+  "board": "tbeam-s3-core",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-tbeam-s3-core-2.7.17.5d5819b.elf",
+      "md5": "ed515bbac88624e3413c60fc4a1b2363",
+      "bytes": 22714652
+    },
+    {
+      "name": "firmware-tbeam-s3-core-2.7.17.5d5819b.bin",
+      "md5": "86183918d9052225d1b85895f89187db",
+      "bytes": 2118896
+    },
+    {
+      "name": "firmware-tbeam-s3-core-2.7.17.5d5819b.factory.bin",
+      "md5": "9ff98667ef8bc49c2b893e1daef71aec",
+      "bytes": 2184432
+    },
+    {
+      "name": "littlefs-tbeam-s3-core-2.7.17.5d5819b.bin",
+      "md5": "3d81ad3e278e2972d10d57f491b271ba",
+      "bytes": 1572864
+    }
+  ],
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false
+}

@@ -1,0 +1,73 @@
+{
+  "version": "2.7.17.5d5819b",
+  "build_epoch": 1765584000,
+  "board": "heltec-ht62-esp32c3-sx1262",
+  "mcu": "esp32c3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-heltec-ht62-esp32c3-sx1262-2.7.17.5d5819b.elf",
+      "md5": "c4acf708f7b1e3b54e4e9416898a8591",
+      "bytes": 19015400
+    },
+    {
+      "name": "firmware-heltec-ht62-esp32c3-sx1262-2.7.17.5d5819b.bin",
+      "md5": "2d6663274bcbd42f3a5e7b22b98c1dfe",
+      "bytes": 2061808
+    },
+    {
+      "name": "firmware-heltec-ht62-esp32c3-sx1262-2.7.17.5d5819b.factory.bin",
+      "md5": "685b10156b6a8e37c246e826e72e4518",
+      "bytes": 2127344
+    },
+    {
+      "name": "littlefs-heltec-ht62-esp32c3-sx1262-2.7.17.5d5819b.bin",
+      "md5": "c2ff3895c99f1acf7537cff9feaff973",
+      "bytes": 1048576
+    }
+  ],
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false
+}

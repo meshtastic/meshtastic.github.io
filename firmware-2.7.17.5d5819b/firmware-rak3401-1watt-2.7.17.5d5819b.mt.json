@@ -1,0 +1,32 @@
+{
+  "version": "2.7.17.5d5819b",
+  "build_epoch": 1765497600,
+  "board": "rak3401-1watt",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-rak3401-1watt-2.7.17.5d5819b.elf",
+      "md5": "d32c355a07df2ed46b496417576bb4ab",
+      "bytes": 1282128
+    },
+    {
+      "name": "firmware-rak3401-1watt-2.7.17.5d5819b.hex",
+      "md5": "4be6a22c470328d4b589d0bedae89c90",
+      "bytes": 1866670
+    },
+    {
+      "name": "firmware-rak3401-1watt-2.7.17.5d5819b.uf2",
+      "md5": "f675665a791172e7c14b7e2d0dd9620b",
+      "bytes": 1327616
+    },
+    {
+      "name": "firmware-rak3401-1watt-2.7.17.5d5819b.zip",
+      "md5": "9905695673fca095c1f8514880b8ed3a",
+      "bytes": 664600
+    }
+  ],
+  "part": null,
+  "has_mui": false,
+  "has_inkhud": false
+}

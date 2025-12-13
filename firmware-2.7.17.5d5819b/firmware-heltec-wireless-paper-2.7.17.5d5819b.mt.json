@@ -1,0 +1,81 @@
+{
+  "version": "2.7.17.5d5819b",
+  "build_epoch": 1765584000,
+  "board": "heltec-wireless-paper",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-heltec-wireless-paper-2.7.17.5d5819b.elf",
+      "md5": "599772a5196fee4358cff8ed9996d498",
+      "bytes": 22055352
+    },
+    {
+      "name": "firmware-heltec-wireless-paper-2.7.17.5d5819b.bin",
+      "md5": "d2781c1e7549327f9c3e5fcc561a34b5",
+      "bytes": 2035248
+    },
+    {
+      "name": "firmware-heltec-wireless-paper-2.7.17.5d5819b.factory.bin",
+      "md5": "f88d672280cae55405254c4d067a5790",
+      "bytes": 2100784
+    },
+    {
+      "name": "littlefs-heltec-wireless-paper-2.7.17.5d5819b.bin",
+      "md5": "50fe677c4e76757cc56c3c441289b16b",
+      "bytes": 1572864
+    }
+  ],
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false
+}
