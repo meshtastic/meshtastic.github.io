@@ -1,0 +1,32 @@
+{
+  "version": "2.7.17.40f1f91",
+  "build_epoch": 1765929600,
+  "board": "seeed_wio_tracker_L1_eink",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-seeed_wio_tracker_L1_eink-2.7.17.40f1f91.elf",
+      "md5": "f1dde0f2020f49322889c363c271e1d8",
+      "bytes": 1294620
+    },
+    {
+      "name": "firmware-seeed_wio_tracker_L1_eink-2.7.17.40f1f91.hex",
+      "md5": "9dc3b0fe6ff624e2d9e7e1c3e898eaac",
+      "bytes": 1896145
+    },
+    {
+      "name": "firmware-seeed_wio_tracker_L1_eink-2.7.17.40f1f91.uf2",
+      "md5": "48f988d00ff4e5e08ddca1fb7223d267",
+      "bytes": 1348608
+    },
+    {
+      "name": "firmware-seeed_wio_tracker_L1_eink-2.7.17.40f1f91.zip",
+      "md5": "57c58c7c24d209c0ed99639ea0fe442d",
+      "bytes": 675152
+    }
+  ],
+  "part": null,
+  "has_mui": false,
+  "has_inkhud": false
+}

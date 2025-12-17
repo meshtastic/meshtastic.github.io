@@ -1,0 +1,32 @@
+{
+  "version": "2.7.17.40f1f91",
+  "build_epoch": 1765929600,
+  "board": "heltec-mesh-pocket-10000-inkhud",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-heltec-mesh-pocket-10000-inkhud-2.7.17.40f1f91.elf",
+      "md5": "3a46b4bac2b624d75f00dcc3bc919d80",
+      "bytes": 1099440
+    },
+    {
+      "name": "firmware-heltec-mesh-pocket-10000-inkhud-2.7.17.40f1f91.hex",
+      "md5": "50f45888eee93c510ec19f6c47eb6934",
+      "bytes": 1638299
+    },
+    {
+      "name": "firmware-heltec-mesh-pocket-10000-inkhud-2.7.17.40f1f91.uf2",
+      "md5": "8aae32d7312e82df3178cbe2758f7ff2",
+      "bytes": 1165312
+    },
+    {
+      "name": "firmware-heltec-mesh-pocket-10000-inkhud-2.7.17.40f1f91.zip",
+      "md5": "22519d30923f1b778e58de7d8e322f58",
+      "bytes": 583513
+    }
+  ],
+  "part": null,
+  "has_mui": false,
+  "has_inkhud": true
+}

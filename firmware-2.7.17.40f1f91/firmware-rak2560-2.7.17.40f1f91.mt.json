@@ -1,0 +1,32 @@
+{
+  "version": "2.7.17.40f1f91",
+  "build_epoch": 1765929600,
+  "board": "rak2560",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-rak2560-2.7.17.40f1f91.elf",
+      "md5": "b7d5a21916e61ace29eaa2e77bd15fc4",
+      "bytes": 1332620
+    },
+    {
+      "name": "firmware-rak2560-2.7.17.40f1f91.hex",
+      "md5": "5ac68b79f17d659bd5497a32a3e10346",
+      "bytes": 1887767
+    },
+    {
+      "name": "firmware-rak2560-2.7.17.40f1f91.uf2",
+      "md5": "0f142f221fdc6d6ba9475d01e5a2834d",
+      "bytes": 1342464
+    },
+    {
+      "name": "firmware-rak2560-2.7.17.40f1f91.zip",
+      "md5": "8f407ed64b13f614d576e3eeac2269ed",
+      "bytes": 672064
+    }
+  ],
+  "part": null,
+  "has_mui": false,
+  "has_inkhud": false
+}

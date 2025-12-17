@@ -1,0 +1,73 @@
+{
+  "version": "2.7.17.40f1f91",
+  "build_epoch": 1765929600,
+  "board": "radiomaster_900_bandit_nano",
+  "mcu": "esp32",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-radiomaster_900_bandit_nano-2.7.17.40f1f91.elf",
+      "md5": "3dd1689377e61be45e4175b6b11f328e",
+      "bytes": 20582832
+    },
+    {
+      "name": "firmware-radiomaster_900_bandit_nano-2.7.17.40f1f91.bin",
+      "md5": "453625f692c39b23b02a214a0c04e90b",
+      "bytes": 2202048
+    },
+    {
+      "name": "firmware-radiomaster_900_bandit_nano-2.7.17.40f1f91.factory.bin",
+      "md5": "2473f6e18d1961d4b85211f072a05602",
+      "bytes": 2267584
+    },
+    {
+      "name": "littlefs-radiomaster_900_bandit_nano-2.7.17.40f1f91.bin",
+      "md5": "27b555130f57afbed642e1b03e9bdba3",
+      "bytes": 1048576
+    }
+  ],
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false
+}

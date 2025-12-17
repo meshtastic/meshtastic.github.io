@@ -1,0 +1,32 @@
+{
+  "version": "2.7.17.40f1f91",
+  "build_epoch": 1765929600,
+  "board": "rak_wismeshtap",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-rak_wismeshtap-2.7.17.40f1f91.elf",
+      "md5": "f223b74e7fa296f090a8644bbc670eae",
+      "bytes": 1279452
+    },
+    {
+      "name": "firmware-rak_wismeshtap-2.7.17.40f1f91.hex",
+      "md5": "2f6af232e1dfd7f468863de775dc9c16",
+      "bytes": 1864150
+    },
+    {
+      "name": "firmware-rak_wismeshtap-2.7.17.40f1f91.uf2",
+      "md5": "e0f65a33cf4ce9e17c701e7b051bfa52",
+      "bytes": 1325568
+    },
+    {
+      "name": "firmware-rak_wismeshtap-2.7.17.40f1f91.zip",
+      "md5": "d5d46a5c84afd74a9f03711ff18c7444",
+      "bytes": 663710
+    }
+  ],
+  "part": null,
+  "has_mui": false,
+  "has_inkhud": false
+}

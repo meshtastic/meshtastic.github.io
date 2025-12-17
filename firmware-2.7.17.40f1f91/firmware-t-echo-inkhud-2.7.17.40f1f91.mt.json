@@ -1,0 +1,32 @@
+{
+  "version": "2.7.17.40f1f91",
+  "build_epoch": 1765929600,
+  "board": "t-echo-inkhud",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-t-echo-inkhud-2.7.17.40f1f91.elf",
+      "md5": "483aa8590595821e43fba27a80d45849",
+      "bytes": 1177736
+    },
+    {
+      "name": "firmware-t-echo-inkhud-2.7.17.40f1f91.hex",
+      "md5": "fbaa8589cc93a65691587be08913359b",
+      "bytes": 1728074
+    },
+    {
+      "name": "firmware-t-echo-inkhud-2.7.17.40f1f91.uf2",
+      "md5": "3721ea67b30fc26840a621ee25d89274",
+      "bytes": 1228800
+    },
+    {
+      "name": "firmware-t-echo-inkhud-2.7.17.40f1f91.zip",
+      "md5": "3f4efa7a9e537cf9e5ce7b462f7c1f2e",
+      "bytes": 615325
+    }
+  ],
+  "part": null,
+  "has_mui": false,
+  "has_inkhud": true
+}

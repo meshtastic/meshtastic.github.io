@@ -1,0 +1,32 @@
+{
+  "version": "2.7.17.40f1f91",
+  "build_epoch": 1765929600,
+  "board": "tracker-t1000-e",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-tracker-t1000-e-2.7.17.40f1f91.elf",
+      "md5": "793866ab70a80570c58edb5e2b5414eb",
+      "bytes": 857056
+    },
+    {
+      "name": "firmware-tracker-t1000-e-2.7.17.40f1f91.hex",
+      "md5": "4624586fe2f2b1c65a58467072be9fcd",
+      "bytes": 1220178
+    },
+    {
+      "name": "firmware-tracker-t1000-e-2.7.17.40f1f91.uf2",
+      "md5": "f56c2b126af53a1eb410b75e526cef54",
+      "bytes": 867840
+    },
+    {
+      "name": "firmware-tracker-t1000-e-2.7.17.40f1f91.zip",
+      "md5": "b5d867422406f83c24d8b0ff2a0da92e",
+      "bytes": 434765
+    }
+  ],
+  "part": null,
+  "has_mui": false,
+  "has_inkhud": false
+}

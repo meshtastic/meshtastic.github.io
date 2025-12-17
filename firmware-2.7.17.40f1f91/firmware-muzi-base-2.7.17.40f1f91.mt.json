@@ -1,0 +1,32 @@
+{
+  "version": "2.7.17.40f1f91",
+  "build_epoch": 1765929600,
+  "board": "muzi-base",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-muzi-base-2.7.17.40f1f91.elf",
+      "md5": "07026dbd1ba3b116d1c2f960de7486f9",
+      "bytes": 1298140
+    },
+    {
+      "name": "firmware-muzi-base-2.7.17.40f1f91.hex",
+      "md5": "17b2fc691c96c20e7cfe7a2fe6e8765d",
+      "bytes": 1910934
+    },
+    {
+      "name": "firmware-muzi-base-2.7.17.40f1f91.uf2",
+      "md5": "59366020c7128212e09bd1c762a37c65",
+      "bytes": 1358848
+    },
+    {
+      "name": "firmware-muzi-base-2.7.17.40f1f91.zip",
+      "md5": "386a98dc1e2ebed1a06a3bc1e470bfbe",
+      "bytes": 680313
+    }
+  ],
+  "part": null,
+  "has_mui": false,
+  "has_inkhud": false
+}

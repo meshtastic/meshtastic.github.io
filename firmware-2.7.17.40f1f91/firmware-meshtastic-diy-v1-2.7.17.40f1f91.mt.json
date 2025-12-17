@@ -1,0 +1,73 @@
+{
+  "version": "2.7.17.40f1f91",
+  "build_epoch": 1765929600,
+  "board": "meshtastic-diy-v1",
+  "mcu": "esp32",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-meshtastic-diy-v1-2.7.17.40f1f91.elf",
+      "md5": "277656c2a16cce3c08c99af239669f04",
+      "bytes": 20591436
+    },
+    {
+      "name": "firmware-meshtastic-diy-v1-2.7.17.40f1f91.bin",
+      "md5": "45c4dea4e1d3d3066ee3b400b400d4cd",
+      "bytes": 2239744
+    },
+    {
+      "name": "firmware-meshtastic-diy-v1-2.7.17.40f1f91.factory.bin",
+      "md5": "3eb04d83f748708d2ca46938c9c6615e",
+      "bytes": 2305280
+    },
+    {
+      "name": "littlefs-meshtastic-diy-v1-2.7.17.40f1f91.bin",
+      "md5": "a5a5a259278e66f0995258d04d0765ac",
+      "bytes": 1048576
+    }
+  ],
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false
+}

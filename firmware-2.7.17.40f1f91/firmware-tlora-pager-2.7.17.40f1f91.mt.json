@@ -1,0 +1,81 @@
+{
+  "version": "2.7.17.40f1f91",
+  "build_epoch": 1765929600,
+  "board": "tlora-pager",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-tlora-pager-2.7.17.40f1f91.elf",
+      "md5": "1a449adaf0719582acfcbc1bec0445ab",
+      "bytes": 23231972
+    },
+    {
+      "name": "firmware-tlora-pager-2.7.17.40f1f91.bin",
+      "md5": "8a3c433c36385630dabd9750338e8758",
+      "bytes": 2306912
+    },
+    {
+      "name": "firmware-tlora-pager-2.7.17.40f1f91.factory.bin",
+      "md5": "5631c9f448ba404d58ec904a95b07fa2",
+      "bytes": 2372448
+    },
+    {
+      "name": "littlefs-tlora-pager-2.7.17.40f1f91.bin",
+      "md5": "82ac3528262257fa189b1f620f17a110",
+      "bytes": 3538944
+    }
+  ],
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x650000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0xc90000",
+      "size": "0x360000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0xFF0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false
+}

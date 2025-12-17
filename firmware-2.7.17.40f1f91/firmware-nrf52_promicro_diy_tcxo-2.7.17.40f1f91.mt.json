@@ -1,0 +1,32 @@
+{
+  "version": "2.7.17.40f1f91",
+  "build_epoch": 1765929600,
+  "board": "nrf52_promicro_diy_tcxo",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-nrf52_promicro_diy_tcxo-2.7.17.40f1f91.elf",
+      "md5": "cd86d1bd13464991e4bd9c325805eb2a",
+      "bytes": 1311016
+    },
+    {
+      "name": "firmware-nrf52_promicro_diy_tcxo-2.7.17.40f1f91.hex",
+      "md5": "d3aa291a4ad95d462408f9d729ab50f5",
+      "bytes": 1969496
+    },
+    {
+      "name": "firmware-nrf52_promicro_diy_tcxo-2.7.17.40f1f91.uf2",
+      "md5": "b83efce70a684239d4477710d3a3614d",
+      "bytes": 1400832
+    },
+    {
+      "name": "firmware-nrf52_promicro_diy_tcxo-2.7.17.40f1f91.zip",
+      "md5": "4fa51cc2d86a97ffa7a869abd8758615",
+      "bytes": 701212
+    }
+  ],
+  "part": null,
+  "has_mui": false,
+  "has_inkhud": false
+}
