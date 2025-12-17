@@ -7,22 +7,22 @@
   "files": [
     {
       "name": "firmware-seeed-sensecap-indicator-tft-2.7.17.40f1f91.elf",
-      "md5": "77a05654ed68add20f20a7cbc91864f3",
+      "md5": "8177c119faeac3004393359b5c27227d",
       "bytes": 24126980
     },
     {
       "name": "firmware-seeed-sensecap-indicator-tft-2.7.17.40f1f91.bin",
-      "md5": "2be76173a4e416441c262c6ae565aced",
+      "md5": "a1848f717de627009e06a437de0ae8c9",
       "bytes": 3406000
     },
     {
       "name": "firmware-seeed-sensecap-indicator-tft-2.7.17.40f1f91.factory.bin",
-      "md5": "8a021b12711652d57a79b8a570808bdb",
+      "md5": "cc42c5242fbf7521c98c48506f2d7174",
       "bytes": 3471536
     },
     {
       "name": "littlefs-seeed-sensecap-indicator-tft-2.7.17.40f1f91.bin",
-      "md5": "0db6828d9e0965fe27e845c7a7087e94",
+      "md5": "09af98b77b26e67afd884fafbfb912d4",
       "bytes": 1572864
     }
   ],

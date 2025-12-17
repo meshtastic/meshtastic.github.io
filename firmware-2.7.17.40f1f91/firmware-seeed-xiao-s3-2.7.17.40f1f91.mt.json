@@ -7,22 +7,22 @@
   "files": [
     {
       "name": "firmware-seeed-xiao-s3-2.7.17.40f1f91.elf",
-      "md5": "c43b281e7d342c30195e15d1f2b23015",
+      "md5": "636c16f0b1e07be2410e96f421814eda",
       "bytes": 22579180
     },
     {
       "name": "firmware-seeed-xiao-s3-2.7.17.40f1f91.bin",
-      "md5": "9237f85954bf07d63a11f40d407a1c04",
+      "md5": "09e9e6b6e5831624a01b48aa4e279310",
       "bytes": 2059936
     },
     {
       "name": "firmware-seeed-xiao-s3-2.7.17.40f1f91.factory.bin",
-      "md5": "b11b03d73beb9bd676dc00dfd5041c93",
+      "md5": "a654d160c9512a17704cf82d3d4ad51b",
       "bytes": 2125472
     },
     {
       "name": "littlefs-seeed-xiao-s3-2.7.17.40f1f91.bin",
-      "md5": "bbe5b5e1dedd0600985b24be24c3079d",
+      "md5": "76c31d53599e9e7e6de4b7c79f938760",
       "bytes": 1572864
     }
   ],

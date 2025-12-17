@@ -7,22 +7,22 @@
   "files": [
     {
       "name": "firmware-t-deck-tft-2.7.17.40f1f91.elf",
-      "md5": "d102be2af308f05aa8b80ec389c3faad",
+      "md5": "3d60035dda01a45ccc7f55ea113ee297",
       "bytes": 25551420
     },
     {
       "name": "firmware-t-deck-tft-2.7.17.40f1f91.bin",
-      "md5": "785cf995b8737641a97234fd36d01591",
+      "md5": "f18c69f5a179923b5dc5b959e0a13376",
       "bytes": 3540208
     },
     {
       "name": "firmware-t-deck-tft-2.7.17.40f1f91.factory.bin",
-      "md5": "dd9504bb8df87a24e7c1a0794bbd84d4",
+      "md5": "2b80bdd8ba960e0588a669aec016787a",
       "bytes": 3605744
     },
     {
       "name": "littlefs-t-deck-tft-2.7.17.40f1f91.bin",
-      "md5": "3ad7042b50f84b0bb0935397f4fe6b71",
+      "md5": "2bca6c2eea0d8ae0ee59b68baf9b256b",
       "bytes": 3538944
     }
   ],

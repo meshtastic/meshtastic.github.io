@@ -7,22 +7,22 @@
   "files": [
     {
       "name": "firmware-heltec-wireless-paper-inkhud-2.7.17.40f1f91.elf",
-      "md5": "ed36b3ca2c6cdfa6b65282a976a89993",
+      "md5": "601c31766666f599b5b24021bb7591e3",
       "bytes": 21879344
     },
     {
       "name": "firmware-heltec-wireless-paper-inkhud-2.7.17.40f1f91.bin",
-      "md5": "6e5ec0dcb1f22a4ae6226b9e7e0032bd",
+      "md5": "949fda549b4b0a722a2eb7d55328bfcd",
       "bytes": 1970496
     },
     {
       "name": "firmware-heltec-wireless-paper-inkhud-2.7.17.40f1f91.factory.bin",
-      "md5": "0eb1756722b0523eac35b5f4f786e72f",
+      "md5": "211ab423fb93bf52dc2ec662fffa978f",
       "bytes": 2036032
     },
     {
       "name": "littlefs-heltec-wireless-paper-inkhud-2.7.17.40f1f91.bin",
-      "md5": "8da047b981b664f6986627af83198e69",
+      "md5": "0e2d3751da8287c51c0b63a8d943fd38",
       "bytes": 1572864
     }
   ],

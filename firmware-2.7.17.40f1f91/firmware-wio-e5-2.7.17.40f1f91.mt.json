@@ -7,17 +7,17 @@
   "files": [
     {
       "name": "firmware-wio-e5-2.7.17.40f1f91.elf",
-      "md5": "9a6149e31a010f337c97f8d742e5b66f",
+      "md5": "493194751936ed953fc63414087a72a3",
       "bytes": 7911972
     },
     {
       "name": "firmware-wio-e5-2.7.17.40f1f91.bin",
-      "md5": "ea4c8bb02ccd5fd870ad3b0d48a8654a",
+      "md5": "f89263a77692b296ed6704b8f40bc8d5",
       "bytes": 226048
     },
     {
       "name": "firmware-wio-e5-2.7.17.40f1f91.hex",
-      "md5": "92ae05718f251f85a9d5685d97f3e345",
+      "md5": "82f5c5ad04f20c839d4aaaba6cb2ba7f",
       "bytes": 635872
     }
   ],

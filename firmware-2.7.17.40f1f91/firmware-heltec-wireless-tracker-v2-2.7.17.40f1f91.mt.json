@@ -7,22 +7,22 @@
   "files": [
     {
       "name": "firmware-heltec-wireless-tracker-v2-2.7.17.40f1f91.elf",
-      "md5": "c499e49f19473ae3a26c27be50d88bed",
+      "md5": "84a7763d13e0913370fb0aefe61a7f27",
       "bytes": 22890632
     },
     {
       "name": "firmware-heltec-wireless-tracker-v2-2.7.17.40f1f91.bin",
-      "md5": "d2880c9fd502e2766b67e2f5099845b5",
+      "md5": "e3231a84f75a3ee89b682c909b797dd7",
       "bytes": 2103920
     },
     {
       "name": "firmware-heltec-wireless-tracker-v2-2.7.17.40f1f91.factory.bin",
-      "md5": "f3cc730463a37d1eeb101a8db79e94a8",
+      "md5": "7d736742119b3a8d95db7b211078d6f8",
       "bytes": 2169456
     },
     {
       "name": "littlefs-heltec-wireless-tracker-v2-2.7.17.40f1f91.bin",
-      "md5": "a56f27848d7b09ef6bda5dbef44d55b5",
+      "md5": "a9f762d2793f3aac6ed11ac6e980c4f6",
       "bytes": 1572864
     }
   ],

@@ -7,22 +7,22 @@
   "files": [
     {
       "name": "firmware-tlora-t3s3-epaper-2.7.17.40f1f91.elf",
-      "md5": "db44fe10078121e6faabff23b015800c",
+      "md5": "c51188a340523ff64dac5dcec32eb98b",
       "bytes": 23229716
     },
     {
       "name": "firmware-tlora-t3s3-epaper-2.7.17.40f1f91.bin",
-      "md5": "3d8ad87f3a1d05ed2b870fd908eb221c",
+      "md5": "0c0ca46bf06a21de2f8cb0c2b2a4257c",
       "bytes": 2222384
     },
     {
       "name": "firmware-tlora-t3s3-epaper-2.7.17.40f1f91.factory.bin",
-      "md5": "cc4b0e8b2c5bf764706b9c711913ee61",
+      "md5": "68bcc1422da0ff2e6c4997570a390525",
       "bytes": 2287920
     },
     {
       "name": "littlefs-tlora-t3s3-epaper-2.7.17.40f1f91.bin",
-      "md5": "0d2dd714573472a6d15c8f6bca7baa15",
+      "md5": "5f4660b78c8b9e1d66bfe19a86273c15",
       "bytes": 1048576
     }
   ],

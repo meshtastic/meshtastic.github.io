@@ -7,22 +7,22 @@
   "files": [
     {
       "name": "firmware-t-watch-s3-2.7.17.40f1f91.elf",
-      "md5": "3c1bd44c99ec915ed63ba167a1008c57",
+      "md5": "561a97aa0872142e9f2521d261a11ca5",
       "bytes": 22917900
     },
     {
       "name": "firmware-t-watch-s3-2.7.17.40f1f91.bin",
-      "md5": "eabcd1287b1237beb8817cb577777f5c",
+      "md5": "d205a2ab0c477ed724e97990e858cde1",
       "bytes": 2137216
     },
     {
       "name": "firmware-t-watch-s3-2.7.17.40f1f91.factory.bin",
-      "md5": "1292735abfbd63cd377b645abc0f4a8a",
+      "md5": "c3454e2c837d5bcccecd416232cc1628",
       "bytes": 2202752
     },
     {
       "name": "littlefs-t-watch-s3-2.7.17.40f1f91.bin",
-      "md5": "ea0cec0ace349523fae5b3e9a0914391",
+      "md5": "9045a9fcf9926148938268cd047686ee",
       "bytes": 3538944
     }
   ],

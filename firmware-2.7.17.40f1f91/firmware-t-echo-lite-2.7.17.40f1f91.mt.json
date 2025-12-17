@@ -7,22 +7,22 @@
   "files": [
     {
       "name": "firmware-t-echo-lite-2.7.17.40f1f91.elf",
-      "md5": "1ff21d5b30250dba4de4d57b1fb9dfec",
+      "md5": "239d1b713b948ad9640d62575a696799",
       "bytes": 1289492
     },
     {
       "name": "firmware-t-echo-lite-2.7.17.40f1f91.hex",
-      "md5": "bb9fd187784ab9264a3ef056b86b8ad0",
+      "md5": "6be700effb03901ace1eef7e2a422140",
       "bytes": 1883320
     },
     {
       "name": "firmware-t-echo-lite-2.7.17.40f1f91.uf2",
-      "md5": "35770d5e769a2fffd08c9d40b906f6c9",
+      "md5": "17623fc1a402d077a797582f4067235c",
       "bytes": 1339392
     },
     {
       "name": "firmware-t-echo-lite-2.7.17.40f1f91.zip",
-      "md5": "57a5479dc13487f36777ce3f11d3ffb1",
+      "md5": "e47d8b8925d1fd36ff378c9aefb454d5",
       "bytes": 670509
     }
   ],

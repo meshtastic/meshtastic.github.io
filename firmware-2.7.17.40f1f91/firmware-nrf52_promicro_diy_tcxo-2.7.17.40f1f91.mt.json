@@ -7,23 +7,23 @@
   "files": [
     {
       "name": "firmware-nrf52_promicro_diy_tcxo-2.7.17.40f1f91.elf",
-      "md5": "cd86d1bd13464991e4bd9c325805eb2a",
+      "md5": "746cfd42801c2a44903027a0c8cb590f",
       "bytes": 1311016
     },
     {
       "name": "firmware-nrf52_promicro_diy_tcxo-2.7.17.40f1f91.hex",
-      "md5": "d3aa291a4ad95d462408f9d729ab50f5",
+      "md5": "2af72617e848eb306682688f688186a7",
       "bytes": 1969496
     },
     {
       "name": "firmware-nrf52_promicro_diy_tcxo-2.7.17.40f1f91.uf2",
-      "md5": "b83efce70a684239d4477710d3a3614d",
+      "md5": "0c889ae1e64a84b45916aa183a763391",
       "bytes": 1400832
     },
     {
       "name": "firmware-nrf52_promicro_diy_tcxo-2.7.17.40f1f91.zip",
-      "md5": "4fa51cc2d86a97ffa7a869abd8758615",
-      "bytes": 701212
+      "md5": "50bbb8edbea11fccb4f361558807b56d",
+      "bytes": 701213
     }
   ],
   "part": null,

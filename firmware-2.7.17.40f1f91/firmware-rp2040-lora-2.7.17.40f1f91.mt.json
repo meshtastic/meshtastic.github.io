@@ -7,17 +7,17 @@
   "files": [
     {
       "name": "firmware-rp2040-lora-2.7.17.40f1f91.elf",
-      "md5": "57874e1a900dde6cb1938605a2396eec",
+      "md5": "0bfadc4980af15d29563388a54a93c0c",
       "bytes": 9691704
     },
     {
       "name": "firmware-rp2040-lora-2.7.17.40f1f91.bin",
-      "md5": "b0fcd08270e6463955d53e21a62860be",
+      "md5": "b90347d63f82252c8ab78cba50c90fb7",
       "bytes": 887924
     },
     {
       "name": "firmware-rp2040-lora-2.7.17.40f1f91.uf2",
-      "md5": "c34eb2ca372d28ba4946f524b63f3393",
+      "md5": "f0d801729dcddeb1a050a21ae4fd5854",
       "bytes": 1776128
     }
   ],

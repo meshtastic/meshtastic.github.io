@@ -7,22 +7,22 @@
   "files": [
     {
       "name": "firmware-m5stack-coreink-2.7.17.40f1f91.elf",
-      "md5": "b2d4c7b0f61a230412c09da09c932d19",
+      "md5": "a957f6556811eac798a9c074202a32a8",
       "bytes": 20557216
     },
     {
       "name": "firmware-m5stack-coreink-2.7.17.40f1f91.bin",
-      "md5": "3f84df8b4cc963ee003870d93083ab04",
+      "md5": "29b5cdc4f60881c44a31bc4776056be2",
       "bytes": 2220384
     },
     {
       "name": "firmware-m5stack-coreink-2.7.17.40f1f91.factory.bin",
-      "md5": "e88e0980ac16d19b25d87121b7bdee93",
+      "md5": "774d224aed7bfacd5262f5143cf776e9",
       "bytes": 2285920
     },
     {
       "name": "littlefs-m5stack-coreink-2.7.17.40f1f91.bin",
-      "md5": "6d6aad821bbf32c8274a1b965574ad8f",
+      "md5": "eae623730196d6b24d00938a4344fc74",
       "bytes": 1048576
     }
   ],

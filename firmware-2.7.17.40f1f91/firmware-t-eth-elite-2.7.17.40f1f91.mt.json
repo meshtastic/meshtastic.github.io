@@ -7,22 +7,22 @@
   "files": [
     {
       "name": "firmware-t-eth-elite-2.7.17.40f1f91.elf",
-      "md5": "50e17d8b764d06ea64546fb20f8dbff9",
+      "md5": "b769c25cb2189c247384f0a05e7648e3",
       "bytes": 22945256
     },
     {
       "name": "firmware-t-eth-elite-2.7.17.40f1f91.bin",
-      "md5": "d3cb988c64351d9bf2ef0fac20f4cc32",
+      "md5": "4e1e31a060d992f77127d58a02bbd4a8",
       "bytes": 2230160
     },
     {
       "name": "firmware-t-eth-elite-2.7.17.40f1f91.factory.bin",
-      "md5": "17f1452cbffa758a6be7ddb99a6461d6",
+      "md5": "973b677b3298d69fb17e45806f361900",
       "bytes": 2295696
     },
     {
       "name": "littlefs-t-eth-elite-2.7.17.40f1f91.bin",
-      "md5": "09cb4170c1c52c7530c7286bd636fb54",
+      "md5": "8e928b1f7af89bec6b1db08e61ec9351",
       "bytes": 3538944
     }
   ],

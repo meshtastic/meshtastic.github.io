@@ -7,22 +7,22 @@
   "files": [
     {
       "name": "firmware-rak4631_nomadstar_meteor_pro-2.7.17.40f1f91.elf",
-      "md5": "619c31e0050c1178a1c7e0e446454abe",
+      "md5": "4565470542ec049c1a8dca72e9787c56",
       "bytes": 1283592
     },
     {
       "name": "firmware-rak4631_nomadstar_meteor_pro-2.7.17.40f1f91.hex",
-      "md5": "e81fb45c9a1cfa8938e0a2355967ed1b",
+      "md5": "d771748737c3e293ccede45cae79cfc7",
       "bytes": 1862334
     },
     {
       "name": "firmware-rak4631_nomadstar_meteor_pro-2.7.17.40f1f91.uf2",
-      "md5": "b8dbf0e8d334e7a0fee92fdbfc86e89f",
+      "md5": "47fcb8835e0d2f7cbde0e6bbe55f7689",
       "bytes": 1324544
     },
     {
       "name": "firmware-rak4631_nomadstar_meteor_pro-2.7.17.40f1f91.zip",
-      "md5": "6c76905c2a8dedfeff88f4b53aec31fb",
+      "md5": "c5dab28b3aa0461c63918dea6a97d002",
       "bytes": 663147
     }
   ],

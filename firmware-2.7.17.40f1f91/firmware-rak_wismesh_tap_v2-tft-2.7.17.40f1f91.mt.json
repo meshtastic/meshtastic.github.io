@@ -7,22 +7,22 @@
   "files": [
     {
       "name": "firmware-rak_wismesh_tap_v2-tft-2.7.17.40f1f91.elf",
-      "md5": "b957a3433e32d3454aa903cae8645561",
+      "md5": "ab22eb2d8987ea0bdf663956ff93a178",
       "bytes": 24441376
     },
     {
       "name": "firmware-rak_wismesh_tap_v2-tft-2.7.17.40f1f91.bin",
-      "md5": "c3429d1c277e4beb60a4d148161efab2",
+      "md5": "4282da5d783308f02b86af304faf08ad",
       "bytes": 3317728
     },
     {
       "name": "firmware-rak_wismesh_tap_v2-tft-2.7.17.40f1f91.factory.bin",
-      "md5": "ced1a720bf9f5d292490c3a5846f8a71",
+      "md5": "9f48dbe931507e7fa74318e4a99678fe",
       "bytes": 3383264
     },
     {
       "name": "littlefs-rak_wismesh_tap_v2-tft-2.7.17.40f1f91.bin",
-      "md5": "ae691177d7e669b6045a8dcbef89080e",
+      "md5": "b98dc5a3ad13f0f537b8db3525ff2236",
       "bytes": 1572864
     }
   ],

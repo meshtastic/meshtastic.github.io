@@ -7,22 +7,22 @@
   "files": [
     {
       "name": "firmware-radiomaster_900_bandit_micro-2.7.17.40f1f91.elf",
-      "md5": "62638548b4819c47ea71e12c5a4da1c4",
+      "md5": "b3b97afc186d025c642d9733196ef424",
       "bytes": 20582832
     },
     {
       "name": "firmware-radiomaster_900_bandit_micro-2.7.17.40f1f91.bin",
-      "md5": "c33910d3526d9544b6ed39edfa91596c",
+      "md5": "d0794c83071e79a3dc9fff734e28730a",
       "bytes": 2202080
     },
     {
       "name": "firmware-radiomaster_900_bandit_micro-2.7.17.40f1f91.factory.bin",
-      "md5": "c53ff19420970872fc820e8c462b1b63",
+      "md5": "c086382c9235413f51709d34de6e7923",
       "bytes": 2267616
     },
     {
       "name": "littlefs-radiomaster_900_bandit_micro-2.7.17.40f1f91.bin",
-      "md5": "192bd94c76034dcffdd204215badd83a",
+      "md5": "48050df50a1f2d19da26ed5c166aeb3e",
       "bytes": 1048576
     }
   ],

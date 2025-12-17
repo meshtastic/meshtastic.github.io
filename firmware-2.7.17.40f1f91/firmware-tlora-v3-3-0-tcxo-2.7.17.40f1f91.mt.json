@@ -7,22 +7,22 @@
   "files": [
     {
       "name": "firmware-tlora-v3-3-0-tcxo-2.7.17.40f1f91.elf",
-      "md5": "cd86b3c69c2daca8396d3cbbc45d4055",
+      "md5": "2781afdf944769a0336c3e96af408e78",
       "bytes": 20536868
     },
     {
       "name": "firmware-tlora-v3-3-0-tcxo-2.7.17.40f1f91.bin",
-      "md5": "18e7142ce6a3d1b734ef9a19fd26251a",
+      "md5": "4000a6e56223616222d079e0b512fe0d",
       "bytes": 2207248
     },
     {
       "name": "firmware-tlora-v3-3-0-tcxo-2.7.17.40f1f91.factory.bin",
-      "md5": "f06d734aa4123058f7a9a480b9a505d7",
+      "md5": "1076555dab1af63a5945429526771774",
       "bytes": 2272784
     },
     {
       "name": "littlefs-tlora-v3-3-0-tcxo-2.7.17.40f1f91.bin",
-      "md5": "a8c780ef7a97a4aacbfdbded346c9ef8",
+      "md5": "5afa3e6250519276caacec04c3529685",
       "bytes": 1048576
     }
   ],

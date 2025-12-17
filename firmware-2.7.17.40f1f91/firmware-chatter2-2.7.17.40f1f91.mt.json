@@ -7,22 +7,22 @@
   "files": [
     {
       "name": "firmware-chatter2-2.7.17.40f1f91.elf",
-      "md5": "3c142ae6596f341944915e4c6dad8b03",
+      "md5": "516e7a389787c2f63c814a853e984186",
       "bytes": 20793068
     },
     {
       "name": "firmware-chatter2-2.7.17.40f1f91.bin",
-      "md5": "5a2338ede3b1031dfe7f3c0d933e9d18",
+      "md5": "e9b6f86b5023a29fb96bfe2c59deadd6",
       "bytes": 2264896
     },
     {
       "name": "firmware-chatter2-2.7.17.40f1f91.factory.bin",
-      "md5": "31b7fb5b9170a239509f213d2e8cdb26",
+      "md5": "23a69eb603fd263b9d36c50c91648baf",
       "bytes": 2330432
     },
     {
       "name": "littlefs-chatter2-2.7.17.40f1f91.bin",
-      "md5": "bf4454d8e558861503754edc31880f5f",
+      "md5": "167f91cd4af53070670e4b82ebd800ca",
       "bytes": 1048576
     }
   ],

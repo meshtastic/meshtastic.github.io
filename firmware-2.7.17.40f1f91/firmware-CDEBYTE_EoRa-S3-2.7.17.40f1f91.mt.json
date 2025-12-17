@@ -7,22 +7,22 @@
   "files": [
     {
       "name": "firmware-CDEBYTE_EoRa-S3-2.7.17.40f1f91.elf",
-      "md5": "e83c5c688a065fd1d0f974f4d93abeb2",
+      "md5": "d84353df0f5e081562ec75afb457d1a7",
       "bytes": 22892636
     },
     {
       "name": "firmware-CDEBYTE_EoRa-S3-2.7.17.40f1f91.bin",
-      "md5": "be3abb89b7de3da130ca7b0e40da93fc",
+      "md5": "71ae5df3fc583e5021d4de076cf01f03",
       "bytes": 2093088
     },
     {
       "name": "firmware-CDEBYTE_EoRa-S3-2.7.17.40f1f91.factory.bin",
-      "md5": "d54f6e0327ad5ac0373a6b0098fc8fe2",
+      "md5": "c49fb5d4aac8d877c1ce493fcd7dfafa",
       "bytes": 2158624
     },
     {
       "name": "littlefs-CDEBYTE_EoRa-S3-2.7.17.40f1f91.bin",
-      "md5": "8028b2b55b1d1cab313ba18af2541e61",
+      "md5": "24a8a8138e2a27ae290b055f7297f7fb",
       "bytes": 1048576
     }
   ],

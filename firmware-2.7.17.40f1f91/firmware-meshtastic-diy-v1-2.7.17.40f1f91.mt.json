@@ -7,22 +7,22 @@
   "files": [
     {
       "name": "firmware-meshtastic-diy-v1-2.7.17.40f1f91.elf",
-      "md5": "277656c2a16cce3c08c99af239669f04",
+      "md5": "d82dc598656cb95d511045ca26f8a632",
       "bytes": 20591436
     },
     {
       "name": "firmware-meshtastic-diy-v1-2.7.17.40f1f91.bin",
-      "md5": "45c4dea4e1d3d3066ee3b400b400d4cd",
+      "md5": "c3bc850eebb44fc2a473141aa08d6c14",
       "bytes": 2239744
     },
     {
       "name": "firmware-meshtastic-diy-v1-2.7.17.40f1f91.factory.bin",
-      "md5": "3eb04d83f748708d2ca46938c9c6615e",
+      "md5": "7efec460e3b35157b0ecf2ad8aa100cd",
       "bytes": 2305280
     },
     {
       "name": "littlefs-meshtastic-diy-v1-2.7.17.40f1f91.bin",
-      "md5": "a5a5a259278e66f0995258d04d0765ac",
+      "md5": "3f84e8def6a50f25d933d50e76dcaaf6",
       "bytes": 1048576
     }
   ],

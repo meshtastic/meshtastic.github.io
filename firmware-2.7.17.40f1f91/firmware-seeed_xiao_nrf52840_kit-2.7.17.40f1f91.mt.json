@@ -7,22 +7,22 @@
   "files": [
     {
       "name": "firmware-seeed_xiao_nrf52840_kit-2.7.17.40f1f91.elf",
-      "md5": "acf61e9ce1489c446ae36592dc852a09",
+      "md5": "895aac17b32d389b3ccbaab3e1ec57d3",
       "bytes": 1279212
     },
     {
       "name": "firmware-seeed_xiao_nrf52840_kit-2.7.17.40f1f91.hex",
-      "md5": "154120cea91edbfb0ef55bd68487ddaa",
+      "md5": "8326f3c8e27b733da98cd908d7596275",
       "bytes": 1849284
     },
     {
       "name": "firmware-seeed_xiao_nrf52840_kit-2.7.17.40f1f91.uf2",
-      "md5": "9f1d689707a804b7499f32fdbf697897",
+      "md5": "d0e4f30eea807b5594642ea1030a623b",
       "bytes": 1315328
     },
     {
       "name": "firmware-seeed_xiao_nrf52840_kit-2.7.17.40f1f91.zip",
-      "md5": "949fea0231afba9c3435262414f48850",
+      "md5": "a2f901d92dabbf405dc5e9a78fbd0101",
       "bytes": 658477
     }
   ],

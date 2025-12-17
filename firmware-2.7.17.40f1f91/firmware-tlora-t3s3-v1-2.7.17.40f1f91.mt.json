@@ -7,22 +7,22 @@
   "files": [
     {
       "name": "firmware-tlora-t3s3-v1-2.7.17.40f1f91.elf",
-      "md5": "1c57a4948edda4ef850b917f7a70f454",
+      "md5": "c06ddd4efa676de03884430462dd5d8e",
       "bytes": 23303876
     },
     {
       "name": "firmware-tlora-t3s3-v1-2.7.17.40f1f91.bin",
-      "md5": "32bcad0a8fad2715f869237fe5cd983e",
+      "md5": "60a9492e421910122120c673f66e7304",
       "bytes": 2226368
     },
     {
       "name": "firmware-tlora-t3s3-v1-2.7.17.40f1f91.factory.bin",
-      "md5": "646f4e1d31155ef8ab9cc4d6fdf4cc4a",
+      "md5": "92eb19c776a1fbb88a82a87c12850c4b",
       "bytes": 2291904
     },
     {
       "name": "littlefs-tlora-t3s3-v1-2.7.17.40f1f91.bin",
-      "md5": "e486776c0398af4eac68af9aaf0204d6",
+      "md5": "93dd7e043d7220ed1d2d2da884da1839",
       "bytes": 1048576
     }
   ],

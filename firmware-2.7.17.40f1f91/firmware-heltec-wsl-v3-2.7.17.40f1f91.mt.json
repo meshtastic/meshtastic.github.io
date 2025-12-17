@@ -7,22 +7,22 @@
   "files": [
     {
       "name": "firmware-heltec-wsl-v3-2.7.17.40f1f91.elf",
-      "md5": "18165bd40adc4b367636a7a6f47451a7",
+      "md5": "e0aa53c6c0682100386229381ea8b638",
       "bytes": 22024224
     },
     {
       "name": "firmware-heltec-wsl-v3-2.7.17.40f1f91.bin",
-      "md5": "46a87806acab8ca735a6d17a92fc0b43",
+      "md5": "d4db0fb5df4d2edcfa6a6d1bd4eb98dc",
       "bytes": 2024656
     },
     {
       "name": "firmware-heltec-wsl-v3-2.7.17.40f1f91.factory.bin",
-      "md5": "02fb1248730226e03e2005376af8fa01",
+      "md5": "7d9d07e99794e84821025fa92b6cd133",
       "bytes": 2090192
     },
     {
       "name": "littlefs-heltec-wsl-v3-2.7.17.40f1f91.bin",
-      "md5": "c37bfb938c1764145a7677d2fc4f810d",
+      "md5": "82436c9db27bed221aa0376f08c0fda6",
       "bytes": 1572864
     }
   ],

@@ -7,17 +7,17 @@
   "files": [
     {
       "name": "firmware-rak11310-2.7.17.40f1f91.elf",
-      "md5": "cb3824d13d69c9421eeb333313547864",
+      "md5": "edc1ccbc761afd827e6af10e520e5bde",
       "bytes": 9738788
     },
     {
       "name": "firmware-rak11310-2.7.17.40f1f91.bin",
-      "md5": "928a635fd3116681bd2401db4c1a65c5",
+      "md5": "d0c12619d3015b1499f3737ea00390d5",
       "bytes": 911356
     },
     {
       "name": "firmware-rak11310-2.7.17.40f1f91.uf2",
-      "md5": "2449602c58fe24937d0abd2653315ccf",
+      "md5": "2ad33081cb545ba011eed477ca02ab48",
       "bytes": 1822720
     }
   ],

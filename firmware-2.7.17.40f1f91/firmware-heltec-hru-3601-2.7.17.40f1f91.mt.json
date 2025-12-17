@@ -7,22 +7,22 @@
   "files": [
     {
       "name": "firmware-heltec-hru-3601-2.7.17.40f1f91.elf",
-      "md5": "ff601a84e11f4f690097f08254237bc0",
+      "md5": "20bae7d9e57a82d05ec4ddee05d8c26b",
       "bytes": 19155424
     },
     {
       "name": "firmware-heltec-hru-3601-2.7.17.40f1f91.bin",
-      "md5": "f13b035b2f0796ccba2333f151dd20d0",
+      "md5": "6fa73d6c5a5955ce7f74dd5570bcaa4d",
       "bytes": 2071232
     },
     {
       "name": "firmware-heltec-hru-3601-2.7.17.40f1f91.factory.bin",
-      "md5": "bc86d62b2b91d60626fe25181c8b36ff",
+      "md5": "7317f6d9a4575fbc2a0de6a5ac59e684",
       "bytes": 2136768
     },
     {
       "name": "littlefs-heltec-hru-3601-2.7.17.40f1f91.bin",
-      "md5": "88bd5b5c6e4909d6db91e0808cc352bf",
+      "md5": "ee612faa4367ba05a83864b2e295c1ae",
       "bytes": 1048576
     }
   ],
