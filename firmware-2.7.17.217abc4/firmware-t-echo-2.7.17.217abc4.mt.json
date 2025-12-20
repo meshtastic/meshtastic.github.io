@@ -1,0 +1,32 @@
+{
+  "version": "2.7.17.217abc4",
+  "build_epoch": 1766188800,
+  "board": "t-echo",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-t-echo-2.7.17.217abc4.elf",
+      "md5": "aa3c6c7c87d23e13de99f6f6b00e60bb",
+      "bytes": 1293832
+    },
+    {
+      "name": "firmware-t-echo-2.7.17.217abc4.hex",
+      "md5": "b5677c28080be823f7a7daad67c9b967",
+      "bytes": 1904290
+    },
+    {
+      "name": "firmware-t-echo-2.7.17.217abc4.uf2",
+      "md5": "e086560d77a610ef8848af59a9d6edc8",
+      "bytes": 1354240
+    },
+    {
+      "name": "firmware-t-echo-2.7.17.217abc4.zip",
+      "md5": "c13af169d53d1d13742402ef22af533d",
+      "bytes": 677935
+    }
+  ],
+  "part": null,
+  "has_mui": false,
+  "has_inkhud": false
+}

@@ -1,0 +1,81 @@
+{
+  "version": "2.7.17.217abc4",
+  "build_epoch": 1766188800,
+  "board": "tracksenger-lcd",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-tracksenger-lcd-2.7.17.217abc4.elf",
+      "md5": "2cebc47e07ba5d2e3f6261d312aa8033",
+      "bytes": 22896636
+    },
+    {
+      "name": "firmware-tracksenger-lcd-2.7.17.217abc4.bin",
+      "md5": "6bc6a6dd2c88ab6c8e3761aae34495dc",
+      "bytes": 2105504
+    },
+    {
+      "name": "firmware-tracksenger-lcd-2.7.17.217abc4.factory.bin",
+      "md5": "ec582accfa78de13e648643c6569acd7",
+      "bytes": 2171040
+    },
+    {
+      "name": "littlefs-tracksenger-lcd-2.7.17.217abc4.bin",
+      "md5": "5aa2eac48be3762e45bd09a8a0144c14",
+      "bytes": 1572864
+    }
+  ],
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false
+}

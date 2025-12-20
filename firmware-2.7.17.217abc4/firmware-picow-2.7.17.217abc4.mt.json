@@ -1,0 +1,27 @@
+{
+  "version": "2.7.17.217abc4",
+  "build_epoch": 1766188800,
+  "board": "picow",
+  "mcu": "rp2040",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-picow-2.7.17.217abc4.elf",
+      "md5": "dc0a4eab90e63ae55fc37eab2cc294e1",
+      "bytes": 11457824
+    },
+    {
+      "name": "firmware-picow-2.7.17.217abc4.bin",
+      "md5": "95d7abab128f8e40eb57fabbac439df7",
+      "bytes": 1383672
+    },
+    {
+      "name": "firmware-picow-2.7.17.217abc4.uf2",
+      "md5": "e859a6d7c23951bd6be9b7901f0ad2f2",
+      "bytes": 2767360
+    }
+  ],
+  "part": null,
+  "has_mui": false,
+  "has_inkhud": false
+}

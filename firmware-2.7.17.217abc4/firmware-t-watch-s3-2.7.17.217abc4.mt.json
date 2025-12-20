@@ -1,0 +1,81 @@
+{
+  "version": "2.7.17.217abc4",
+  "build_epoch": 1766188800,
+  "board": "t-watch-s3",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-t-watch-s3-2.7.17.217abc4.elf",
+      "md5": "f4805b57860a945a6509976111398d92",
+      "bytes": 22919800
+    },
+    {
+      "name": "firmware-t-watch-s3-2.7.17.217abc4.bin",
+      "md5": "f275c1c12c6e016ff35b893a04e8e26f",
+      "bytes": 2138976
+    },
+    {
+      "name": "firmware-t-watch-s3-2.7.17.217abc4.factory.bin",
+      "md5": "ddfcc926be7ef02f41888dcf278e54f4",
+      "bytes": 2204512
+    },
+    {
+      "name": "littlefs-t-watch-s3-2.7.17.217abc4.bin",
+      "md5": "470ff1c50208350542d3155b66089944",
+      "bytes": 3538944
+    }
+  ],
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x650000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0xc90000",
+      "size": "0x360000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0xFF0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false
+}

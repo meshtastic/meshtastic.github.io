@@ -1,0 +1,32 @@
+{
+  "version": "2.7.17.217abc4",
+  "build_epoch": 1766188800,
+  "board": "canaryone",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-canaryone-2.7.17.217abc4.elf",
+      "md5": "48d06daa510804eee8d303722e366657",
+      "bytes": 1213848
+    },
+    {
+      "name": "firmware-canaryone-2.7.17.217abc4.hex",
+      "md5": "d7555918c16d10e5fb19581564c4ee3c",
+      "bytes": 1813014
+    },
+    {
+      "name": "firmware-canaryone-2.7.17.217abc4.uf2",
+      "md5": "9579b121091efcff4743450e00e531f0",
+      "bytes": 1289216
+    },
+    {
+      "name": "firmware-canaryone-2.7.17.217abc4.zip",
+      "md5": "be755703e68303828f3f786087728a43",
+      "bytes": 645497
+    }
+  ],
+  "part": null,
+  "has_mui": false,
+  "has_inkhud": false
+}

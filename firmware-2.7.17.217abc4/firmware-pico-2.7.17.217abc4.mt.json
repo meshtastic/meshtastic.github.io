@@ -1,0 +1,27 @@
+{
+  "version": "2.7.17.217abc4",
+  "build_epoch": 1766188800,
+  "board": "pico",
+  "mcu": "rp2040",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-pico-2.7.17.217abc4.elf",
+      "md5": "2d3705c2f2be53404e2f84cafc2c89d5",
+      "bytes": 9921316
+    },
+    {
+      "name": "firmware-pico-2.7.17.217abc4.bin",
+      "md5": "889ae0e75e1a0bbe810ebbd56be72dbc",
+      "bytes": 928444
+    },
+    {
+      "name": "firmware-pico-2.7.17.217abc4.uf2",
+      "md5": "b63c938ddc7f0f9b9f0b1d7fde90e1a2",
+      "bytes": 1857024
+    }
+  ],
+  "part": null,
+  "has_mui": false,
+  "has_inkhud": false
+}
