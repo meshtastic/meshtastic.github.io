@@ -1,0 +1,73 @@
+{
+  "version": "2.7.17.83c6161",
+  "build_epoch": 1766188800,
+  "board": "rak3312",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-rak3312-2.7.17.83c6161.elf",
+      "md5": "9530e98df476067476f2ef5204f2687b",
+      "bytes": 22096968
+    },
+    {
+      "name": "firmware-rak3312-2.7.17.83c6161.bin",
+      "md5": "d10afd1790f5d9bc5b38d27dd7278438",
+      "bytes": 2028592
+    },
+    {
+      "name": "firmware-rak3312-2.7.17.83c6161.factory.bin",
+      "md5": "b2c19d1dae06f7d52294356af568fb82",
+      "bytes": 2094128
+    },
+    {
+      "name": "littlefs-rak3312-2.7.17.83c6161.bin",
+      "md5": "7ec59de7e3108b140c620085dd744903",
+      "bytes": 1048576
+    }
+  ],
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false
+}

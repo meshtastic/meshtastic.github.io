@@ -1,0 +1,32 @@
+{
+  "version": "2.7.17.83c6161",
+  "build_epoch": 1766188800,
+  "board": "r1-neo",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-r1-neo-2.7.17.83c6161.elf",
+      "md5": "d398b51e3be6e8c05e0fe82dca3efda8",
+      "bytes": 1056448
+    },
+    {
+      "name": "firmware-r1-neo-2.7.17.83c6161.hex",
+      "md5": "0f7983b43a0b6d499c8b1949af8b2872",
+      "bytes": 1504055
+    },
+    {
+      "name": "firmware-r1-neo-2.7.17.83c6161.uf2",
+      "md5": "0e9c2e677cd306448f936ad4c457eef8",
+      "bytes": 1069568
+    },
+    {
+      "name": "firmware-r1-neo-2.7.17.83c6161-ota.zip",
+      "md5": "c87881f828ad7399af93afdbb79819f1",
+      "bytes": 535639
+    }
+  ],
+  "part": null,
+  "has_mui": false,
+  "has_inkhud": false
+}

@@ -1,0 +1,27 @@
+{
+  "version": "2.7.17.83c6161",
+  "build_epoch": 1766188800,
+  "board": "wio-e5",
+  "mcu": "stm32wle5jc",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-wio-e5-2.7.17.83c6161.elf",
+      "md5": "7660315593776d7b7af297ac11179db4",
+      "bytes": 7983696
+    },
+    {
+      "name": "firmware-wio-e5-2.7.17.83c6161.bin",
+      "md5": "863f3e115359af27485249214c9b1d88",
+      "bytes": 227456
+    },
+    {
+      "name": "firmware-wio-e5-2.7.17.83c6161.hex",
+      "md5": "475afb8e2a2b1b9a6f81461f505df5ba",
+      "bytes": 639832
+    }
+  ],
+  "part": null,
+  "has_mui": false,
+  "has_inkhud": false
+}

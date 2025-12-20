@@ -1,0 +1,73 @@
+{
+  "version": "2.7.17.83c6161",
+  "build_epoch": 1766188800,
+  "board": "seeed-sensecap-indicator",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-seeed-sensecap-indicator-2.7.17.83c6161.elf",
+      "md5": "80fa48a8aa0cde25d93bc81a0f56b79f",
+      "bytes": 22042792
+    },
+    {
+      "name": "firmware-seeed-sensecap-indicator-2.7.17.83c6161.bin",
+      "md5": "c62d759a695846ff40d91e34c5ab5a25",
+      "bytes": 2076976
+    },
+    {
+      "name": "firmware-seeed-sensecap-indicator-2.7.17.83c6161.factory.bin",
+      "md5": "5510deea1927cba235483975e95b0daa",
+      "bytes": 2142512
+    },
+    {
+      "name": "littlefs-seeed-sensecap-indicator-2.7.17.83c6161.bin",
+      "md5": "60f341715a0e0d31a78eb3afb40f1f5d",
+      "bytes": 1572864
+    }
+  ],
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x5C0000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x5D0000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": null
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false
+}

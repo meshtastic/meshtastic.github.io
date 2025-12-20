@@ -1,0 +1,81 @@
+{
+  "version": "2.7.17.83c6161",
+  "build_epoch": 1766188800,
+  "board": "t-eth-elite",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-t-eth-elite-2.7.17.83c6161.elf",
+      "md5": "7ac410a02842708851636a61dc586e25",
+      "bytes": 22946964
+    },
+    {
+      "name": "firmware-t-eth-elite-2.7.17.83c6161.bin",
+      "md5": "dc4c02ff400fa1bc926b90623e34c882",
+      "bytes": 2231728
+    },
+    {
+      "name": "firmware-t-eth-elite-2.7.17.83c6161.factory.bin",
+      "md5": "e3414acfe32f75c713000d42af595f65",
+      "bytes": 2297264
+    },
+    {
+      "name": "littlefs-t-eth-elite-2.7.17.83c6161.bin",
+      "md5": "6bc5e68ba3bb5828057028c96aa121ff",
+      "bytes": 3538944
+    }
+  ],
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x650000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0xc90000",
+      "size": "0x360000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0xFF0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false
+}

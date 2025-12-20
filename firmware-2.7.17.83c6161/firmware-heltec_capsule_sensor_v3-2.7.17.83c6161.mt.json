@@ -1,0 +1,81 @@
+{
+  "version": "2.7.17.83c6161",
+  "build_epoch": 1766188800,
+  "board": "heltec_capsule_sensor_v3",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-heltec_capsule_sensor_v3-2.7.17.83c6161.elf",
+      "md5": "7d5f76e0675208e2199b80efce4f1f69",
+      "bytes": 21602068
+    },
+    {
+      "name": "firmware-heltec_capsule_sensor_v3-2.7.17.83c6161.bin",
+      "md5": "f9923442181d3dd1ee5274a942fd7b23",
+      "bytes": 1872912
+    },
+    {
+      "name": "firmware-heltec_capsule_sensor_v3-2.7.17.83c6161.factory.bin",
+      "md5": "d85758126ddd77ae41535f6ab894f481",
+      "bytes": 1938448
+    },
+    {
+      "name": "littlefs-heltec_capsule_sensor_v3-2.7.17.83c6161.bin",
+      "md5": "6b5a7490dbdac9674b72451791d65fae",
+      "bytes": 1572864
+    }
+  ],
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false
+}

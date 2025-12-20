@@ -1,0 +1,32 @@
+{
+  "version": "2.7.17.83c6161",
+  "build_epoch": 1766188800,
+  "board": "nano-g2-ultra",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-nano-g2-ultra-2.7.17.83c6161.elf",
+      "md5": "bc364974ced40d69df38d609d22624f4",
+      "bytes": 1282924
+    },
+    {
+      "name": "firmware-nano-g2-ultra-2.7.17.83c6161.hex",
+      "md5": "a194d5a90220358196286f822a09038e",
+      "bytes": 1865304
+    },
+    {
+      "name": "firmware-nano-g2-ultra-2.7.17.83c6161.uf2",
+      "md5": "11cc8d491aa9a80f2af6ff6c2a241161",
+      "bytes": 1326592
+    },
+    {
+      "name": "firmware-nano-g2-ultra-2.7.17.83c6161-ota.zip",
+      "md5": "bbfdbd73544461d70a782d0508f6dc45",
+      "bytes": 664112
+    }
+  ],
+  "part": null,
+  "has_mui": false,
+  "has_inkhud": false
+}

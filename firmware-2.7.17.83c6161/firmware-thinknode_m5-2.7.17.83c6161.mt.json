@@ -1,0 +1,73 @@
+{
+  "version": "2.7.17.83c6161",
+  "build_epoch": 1766188800,
+  "board": "thinknode_m5",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-thinknode_m5-2.7.17.83c6161.elf",
+      "md5": "f1c4e69baf3f86b796a68ed4d5deca8c",
+      "bytes": 22051352
+    },
+    {
+      "name": "firmware-thinknode_m5-2.7.17.83c6161.bin",
+      "md5": "43eabd92f9b27b38da06fa9e88ea445c",
+      "bytes": 2038624
+    },
+    {
+      "name": "firmware-thinknode_m5-2.7.17.83c6161.factory.bin",
+      "md5": "12d932e8c26f418515e9efd32ee6f8f6",
+      "bytes": 2104160
+    },
+    {
+      "name": "littlefs-thinknode_m5-2.7.17.83c6161.bin",
+      "md5": "900cc96e920c6b713884c20ee9948a5f",
+      "bytes": 1048576
+    }
+  ],
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false
+}

@@ -1,0 +1,81 @@
+{
+  "version": "2.7.17.83c6161",
+  "build_epoch": 1766188800,
+  "board": "heltec-wsl-v3",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-heltec-wsl-v3-2.7.17.83c6161.elf",
+      "md5": "03c70fdde13522612dea13ec9d009651",
+      "bytes": 22030032
+    },
+    {
+      "name": "firmware-heltec-wsl-v3-2.7.17.83c6161.bin",
+      "md5": "52aeb6a81a97a4f30d6bd2af7e7ebc6d",
+      "bytes": 2026624
+    },
+    {
+      "name": "firmware-heltec-wsl-v3-2.7.17.83c6161.factory.bin",
+      "md5": "d09d36a3864a81676ce2503fd26c6ec3",
+      "bytes": 2092160
+    },
+    {
+      "name": "littlefs-heltec-wsl-v3-2.7.17.83c6161.bin",
+      "md5": "5259e4c49b7fe6d7dfdb5c196849a715",
+      "bytes": 1572864
+    }
+  ],
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false
+}

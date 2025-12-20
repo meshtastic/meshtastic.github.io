@@ -1,0 +1,81 @@
+{
+  "version": "2.7.17.83c6161",
+  "build_epoch": 1766188800,
+  "board": "station-g2",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-station-g2-2.7.17.83c6161.elf",
+      "md5": "26b01a529802aa620638f2df7f4d7fc7",
+      "bytes": 22333372
+    },
+    {
+      "name": "firmware-station-g2-2.7.17.83c6161.bin",
+      "md5": "bdb9ef1479e503cb630957ba38f80a81",
+      "bytes": 2051952
+    },
+    {
+      "name": "firmware-station-g2-2.7.17.83c6161.factory.bin",
+      "md5": "ed7223003d3eea45c447235dc7d3fc0d",
+      "bytes": 2117488
+    },
+    {
+      "name": "littlefs-station-g2-2.7.17.83c6161.bin",
+      "md5": "536136efdc681c75246cd1deaa09764e",
+      "bytes": 3538944
+    }
+  ],
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x650000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0xc90000",
+      "size": "0x360000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0xFF0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false
+}

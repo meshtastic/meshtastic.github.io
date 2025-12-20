@@ -1,0 +1,73 @@
+{
+  "version": "2.7.17.83c6161",
+  "build_epoch": 1766188800,
+  "board": "hydra",
+  "mcu": "esp32",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-hydra-2.7.17.83c6161.elf",
+      "md5": "1eda17f7a35994fcc04355b4d22d1eb8",
+      "bytes": 20559264
+    },
+    {
+      "name": "firmware-hydra-2.7.17.83c6161.bin",
+      "md5": "01b72880d550d415f790627fe90a727a",
+      "bytes": 2219136
+    },
+    {
+      "name": "firmware-hydra-2.7.17.83c6161.factory.bin",
+      "md5": "d44b9800f425d15ef1fe30fcf6019535",
+      "bytes": 2284672
+    },
+    {
+      "name": "littlefs-hydra-2.7.17.83c6161.bin",
+      "md5": "42b97e57d5f838897f589672c2d7c1c4",
+      "bytes": 1048576
+    }
+  ],
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false
+}
