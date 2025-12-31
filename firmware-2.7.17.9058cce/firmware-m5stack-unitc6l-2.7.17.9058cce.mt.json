@@ -1,0 +1,73 @@
+{
+  "version": "2.7.17.9058cce",
+  "build_epoch": 1767139200,
+  "board": "m5stack-unitc6l",
+  "mcu": "esp32c6",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-m5stack-unitc6l-2.7.17.9058cce.elf",
+      "md5": "a8a5ed829d657fa082196881df9da26b",
+      "bytes": 30529868
+    },
+    {
+      "name": "firmware-m5stack-unitc6l-2.7.17.9058cce.bin",
+      "md5": "604c5e646b76697376034c98148a6551",
+      "bytes": 1891136
+    },
+    {
+      "name": "firmware-m5stack-unitc6l-2.7.17.9058cce.factory.bin",
+      "md5": "6cadaf31e8785a4a1e01fc25281e0390",
+      "bytes": 1956672
+    },
+    {
+      "name": "littlefs-m5stack-unitc6l-2.7.17.9058cce.bin",
+      "md5": "4973b4a4431b628772d8f614f75b2f57",
+      "bytes": 1048576
+    }
+  ],
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false
+}

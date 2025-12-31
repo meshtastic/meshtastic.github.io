@@ -1,0 +1,81 @@
+{
+  "version": "2.7.17.9058cce",
+  "build_epoch": 1767139200,
+  "board": "elecrow-adv1-43-50-70-tft",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-elecrow-adv1-43-50-70-tft-2.7.17.9058cce.elf",
+      "md5": "44bc5e9df6345a23ceda03b16665866e",
+      "bytes": 23280668
+    },
+    {
+      "name": "firmware-elecrow-adv1-43-50-70-tft-2.7.17.9058cce.bin",
+      "md5": "2d202fb3b890cb2b2c4fa3a299e9e171",
+      "bytes": 3174976
+    },
+    {
+      "name": "firmware-elecrow-adv1-43-50-70-tft-2.7.17.9058cce.factory.bin",
+      "md5": "2877bb59183c891556ecfb7dd0d2faba",
+      "bytes": 3240512
+    },
+    {
+      "name": "littlefs-elecrow-adv1-43-50-70-tft-2.7.17.9058cce.bin",
+      "md5": "fe098d9c5aeda4d9d1828037ccf189fa",
+      "bytes": 3538944
+    }
+  ],
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x650000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0xc90000",
+      "size": "0x360000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0xFF0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "has_mui": true,
+  "has_inkhud": false
+}

@@ -1,0 +1,32 @@
+{
+  "version": "2.7.17.9058cce",
+  "build_epoch": 1767139200,
+  "board": "heltec-mesh-node-t114",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-heltec-mesh-node-t114-2.7.17.9058cce.elf",
+      "md5": "2e878e246718bca34dfb49edea00c90f",
+      "bytes": 1288712
+    },
+    {
+      "name": "firmware-heltec-mesh-node-t114-2.7.17.9058cce.hex",
+      "md5": "2d36cd5d87cd94f6ed72921c29e1ddbc",
+      "bytes": 1885689
+    },
+    {
+      "name": "firmware-heltec-mesh-node-t114-2.7.17.9058cce.uf2",
+      "md5": "514f1a5de4dd451e56675c1c5b275017",
+      "bytes": 1340928
+    },
+    {
+      "name": "firmware-heltec-mesh-node-t114-2.7.17.9058cce-ota.zip",
+      "md5": "9aae7aa429f406fd78f94ab7a75cf0a1",
+      "bytes": 671409
+    }
+  ],
+  "part": null,
+  "has_mui": false,
+  "has_inkhud": false
+}

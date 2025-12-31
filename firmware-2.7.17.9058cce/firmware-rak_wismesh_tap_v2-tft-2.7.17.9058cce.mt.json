@@ -1,0 +1,81 @@
+{
+  "version": "2.7.17.9058cce",
+  "build_epoch": 1767139200,
+  "board": "rak_wismesh_tap_v2-tft",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-rak_wismesh_tap_v2-tft-2.7.17.9058cce.elf",
+      "md5": "be5353acd5ed8f2c7bb16025e51577d1",
+      "bytes": 24447896
+    },
+    {
+      "name": "firmware-rak_wismesh_tap_v2-tft-2.7.17.9058cce.bin",
+      "md5": "eab68126165037ccbfe11ae87ace4919",
+      "bytes": 3314704
+    },
+    {
+      "name": "firmware-rak_wismesh_tap_v2-tft-2.7.17.9058cce.factory.bin",
+      "md5": "983928bd8076d722e488a5b9b147a7db",
+      "bytes": 3380240
+    },
+    {
+      "name": "littlefs-rak_wismesh_tap_v2-tft-2.7.17.9058cce.bin",
+      "md5": "a82edf905f3ebbbcd0006d07f0df26c4",
+      "bytes": 1572864
+    }
+  ],
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "has_mui": true,
+  "has_inkhud": false
+}

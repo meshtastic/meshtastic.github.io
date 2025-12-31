@@ -1,0 +1,27 @@
+{
+  "version": "2.7.17.9058cce",
+  "build_epoch": 1767139200,
+  "board": "rak3172",
+  "mcu": "stm32wle5ccu",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-rak3172-2.7.17.9058cce.elf",
+      "md5": "fc0fb263371ab355d0e981838af8283e",
+      "bytes": 6778668
+    },
+    {
+      "name": "firmware-rak3172-2.7.17.9058cce.bin",
+      "md5": "b2635b2936399ae3b0be003c27b1045a",
+      "bytes": 169408
+    },
+    {
+      "name": "firmware-rak3172-2.7.17.9058cce.hex",
+      "md5": "e592bfc4b4b9d075fee751d37a42b104",
+      "bytes": 476555
+    }
+  ],
+  "part": null,
+  "has_mui": false,
+  "has_inkhud": false
+}

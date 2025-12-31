@@ -1,0 +1,81 @@
+{
+  "version": "2.7.17.9058cce",
+  "build_epoch": 1767139200,
+  "board": "heltec-vision-master-e290",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-heltec-vision-master-e290-2.7.17.9058cce.elf",
+      "md5": "d5f49a18eab491cb4d9db0e4e54a59b5",
+      "bytes": 22596316
+    },
+    {
+      "name": "firmware-heltec-vision-master-e290-2.7.17.9058cce.bin",
+      "md5": "1fed22f69d79cb7446ccef956ebb8109",
+      "bytes": 2067536
+    },
+    {
+      "name": "firmware-heltec-vision-master-e290-2.7.17.9058cce.factory.bin",
+      "md5": "13f0fac187140b8f357f5f2a67760b1d",
+      "bytes": 2133072
+    },
+    {
+      "name": "littlefs-heltec-vision-master-e290-2.7.17.9058cce.bin",
+      "md5": "3c96f4de5d0c75ad53435ce804fc8220",
+      "bytes": 1572864
+    }
+  ],
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false
+}

@@ -1,0 +1,32 @@
+{
+  "version": "2.7.17.9058cce",
+  "build_epoch": 1767139200,
+  "board": "rak4631_nomadstar_meteor_pro",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-rak4631_nomadstar_meteor_pro-2.7.17.9058cce.elf",
+      "md5": "c767bd164ff6efefd3deb34e2ed47641",
+      "bytes": 1284148
+    },
+    {
+      "name": "firmware-rak4631_nomadstar_meteor_pro-2.7.17.9058cce.hex",
+      "md5": "48d437529efc1a14e6dafd0f76a60cbe",
+      "bytes": 1866969
+    },
+    {
+      "name": "firmware-rak4631_nomadstar_meteor_pro-2.7.17.9058cce.uf2",
+      "md5": "39bda14b87248f4ef87c0c73ed0bb21c",
+      "bytes": 1327616
+    },
+    {
+      "name": "firmware-rak4631_nomadstar_meteor_pro-2.7.17.9058cce-ota.zip",
+      "md5": "e940143ce3864ab9fb37568260561ccd",
+      "bytes": 664794
+    }
+  ],
+  "part": null,
+  "has_mui": false,
+  "has_inkhud": false
+}

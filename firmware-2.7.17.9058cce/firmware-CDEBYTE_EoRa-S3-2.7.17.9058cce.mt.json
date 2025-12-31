@@ -1,0 +1,73 @@
+{
+  "version": "2.7.17.9058cce",
+  "build_epoch": 1767139200,
+  "board": "CDEBYTE_EoRa-S3",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-CDEBYTE_EoRa-S3-2.7.17.9058cce.elf",
+      "md5": "0166112702bb36fd8a36bd3e37b67246",
+      "bytes": 22890288
+    },
+    {
+      "name": "firmware-CDEBYTE_EoRa-S3-2.7.17.9058cce.bin",
+      "md5": "32b2f72d384b218e7a512dd6d4d3fd95",
+      "bytes": 2088288
+    },
+    {
+      "name": "firmware-CDEBYTE_EoRa-S3-2.7.17.9058cce.factory.bin",
+      "md5": "2c4e0eef3d85715a9f19d844e9199baf",
+      "bytes": 2153824
+    },
+    {
+      "name": "littlefs-CDEBYTE_EoRa-S3-2.7.17.9058cce.bin",
+      "md5": "ab8f082beef7274c4d9297e658da7e5e",
+      "bytes": 1048576
+    }
+  ],
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false
+}

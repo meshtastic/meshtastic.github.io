@@ -1,0 +1,32 @@
+{
+  "version": "2.7.17.9058cce",
+  "build_epoch": 1767139200,
+  "board": "rak4631",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-rak4631-2.7.17.9058cce.elf",
+      "md5": "bb0e32b6112ddeff9c3fc4c8b504aad3",
+      "bytes": 1331152
+    },
+    {
+      "name": "firmware-rak4631-2.7.17.9058cce.hex",
+      "md5": "5f7069e3c56a796dad19f5b35185606a",
+      "bytes": 1951614
+    },
+    {
+      "name": "firmware-rak4631-2.7.17.9058cce.uf2",
+      "md5": "5e2a5b0da965ce7b7adeedac287260f6",
+      "bytes": 1388032
+    },
+    {
+      "name": "firmware-rak4631-2.7.17.9058cce-ota.zip",
+      "md5": "e505a53b9195e828fc0a140a38f7d711",
+      "bytes": 694765
+    }
+  ],
+  "part": null,
+  "has_mui": false,
+  "has_inkhud": false
+}

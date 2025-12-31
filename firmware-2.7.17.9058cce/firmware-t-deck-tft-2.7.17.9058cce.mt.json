@@ -1,0 +1,81 @@
+{
+  "version": "2.7.17.9058cce",
+  "build_epoch": 1767139200,
+  "board": "t-deck-tft",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-t-deck-tft-2.7.17.9058cce.elf",
+      "md5": "15685c35b4034505bd92f6bde0294447",
+      "bytes": 25552956
+    },
+    {
+      "name": "firmware-t-deck-tft-2.7.17.9058cce.bin",
+      "md5": "c31a5bce2ff5dfb8e993900224751c68",
+      "bytes": 3534320
+    },
+    {
+      "name": "firmware-t-deck-tft-2.7.17.9058cce.factory.bin",
+      "md5": "82257166d1a6c9de67300938d39321c7",
+      "bytes": 3599856
+    },
+    {
+      "name": "littlefs-t-deck-tft-2.7.17.9058cce.bin",
+      "md5": "ea93434dd43ffcdc93cc5b766150c45e",
+      "bytes": 3538944
+    }
+  ],
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x650000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0xc90000",
+      "size": "0x360000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0xFF0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "has_mui": true,
+  "has_inkhud": false
+}

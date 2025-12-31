@@ -1,0 +1,32 @@
+{
+  "version": "2.7.17.9058cce",
+  "build_epoch": 1767139200,
+  "board": "seeed_xiao_nrf52840_kit",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-seeed_xiao_nrf52840_kit-2.7.17.9058cce.elf",
+      "md5": "3275a15ae80acdf11af9cd324dff337c",
+      "bytes": 1279768
+    },
+    {
+      "name": "firmware-seeed_xiao_nrf52840_kit-2.7.17.9058cce.hex",
+      "md5": "7614d148abc713cf2770face6bcfe01b",
+      "bytes": 1853964
+    },
+    {
+      "name": "firmware-seeed_xiao_nrf52840_kit-2.7.17.9058cce.uf2",
+      "md5": "e232e79faaaca2caef7c9ffb8a516180",
+      "bytes": 1318400
+    },
+    {
+      "name": "firmware-seeed_xiao_nrf52840_kit-2.7.17.9058cce-ota.zip",
+      "md5": "2fc4ca565ceeedc0727fe5b78672ac24",
+      "bytes": 660141
+    }
+  ],
+  "part": null,
+  "has_mui": false,
+  "has_inkhud": false
+}

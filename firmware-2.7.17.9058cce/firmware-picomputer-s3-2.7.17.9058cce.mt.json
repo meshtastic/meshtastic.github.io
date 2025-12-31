@@ -1,0 +1,73 @@
+{
+  "version": "2.7.17.9058cce",
+  "build_epoch": 1767139200,
+  "board": "picomputer-s3",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-picomputer-s3-2.7.17.9058cce.elf",
+      "md5": "1680f8efe3aa9d5f3ff0ceef4d30fdaa",
+      "bytes": 22950856
+    },
+    {
+      "name": "firmware-picomputer-s3-2.7.17.9058cce.bin",
+      "md5": "ebfcff1ba0eec5dd719c2e23d3331717",
+      "bytes": 2097440
+    },
+    {
+      "name": "firmware-picomputer-s3-2.7.17.9058cce.factory.bin",
+      "md5": "49c129115f0d9d346e5d39bb15baaca4",
+      "bytes": 2162976
+    },
+    {
+      "name": "littlefs-picomputer-s3-2.7.17.9058cce.bin",
+      "md5": "a5db4d22d375a19f3b78c82a76af58ed",
+      "bytes": 1572864
+    }
+  ],
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x5C0000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x5D0000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": null
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false
+}
