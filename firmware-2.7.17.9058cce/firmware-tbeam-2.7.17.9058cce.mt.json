@@ -1,0 +1,73 @@
+{
+  "version": "2.7.17.9058cce",
+  "build_epoch": 1767247200,
+  "board": "tbeam",
+  "mcu": "esp32",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-tbeam-2.7.17.9058cce.elf",
+      "md5": "eb3cae966c15a156b6a1e0dae4ae6907",
+      "bytes": 20799748
+    },
+    {
+      "name": "firmware-tbeam-2.7.17.9058cce.bin",
+      "md5": "a653b533138b96ace57d6f691ea57b34",
+      "bytes": 2298688
+    },
+    {
+      "name": "firmware-tbeam-2.7.17.9058cce.factory.bin",
+      "md5": "b90d9eda2822092cac32b4f7dd85e0c7",
+      "bytes": 2364224
+    },
+    {
+      "name": "littlefs-tbeam-2.7.17.9058cce.bin",
+      "md5": "7b80eb41255d76037745bb21c89f2a44",
+      "bytes": 1048576
+    }
+  ],
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false
+}
