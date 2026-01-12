@@ -1,0 +1,81 @@
+{
+  "version": "2.7.18.99d9191",
+  "build_epoch": 1768176000,
+  "platformioTarget": "heltec_sensor_hub",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-heltec_sensor_hub-2.7.18.99d9191.elf",
+      "md5": "a80616fc75d66931cec08209bd2f8af5",
+      "bytes": 21479760
+    },
+    {
+      "name": "firmware-heltec_sensor_hub-2.7.18.99d9191.bin",
+      "md5": "3e02585cba729b027c53da074a630bec",
+      "bytes": 1826432
+    },
+    {
+      "name": "firmware-heltec_sensor_hub-2.7.18.99d9191.factory.bin",
+      "md5": "4faac1c7e9ab82c9c5125f4d26e5cade",
+      "bytes": 1891968
+    },
+    {
+      "name": "littlefs-heltec_sensor_hub-2.7.18.99d9191.bin",
+      "md5": "c9819fde3d60af6d4216055ee5fc0369",
+      "bytes": 1048576
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "5af4e91093b8429751efbeeb4479f180",
+      "bytes": 636512
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-s3",
+  "displayName": "heltec_sensor_hub",
+  "activelySupported": false
+}

@@ -1,0 +1,35 @@
+{
+  "version": "2.7.18.99d9191",
+  "build_epoch": 1768176000,
+  "platformioTarget": "rak4631_eink",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-rak4631_eink-2.7.18.99d9191.elf",
+      "md5": "08216021a0ab17dccdafc2fda553538a",
+      "bytes": 1320472
+    },
+    {
+      "name": "firmware-rak4631_eink-2.7.18.99d9191.hex",
+      "md5": "b9c382856978a0dd63ea759052f48b8f",
+      "bytes": 1971243
+    },
+    {
+      "name": "firmware-rak4631_eink-2.7.18.99d9191.uf2",
+      "md5": "c2ae43acaf247e3a9d691f1ca19fc8e3",
+      "bytes": 1401856
+    },
+    {
+      "name": "firmware-rak4631_eink-2.7.18.99d9191-ota.zip",
+      "md5": "2680124bacf21253a840ba94bc9f9ad4",
+      "bytes": 701767
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "nrf52840",
+  "requiresDfu": true,
+  "displayName": "rak4631_eink",
+  "activelySupported": false
+}

@@ -1,0 +1,91 @@
+{
+  "version": "2.7.18.99d9191",
+  "build_epoch": 1768176000,
+  "platformioTarget": "tlora-t3s3-epaper",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-tlora-t3s3-epaper-2.7.18.99d9191.elf",
+      "md5": "7c5f176b6e6b191cfb7efc2d6d007890",
+      "bytes": 23189440
+    },
+    {
+      "name": "firmware-tlora-t3s3-epaper-2.7.18.99d9191.bin",
+      "md5": "99562c8bd7fa059afef807d9ab777379",
+      "bytes": 2203504
+    },
+    {
+      "name": "firmware-tlora-t3s3-epaper-2.7.18.99d9191.factory.bin",
+      "md5": "cdbd2a97126606f58b2e98a1714016ff",
+      "bytes": 2269040
+    },
+    {
+      "name": "littlefs-tlora-t3s3-epaper-2.7.18.99d9191.bin",
+      "md5": "5132969cc56e5d477f392674e0a8c096",
+      "bytes": 1048576
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "5af4e91093b8429751efbeeb4479f180",
+      "bytes": 636512
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 16,
+  "hwModelSlug": "TLORA_T3_S3",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "LILYGO T-LoRa T3-S3 E-Ink",
+  "supportLevel": 1,
+  "images": [
+    "tlora-t3s3-epaper.svg"
+  ],
+  "tags": [
+    "LilyGo"
+  ],
+  "requiresDfu": true
+}
