@@ -1,0 +1,92 @@
+{
+  "version": "2.7.18.d4045df",
+  "build_epoch": 1768176000,
+  "platformioTarget": "t-deck-pro",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-t-deck-pro-2.7.18.d4045df.elf",
+      "md5": "02f04673cea8d1d7d633f82d96946cb4",
+      "bytes": 22036440
+    },
+    {
+      "name": "firmware-t-deck-pro-2.7.18.d4045df.bin",
+      "md5": "c9a8bd1a4bc7326efd7ad28b8d29a7c1",
+      "bytes": 2049696
+    },
+    {
+      "name": "firmware-t-deck-pro-2.7.18.d4045df.factory.bin",
+      "md5": "33f2d906e4c5a2b044128de799459009",
+      "bytes": 2115232
+    },
+    {
+      "name": "littlefs-t-deck-pro-2.7.18.d4045df.bin",
+      "md5": "156d1b70fffdcc31d7baafc3a8d00923",
+      "bytes": 1048576
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "5af4e91093b8429751efbeeb4479f180",
+      "bytes": 636512
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 102,
+  "hwModelSlug": "T_DECK_PRO",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "LILYGO T-Deck Pro",
+  "supportLevel": 1,
+  "images": [
+    "tdeck_pro.svg"
+  ],
+  "tags": [
+    "LilyGo"
+  ],
+  "requiresDfu": true,
+  "partitionScheme": "16MB"
+}

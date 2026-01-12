@@ -1,0 +1,90 @@
+{
+  "version": "2.7.18.d4045df",
+  "build_epoch": 1768176000,
+  "platformioTarget": "tlora-v2-1-1_6",
+  "mcu": "esp32",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-tlora-v2-1-1_6-2.7.18.d4045df.elf",
+      "md5": "211b81764af7e0734f1a691d193df6a8",
+      "bytes": 20432824
+    },
+    {
+      "name": "firmware-tlora-v2-1-1_6-2.7.18.d4045df.bin",
+      "md5": "3882d448648910f24cab2893b7fdc895",
+      "bytes": 2181472
+    },
+    {
+      "name": "firmware-tlora-v2-1-1_6-2.7.18.d4045df.factory.bin",
+      "md5": "b9d00eaf3b91b0d3222ff2f831fb09ee",
+      "bytes": 2247008
+    },
+    {
+      "name": "littlefs-tlora-v2-1-1_6-2.7.18.d4045df.bin",
+      "md5": "27dc53977cdb8957b8f2bd1f03c260fb",
+      "bytes": 1048576
+    },
+    {
+      "name": "mt-esp32-ota.bin",
+      "md5": "2b3c3487b019e93e0e060bd60dedaa3b",
+      "bytes": 642096
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 3,
+  "hwModelSlug": "TLORA_V2_1_1P6",
+  "architecture": "esp32",
+  "activelySupported": true,
+  "displayName": "LILYGO T-LoRa V2.1-1.6",
+  "supportLevel": 3,
+  "images": [
+    "tlora-v2-1-1_6.svg"
+  ],
+  "tags": [
+    "LilyGo"
+  ]
+}

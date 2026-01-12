@@ -1,0 +1,87 @@
+{
+  "version": "2.7.18.d4045df",
+  "build_epoch": 1768176000,
+  "platformioTarget": "nano-g1",
+  "mcu": "esp32",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-nano-g1-2.7.18.d4045df.elf",
+      "md5": "fdf2f5a6628da97d1dc92079f58a9f92",
+      "bytes": 20554692
+    },
+    {
+      "name": "firmware-nano-g1-2.7.18.d4045df.bin",
+      "md5": "8d7cccc7ba3c7a8c807d6e40f7cbcd7c",
+      "bytes": 2248560
+    },
+    {
+      "name": "firmware-nano-g1-2.7.18.d4045df.factory.bin",
+      "md5": "ef8552b7f79da872d068f27aff407c15",
+      "bytes": 2314096
+    },
+    {
+      "name": "littlefs-nano-g1-2.7.18.d4045df.bin",
+      "md5": "cb04a02368ac59d1e8d8df07fd99e4a5",
+      "bytes": 1048576
+    },
+    {
+      "name": "mt-esp32-ota.bin",
+      "md5": "2b3c3487b019e93e0e060bd60dedaa3b",
+      "bytes": 642096
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 14,
+  "hwModelSlug": "NANO_G1",
+  "architecture": "esp32",
+  "activelySupported": true,
+  "displayName": "Nano G1",
+  "supportLevel": 3,
+  "tags": [
+    "B&Q"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "version": "2.7.18.d4045df",
+  "build_epoch": 1768176000,
+  "platformioTarget": "station-g2",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-station-g2-2.7.18.d4045df.elf",
+      "md5": "9f3d500f1a38081ac7b660f8b06bee5e",
+      "bytes": 22232504
+    },
+    {
+      "name": "firmware-station-g2-2.7.18.d4045df.bin",
+      "md5": "f965101bf37b4103cc47924d5a1e9338",
+      "bytes": 2025984
+    },
+    {
+      "name": "firmware-station-g2-2.7.18.d4045df.factory.bin",
+      "md5": "6b65b8c8e34ca066b2773643eb15e700",
+      "bytes": 2091520
+    },
+    {
+      "name": "littlefs-station-g2-2.7.18.d4045df.bin",
+      "md5": "3df34efae2ab739c2e88a1bdbd507eb8",
+      "bytes": 3538944
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "5af4e91093b8429751efbeeb4479f180",
+      "bytes": 636512
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x650000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0xc90000",
+      "size": "0x360000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0xFF0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 31,
+  "hwModelSlug": "STATION_G2",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "Station G2",
+  "supportLevel": 2,
+  "images": [
+    "station-g2.svg"
+  ],
+  "tags": [
+    "B&Q"
+  ],
+  "requiresDfu": true,
+  "partitionScheme": "16MB"
+}

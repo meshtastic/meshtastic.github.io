@@ -1,0 +1,90 @@
+{
+  "version": "2.7.18.d4045df",
+  "build_epoch": 1768176000,
+  "platformioTarget": "heltec-ht62-esp32c3-sx1262",
+  "mcu": "esp32c3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-heltec-ht62-esp32c3-sx1262-2.7.18.d4045df.elf",
+      "md5": "13a48fdc2028eae4f64e3acf0a50fb3e",
+      "bytes": 18729964
+    },
+    {
+      "name": "firmware-heltec-ht62-esp32c3-sx1262-2.7.18.d4045df.bin",
+      "md5": "a3c41963555801ddab9c26793fddab59",
+      "bytes": 2001696
+    },
+    {
+      "name": "firmware-heltec-ht62-esp32c3-sx1262-2.7.18.d4045df.factory.bin",
+      "md5": "c8d9686faf3b4be94f4a2fa321621532",
+      "bytes": 2067232
+    },
+    {
+      "name": "littlefs-heltec-ht62-esp32c3-sx1262-2.7.18.d4045df.bin",
+      "md5": "030c94dc9bed26453e34603b80febce3",
+      "bytes": 1048576
+    },
+    {
+      "name": "bleota-c3.bin",
+      "md5": "20210a70e665e2b61fe1a3bdbd776d25",
+      "bytes": 509776
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 53,
+  "hwModelSlug": "HELTEC_HT62",
+  "architecture": "esp32-c3",
+  "activelySupported": true,
+  "displayName": "Heltec HT62",
+  "supportLevel": 1,
+  "images": [
+    "heltec-ht62-esp32c3-sx1262.svg"
+  ],
+  "tags": [
+    "Heltec"
+  ]
+}

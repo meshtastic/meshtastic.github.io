@@ -1,0 +1,91 @@
+{
+  "version": "2.7.18.d4045df",
+  "build_epoch": 1768176000,
+  "platformioTarget": "seeed-sensecap-indicator-tft",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-seeed-sensecap-indicator-tft-2.7.18.d4045df.elf",
+      "md5": "8e47b3b2538b0222871c17265c412e97",
+      "bytes": 24035884
+    },
+    {
+      "name": "firmware-seeed-sensecap-indicator-tft-2.7.18.d4045df.bin",
+      "md5": "99550599d8331836ae45c7758b49a323",
+      "bytes": 3383472
+    },
+    {
+      "name": "firmware-seeed-sensecap-indicator-tft-2.7.18.d4045df.factory.bin",
+      "md5": "0ff8833f877b0f91fe3183a53609ad57",
+      "bytes": 3449008
+    },
+    {
+      "name": "littlefs-seeed-sensecap-indicator-tft-2.7.18.d4045df.bin",
+      "md5": "f56b5d7511b040d69b7748045796df73",
+      "bytes": 1572864
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "5af4e91093b8429751efbeeb4479f180",
+      "bytes": 636512
+    }
+  ],
+  "has_mui": true,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x5C0000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x5D0000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": null
+    }
+  ],
+  "hwModel": 70,
+  "hwModelSlug": "SENSECAP_INDICATOR",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "Seeed SenseCAP Indicator",
+  "supportLevel": 1,
+  "images": [
+    "seeed-sensecap-indicator.svg"
+  ],
+  "tags": [
+    "Seeed"
+  ],
+  "partitionScheme": "8MB\n= true"
+}

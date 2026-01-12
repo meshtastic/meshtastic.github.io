@@ -1,0 +1,87 @@
+{
+  "version": "2.7.18.d4045df",
+  "build_epoch": 1768176000,
+  "platformioTarget": "radiomaster_900_bandit_nano",
+  "mcu": "esp32",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-radiomaster_900_bandit_nano-2.7.18.d4045df.elf",
+      "md5": "665efab25588c625215aa625e0d4baec",
+      "bytes": 20487148
+    },
+    {
+      "name": "firmware-radiomaster_900_bandit_nano-2.7.18.d4045df.bin",
+      "md5": "5b7b0a9c66cf05a06f82b918bf2e076f",
+      "bytes": 2179872
+    },
+    {
+      "name": "firmware-radiomaster_900_bandit_nano-2.7.18.d4045df.factory.bin",
+      "md5": "96f1aecd4cbd0110437277b577c6ae3a",
+      "bytes": 2245408
+    },
+    {
+      "name": "littlefs-radiomaster_900_bandit_nano-2.7.18.d4045df.bin",
+      "md5": "14b785c2986931d795df64dd65158290",
+      "bytes": 1048576
+    },
+    {
+      "name": "mt-esp32-ota.bin",
+      "md5": "2b3c3487b019e93e0e060bd60dedaa3b",
+      "bytes": 642096
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 64,
+  "hwModelSlug": "RADIOMASTER_900_BANDIT_NANO",
+  "architecture": "esp32",
+  "activelySupported": true,
+  "displayName": "RadioMaster 900 Bandit Nano",
+  "supportLevel": 2,
+  "tags": [
+    "RadioMaster"
+  ]
+}

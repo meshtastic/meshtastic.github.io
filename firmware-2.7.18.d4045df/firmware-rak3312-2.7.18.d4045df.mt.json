@@ -1,0 +1,92 @@
+{
+  "version": "2.7.18.d4045df",
+  "build_epoch": 1768176000,
+  "platformioTarget": "rak3312",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-rak3312-2.7.18.d4045df.elf",
+      "md5": "4c9c736fb1403164c196d243dec73b93",
+      "bytes": 21937524
+    },
+    {
+      "name": "firmware-rak3312-2.7.18.d4045df.bin",
+      "md5": "f451907e8a290c02412486a9da969f7c",
+      "bytes": 2005600
+    },
+    {
+      "name": "firmware-rak3312-2.7.18.d4045df.factory.bin",
+      "md5": "ed6e0b708ea315312a3f98038b92a2cb",
+      "bytes": 2071136
+    },
+    {
+      "name": "littlefs-rak3312-2.7.18.d4045df.bin",
+      "md5": "1791e7afc50c1cdcf113c6ad15c23adc",
+      "bytes": 1048576
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "5af4e91093b8429751efbeeb4479f180",
+      "bytes": 636512
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 106,
+  "hwModelSlug": "RAK3312",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "RAK3312",
+  "supportLevel": 1,
+  "images": [
+    "rak_3312.svg"
+  ],
+  "tags": [
+    "RAK"
+  ],
+  "requiresDfu": false,
+  "partitionScheme": "16MB"
+}
