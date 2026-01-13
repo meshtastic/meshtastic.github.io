@@ -1,0 +1,89 @@
+{
+  "version": "2.7.18.dae4061",
+  "build_epoch": 1768262400,
+  "platformioTarget": "unphone",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-unphone-2.7.18.dae4061.elf",
+      "md5": "92a11c87bd590181e153796a8e2eaa4c",
+      "bytes": 22483816
+    },
+    {
+      "name": "firmware-unphone-2.7.18.dae4061.bin",
+      "md5": "937297e3d193d63373596c1c5bbc7a58",
+      "bytes": 2036208,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-unphone-2.7.18.dae4061.factory.bin",
+      "md5": "45d04924bd2d97e369e22b36e6759fef",
+      "bytes": 2101744
+    },
+    {
+      "name": "littlefs-unphone-2.7.18.dae4061.bin",
+      "md5": "f51d79a765389be440247de2e3998f21",
+      "bytes": 1572864,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "5af4e91093b8429751efbeeb4479f180",
+      "bytes": 636512,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x5C0000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x5D0000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": null
+    }
+  ],
+  "hwModel": 59,
+  "hwModelSlug": "UNPHONE",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "unPhone",
+  "supportLevel": 3,
+  "requiresDfu": true,
+  "partitionScheme": "8MB"
+}

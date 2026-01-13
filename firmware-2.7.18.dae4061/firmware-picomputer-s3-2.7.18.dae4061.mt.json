@@ -1,0 +1,88 @@
+{
+  "version": "2.7.18.dae4061",
+  "build_epoch": 1768262400,
+  "platformioTarget": "picomputer-s3",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-picomputer-s3-2.7.18.dae4061.elf",
+      "md5": "0a20b62234a41eebfaea195599c85de5",
+      "bytes": 22788660
+    },
+    {
+      "name": "firmware-picomputer-s3-2.7.18.dae4061.bin",
+      "md5": "a837f1226fd5bcb2b7a1a0cfbd8135f0",
+      "bytes": 2077456,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-picomputer-s3-2.7.18.dae4061.factory.bin",
+      "md5": "6dde2c2431ef4cd30662ae2ff1943c55",
+      "bytes": 2142992
+    },
+    {
+      "name": "littlefs-picomputer-s3-2.7.18.dae4061.bin",
+      "md5": "00b3a9f23dd156780393b05713f19a80",
+      "bytes": 1572864,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "5af4e91093b8429751efbeeb4479f180",
+      "bytes": 636512,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x5C0000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x5D0000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": null
+    }
+  ],
+  "hwModel": 52,
+  "hwModelSlug": "PICOMPUTER_S3",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "Pi Computer S3",
+  "supportLevel": 3,
+  "partitionScheme": "8MB"
+}
