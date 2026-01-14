@@ -1,0 +1,92 @@
+{
+  "version": "2.7.18.5a81403",
+  "build_epoch": 1768348800,
+  "platformioTarget": "heltec-v4-tft",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-heltec-v4-tft-2.7.18.5a81403.elf",
+      "md5": "c9657f6cd858161d35a07db263ece194",
+      "bytes": 24414240
+    },
+    {
+      "name": "firmware-heltec-v4-tft-2.7.18.5a81403.bin",
+      "md5": "4550d7a0f75c0dc9a6189f0a8340a6b2",
+      "bytes": 3392448,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-heltec-v4-tft-2.7.18.5a81403.factory.bin",
+      "md5": "648b5ba46acfe733cabc4b8e2de665d2",
+      "bytes": 3457984
+    },
+    {
+      "name": "littlefs-heltec-v4-tft-2.7.18.5a81403.bin",
+      "md5": "5bea03984c3756815f7f67253a626ef0",
+      "bytes": 3538944,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "5af4e91093b8429751efbeeb4479f180",
+      "bytes": 636512,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": true,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x650000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0xc90000",
+      "size": "0x360000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0xFF0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-s3",
+  "displayName": "heltec-v4-tft",
+  "activelySupported": false
+}

@@ -1,0 +1,92 @@
+{
+  "version": "2.7.18.5a81403",
+  "build_epoch": 1768348800,
+  "platformioTarget": "t-eth-elite",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-t-eth-elite-2.7.18.5a81403.elf",
+      "md5": "11afb66183852a5ba59d04ec38ba8c12",
+      "bytes": 22907496
+    },
+    {
+      "name": "firmware-t-eth-elite-2.7.18.5a81403.bin",
+      "md5": "2b914640936e9839a779ad4cdd704c3c",
+      "bytes": 2211888,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-t-eth-elite-2.7.18.5a81403.factory.bin",
+      "md5": "7801471ed41db4ef4627725291186ce5",
+      "bytes": 2277424
+    },
+    {
+      "name": "littlefs-t-eth-elite-2.7.18.5a81403.bin",
+      "md5": "74ef7797d2bc7dcc7734bb6e5c953425",
+      "bytes": 3538944,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "5af4e91093b8429751efbeeb4479f180",
+      "bytes": 636512,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x650000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0xc90000",
+      "size": "0x360000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0xFF0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-s3",
+  "displayName": "t-eth-elite",
+  "activelySupported": false
+}

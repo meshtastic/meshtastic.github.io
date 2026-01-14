@@ -1,0 +1,30 @@
+{
+  "version": "2.7.18.5a81403",
+  "build_epoch": 1768348800,
+  "platformioTarget": "pico2w",
+  "mcu": "rp2350",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-pico2w-2.7.18.5a81403.elf",
+      "md5": "5a8fb04495623a47decead18b6578ff3",
+      "bytes": 11372860
+    },
+    {
+      "name": "firmware-pico2w-2.7.18.5a81403.bin",
+      "md5": "a492f2b512ad55f510dc67c714a9fc57",
+      "bytes": 1343696,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-pico2w-2.7.18.5a81403.uf2",
+      "md5": "631addeec9b336ff2e2204f24f7c0f12",
+      "bytes": 2687488
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "rp2350",
+  "displayName": "pico2w",
+  "activelySupported": false
+}

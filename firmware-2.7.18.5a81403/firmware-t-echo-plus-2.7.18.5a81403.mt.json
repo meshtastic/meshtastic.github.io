@@ -1,0 +1,35 @@
+{
+  "version": "2.7.18.5a81403",
+  "build_epoch": 1768348800,
+  "platformioTarget": "t-echo-plus",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-t-echo-plus-2.7.18.5a81403.elf",
+      "md5": "82a6da1be1d55477395ee3ae06bf1287",
+      "bytes": 1236708
+    },
+    {
+      "name": "firmware-t-echo-plus-2.7.18.5a81403.hex",
+      "md5": "cc4161c0f4ff5c228df965647ddd43a7",
+      "bytes": 1836369
+    },
+    {
+      "name": "firmware-t-echo-plus-2.7.18.5a81403.uf2",
+      "md5": "9dbf901d5fcae6162241f8dbf67c6892",
+      "bytes": 1306112
+    },
+    {
+      "name": "firmware-t-echo-plus-2.7.18.5a81403-ota.zip",
+      "md5": "c715b64b369f5e5c09cf35cb0fa21715",
+      "bytes": 653812
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "nrf52840",
+  "requiresDfu": true,
+  "displayName": "t-echo-plus",
+  "activelySupported": false
+}

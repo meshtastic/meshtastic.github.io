@@ -1,0 +1,457 @@
+{
+  "version": "2.7.18.5a81403",
+  "targets": [
+    {
+      "board": "wio-tracker-wm1110",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "heltec-mesh-pocket-5000",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "heltec-mesh-pocket-5000-inkhud",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "heltec-mesh-pocket-10000",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "heltec-mesh-pocket-10000-inkhud",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "seeed_wio_tracker_L1_eink",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "seeed_wio_tracker_L1_eink-inkhud",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "t-echo",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "t-echo-inkhud",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "seeed_xiao_nrf52840_kit",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "heltec-mesh-node-t114",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "seeed_wio_tracker_L1",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "canaryone",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "t-echo-plus",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "rak4631_nomadstar_meteor_pro",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "thinknode_m3",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "seeed_solar_node",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "rak3401-1watt",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "rak_wismeshtag",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "rak4631",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "rak_wismeshtap",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "wio-sdk-wm1110",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "rak4631_eink",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "muzi-base",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "tracker-t1000-e",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "t-echo-lite",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "thinknode_m1",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "thinknode_m1-inkhud",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "r1-neo",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "heltec-mesh-solar",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "heltec-mesh-solar-eink",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "heltec-mesh-solar-inkhud",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "heltec-mesh-solar-oled",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "heltec-mesh-solar-tft",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "nano-g2-ultra",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "rak2560",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "rak4631_eth_gw",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "thinknode_m6",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "feather_diy",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "heltec-ht62-esp32c3-sx1262",
+      "platform": "esp32c3"
+    },
+    {
+      "board": "heltec-hru-3601",
+      "platform": "esp32c3"
+    },
+    {
+      "board": "picow",
+      "platform": "rp2040"
+    },
+    {
+      "board": "pico",
+      "platform": "rp2040"
+    },
+    {
+      "board": "rp2040-lora",
+      "platform": "rp2040"
+    },
+    {
+      "board": "rak11310",
+      "platform": "rp2040"
+    },
+    {
+      "board": "pico2w",
+      "platform": "rp2350"
+    },
+    {
+      "board": "pico2",
+      "platform": "rp2350"
+    },
+    {
+      "board": "tlora-pager",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "heltec-v4",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "heltec-v4-tft",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "picomputer-s3",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "picomputer-s3-tft",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "t-watch-s3",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "heltec_sensor_hub",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "thinknode_m2",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "CDEBYTE_EoRa-S3",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "unphone",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "heltec-wireless-tracker",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "heltec-wsl-v3",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "heltec_capsule_sensor_v3",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "heltec-vision-master-e290",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "heltec-vision-master-e290-inkhud",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "tlora-t3s3-v1",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "heltec-wireless-paper",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "heltec-wireless-paper-inkhud",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "heltec-vision-master-t190",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "station-g2",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "t-beam-1w",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "t-deck-pro",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "hackaday-communicator",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "elecrow-adv-24-28-tft",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "elecrow-adv-35-tft",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "elecrow-adv1-43-50-70-tft",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "tracksenger",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "tracksenger-lcd",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "tracksenger-oled",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "thinknode_m5",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "heltec-vision-master-e213",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "heltec-vision-master-e213-inkhud",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "m5stack-cores3",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "rak3312",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "rak_wismesh_tap_v2-tft",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "heltec-v3",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "t-eth-elite",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "seeed-sensecap-indicator",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "seeed-sensecap-indicator-tft",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "seeed-xiao-s3",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "heltec-wireless-tracker-v2",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "t-deck",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "t-deck-tft",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "tbeam-s3-core",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "tlora-t3s3-epaper",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "tlora-t3s3-epaper-inkhud",
+      "platform": "esp32s3"
+    },
+    {
+      "board": "tlora-c6",
+      "platform": "esp32c6"
+    },
+    {
+      "board": "m5stack-unitc6l",
+      "platform": "esp32c6"
+    },
+    {
+      "board": "rak3172",
+      "platform": "stm32"
+    },
+    {
+      "board": "wio-e5",
+      "platform": "stm32"
+    },
+    {
+      "board": "m5stack-core",
+      "platform": "esp32"
+    },
+    {
+      "board": "tbeam",
+      "platform": "esp32"
+    },
+    {
+      "board": "tlora-v2-1-1_6",
+      "platform": "esp32"
+    },
+    {
+      "board": "nano-g1",
+      "platform": "esp32"
+    },
+    {
+      "board": "radiomaster_900_bandit_nano",
+      "platform": "esp32"
+    },
+    {
+      "board": "rak11200",
+      "platform": "esp32"
+    },
+    {
+      "board": "m5stack-coreink",
+      "platform": "esp32"
+    },
+    {
+      "board": "nano-g1-explorer",
+      "platform": "esp32"
+    },
+    {
+      "board": "radiomaster_900_bandit",
+      "platform": "esp32"
+    },
+    {
+      "board": "chatter2",
+      "platform": "esp32"
+    },
+    {
+      "board": "station-g1",
+      "platform": "esp32"
+    },
+    {
+      "board": "tlora-v3-3-0-tcxo",
+      "platform": "esp32"
+    },
+    {
+      "board": "radiomaster_900_bandit_micro",
+      "platform": "esp32"
+    },
+    {
+      "board": "nrf52_promicro_diy_tcxo",
+      "platform": "nrf52840"
+    },
+    {
+      "board": "hydra",
+      "platform": "esp32"
+    },
+    {
+      "board": "meshtastic-diy-v1",
+      "platform": "esp32"
+    }
+  ]
+}
