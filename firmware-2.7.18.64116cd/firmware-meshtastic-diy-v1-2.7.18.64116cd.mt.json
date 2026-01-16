@@ -1,0 +1,93 @@
+{
+  "version": "2.7.18.64116cd",
+  "build_epoch": 1768435200,
+  "platformioTarget": "meshtastic-diy-v1",
+  "mcu": "esp32",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-meshtastic-diy-v1-2.7.18.64116cd.elf",
+      "md5": "5fdf839e15af221028ce6d7d4bb5e8ec",
+      "bytes": 20506036
+    },
+    {
+      "name": "firmware-meshtastic-diy-v1-2.7.18.64116cd.bin",
+      "md5": "05ee61e8d057a7b0bd2a77b4cccff37f",
+      "bytes": 2223904,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-meshtastic-diy-v1-2.7.18.64116cd.factory.bin",
+      "md5": "85054653f414087fa03d38e4af10572c",
+      "bytes": 2289440
+    },
+    {
+      "name": "littlefs-meshtastic-diy-v1-2.7.18.64116cd.bin",
+      "md5": "f4e43cdb0aaab3d9f6f17b5579e95589",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32-ota.bin",
+      "md5": "2b3c3487b019e93e0e060bd60dedaa3b",
+      "bytes": 642096,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 39,
+  "hwModelSlug": "DIY_V1",
+  "architecture": "esp32",
+  "activelySupported": true,
+  "displayName": "DIY V1",
+  "supportLevel": 3,
+  "images": [
+    "diy.svg"
+  ],
+  "tags": [
+    "DIY"
+  ]
+}
