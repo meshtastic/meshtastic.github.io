@@ -1,0 +1,88 @@
+{
+  "version": "2.7.18.fb3bf78",
+  "build_epoch": 1768867200,
+  "platformioTarget": "picomputer-s3-tft",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-picomputer-s3-tft-2.7.18.fb3bf78.elf",
+      "md5": "7733c05583401ffe2d259867813c153b",
+      "bytes": 24441416
+    },
+    {
+      "name": "firmware-picomputer-s3-tft-2.7.18.fb3bf78.bin",
+      "md5": "03f0ebb3eb5883c4e503919dbd11e5c0",
+      "bytes": 3389904,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-picomputer-s3-tft-2.7.18.fb3bf78.factory.bin",
+      "md5": "0a8a11c0fed7aa241e96c92f2f3aac64",
+      "bytes": 3455440
+    },
+    {
+      "name": "littlefs-picomputer-s3-tft-2.7.18.fb3bf78.bin",
+      "md5": "db87e040fa84e744ff0e8615d0be7f68",
+      "bytes": 1572864,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "9d1ead73e678fa2f51a70a933b0bf017",
+      "bytes": 9,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": true,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x5C0000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x5D0000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": null
+    }
+  ],
+  "hwModel": 52,
+  "hwModelSlug": "PICOMPUTER_S3",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "Pi Computer S3",
+  "supportLevel": 3,
+  "partitionScheme": "8MB"
+}

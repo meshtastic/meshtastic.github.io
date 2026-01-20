@@ -1,0 +1,44 @@
+{
+  "version": "2.7.18.fb3bf78",
+  "build_epoch": 1768867200,
+  "platformioTarget": "seeed_wio_tracker_L1_eink",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-seeed_wio_tracker_L1_eink-2.7.18.fb3bf78.elf",
+      "md5": "636c618b8f3063a7cd151f30ee739ec8",
+      "bytes": 1323236
+    },
+    {
+      "name": "firmware-seeed_wio_tracker_L1_eink-2.7.18.fb3bf78.hex",
+      "md5": "898d2be66054cae3b4145aece0b1d8a8",
+      "bytes": 1974462
+    },
+    {
+      "name": "firmware-seeed_wio_tracker_L1_eink-2.7.18.fb3bf78.uf2",
+      "md5": "6a0ecb3857eaf9a44bd6f38c5726b827",
+      "bytes": 1403904
+    },
+    {
+      "name": "firmware-seeed_wio_tracker_L1_eink-2.7.18.fb3bf78-ota.zip",
+      "md5": "6fd82691e7b2e602c764808f80ee9e8c",
+      "bytes": 702993
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "hwModel": 100,
+  "hwModelSlug": "SEEED_WIO_TRACKER_L1_EINK",
+  "architecture": "nrf52840",
+  "activelySupported": true,
+  "displayName": "Seeed Wio Tracker L1 E-Ink",
+  "supportLevel": 1,
+  "images": [
+    "wio_tracker_l1_eink.svg"
+  ],
+  "tags": [
+    "Seeed"
+  ],
+  "requiresDfu": true
+}
