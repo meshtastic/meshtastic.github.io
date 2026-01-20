@@ -7,30 +7,30 @@
   "files": [
     {
       "name": "firmware-heltec-wireless-paper-inkhud-2.7.18.fb3bf78.elf",
-      "md5": "828f356242cedcb48db6fcff797b661b",
+      "md5": "3ee4a0d7d6d45714d07d09ee07e9d5f8",
       "bytes": 21900628
     },
     {
       "name": "firmware-heltec-wireless-paper-inkhud-2.7.18.fb3bf78.bin",
-      "md5": "33de4cd810bccf1d131fc867e0f9d2f7",
+      "md5": "ef7ba72eada3ebf0308c029a2720b9f6",
       "bytes": 1973328,
       "part_name": "app0"
     },
     {
       "name": "firmware-heltec-wireless-paper-inkhud-2.7.18.fb3bf78.factory.bin",
-      "md5": "46d42467a887de859e5e398302488a2b",
+      "md5": "c3409f7d8ba96199e0f15b546adb7ef0",
       "bytes": 2038864
     },
     {
       "name": "littlefs-heltec-wireless-paper-inkhud-2.7.18.fb3bf78.bin",
-      "md5": "033f858824fc2ad12479e0525c3b3e09",
+      "md5": "4b0f6b6e4b4a4b3ac9fbb527cb8b7772",
       "bytes": 1572864,
       "part_name": "spiffs"
     },
     {
       "name": "mt-esp32s3-ota.bin",
-      "md5": "9d1ead73e678fa2f51a70a933b0bf017",
-      "bytes": 9,
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
       "part_name": "app1"
     }
   ],

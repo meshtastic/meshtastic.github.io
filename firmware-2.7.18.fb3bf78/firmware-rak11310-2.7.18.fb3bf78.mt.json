@@ -7,18 +7,18 @@
   "files": [
     {
       "name": "firmware-rak11310-2.7.18.fb3bf78.elf",
-      "md5": "6b8036d57a155d18e8b586080e8e925c",
+      "md5": "995d478d7804c2c55a7d6b2d9aa8fd1b",
       "bytes": 10017100
     },
     {
       "name": "firmware-rak11310-2.7.18.fb3bf78.bin",
-      "md5": "0c75c0c1e9ad1730132da9cf025df57b",
+      "md5": "caefd99c49c5ba63b863f65bb01b64c7",
       "bytes": 978724,
       "part_name": "app0"
     },
     {
       "name": "firmware-rak11310-2.7.18.fb3bf78.uf2",
-      "md5": "a482926a96451b70dfcaf8193a3adf31",
+      "md5": "5ac879bd554b977b5bd6d854ebb99a3c",
       "bytes": 1957888
     }
   ],

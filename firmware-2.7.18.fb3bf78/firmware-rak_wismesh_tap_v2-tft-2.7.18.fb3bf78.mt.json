@@ -7,30 +7,30 @@
   "files": [
     {
       "name": "firmware-rak_wismesh_tap_v2-tft-2.7.18.fb3bf78.elf",
-      "md5": "bb094066afdbf7241b0b29a28e774aa6",
+      "md5": "8486eb67eb0d77fe26e20f159cd8e129",
       "bytes": 24448208
     },
     {
       "name": "firmware-rak_wismesh_tap_v2-tft-2.7.18.fb3bf78.bin",
-      "md5": "122e6144ed50d11e01bf35c0f62705fd",
+      "md5": "1262dc49782ba8ed27403959a2f90b05",
       "bytes": 3316512,
       "part_name": "app0"
     },
     {
       "name": "firmware-rak_wismesh_tap_v2-tft-2.7.18.fb3bf78.factory.bin",
-      "md5": "f21fb25f451831af1518fb575f85db26",
+      "md5": "7facf215beb68bae6aaa27a3d76c272e",
       "bytes": 3382048
     },
     {
       "name": "littlefs-rak_wismesh_tap_v2-tft-2.7.18.fb3bf78.bin",
-      "md5": "d8d0850ea3d24df13ca19f48a5463836",
+      "md5": "6694213d29ae4a102a9bd60460ab78a4",
       "bytes": 1572864,
       "part_name": "spiffs"
     },
     {
       "name": "mt-esp32s3-ota.bin",
-      "md5": "9d1ead73e678fa2f51a70a933b0bf017",
-      "bytes": 9,
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
       "part_name": "app1"
     }
   ],

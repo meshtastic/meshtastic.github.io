@@ -23,14 +23,14 @@
     },
     {
       "name": "littlefs-tbeam-2.7.18.fb3bf78.bin",
-      "md5": "154fae0de5bff327097d17b7ca516ac0",
+      "md5": "192ed833131ae13acc982ca24808c35e",
       "bytes": 1048576,
       "part_name": "spiffs"
     },
     {
       "name": "mt-esp32-ota.bin",
-      "md5": "9d1ead73e678fa2f51a70a933b0bf017",
-      "bytes": 9,
+      "md5": "d7376153b9d0034ac5cf534bc0e17fc0",
+      "bytes": 642096,
       "part_name": "app1"
     }
   ],

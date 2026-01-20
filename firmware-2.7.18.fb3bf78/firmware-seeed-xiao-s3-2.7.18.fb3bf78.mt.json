@@ -7,30 +7,30 @@
   "files": [
     {
       "name": "firmware-seeed-xiao-s3-2.7.18.fb3bf78.elf",
-      "md5": "9aacda4ebbbe6454c062c6515d278820",
+      "md5": "f5b4fddf100dc0e8968ded40941874b3",
       "bytes": 22651536
     },
     {
       "name": "firmware-seeed-xiao-s3-2.7.18.fb3bf78.bin",
-      "md5": "76f1d3921e4051a2d63ed4755b473533",
+      "md5": "895e7931de01cb49eb61829577503434",
       "bytes": 2088496,
       "part_name": "app0"
     },
     {
       "name": "firmware-seeed-xiao-s3-2.7.18.fb3bf78.factory.bin",
-      "md5": "6146c518db6fe531dff9196c059afe3c",
+      "md5": "4705df8075ff11773389ef8c06c5fd33",
       "bytes": 2154032
     },
     {
       "name": "littlefs-seeed-xiao-s3-2.7.18.fb3bf78.bin",
-      "md5": "a829fcc6b779fb79277e313a21d91a6b",
+      "md5": "e7283296b50e7e3e2fb741e35eb14ebf",
       "bytes": 1572864,
       "part_name": "spiffs"
     },
     {
       "name": "mt-esp32s3-ota.bin",
-      "md5": "9d1ead73e678fa2f51a70a933b0bf017",
-      "bytes": 9,
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
       "part_name": "app1"
     }
   ],

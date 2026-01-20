@@ -7,30 +7,30 @@
   "files": [
     {
       "name": "firmware-picomputer-s3-tft-2.7.18.fb3bf78.elf",
-      "md5": "7733c05583401ffe2d259867813c153b",
+      "md5": "fbbc84b4b20ea9c19e710a5910bc9927",
       "bytes": 24441416
     },
     {
       "name": "firmware-picomputer-s3-tft-2.7.18.fb3bf78.bin",
-      "md5": "03f0ebb3eb5883c4e503919dbd11e5c0",
+      "md5": "81f19711a93ad867370adc4d428f793e",
       "bytes": 3389904,
       "part_name": "app0"
     },
     {
       "name": "firmware-picomputer-s3-tft-2.7.18.fb3bf78.factory.bin",
-      "md5": "0a8a11c0fed7aa241e96c92f2f3aac64",
+      "md5": "407c4eba0962e0f7e28a1860ae89e6ab",
       "bytes": 3455440
     },
     {
       "name": "littlefs-picomputer-s3-tft-2.7.18.fb3bf78.bin",
-      "md5": "db87e040fa84e744ff0e8615d0be7f68",
+      "md5": "324f50c64f0d1141d4a1787453800660",
       "bytes": 1572864,
       "part_name": "spiffs"
     },
     {
       "name": "mt-esp32s3-ota.bin",
-      "md5": "9d1ead73e678fa2f51a70a933b0bf017",
-      "bytes": 9,
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
       "part_name": "app1"
     }
   ],

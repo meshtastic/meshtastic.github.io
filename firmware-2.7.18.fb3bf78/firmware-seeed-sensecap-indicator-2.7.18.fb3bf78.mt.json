@@ -7,30 +7,30 @@
   "files": [
     {
       "name": "firmware-seeed-sensecap-indicator-2.7.18.fb3bf78.elf",
-      "md5": "2df7280f8345239bbeb04bf2c00f0803",
+      "md5": "8e3dd5d9e035628d000ae535e28adc84",
       "bytes": 22189436
     },
     {
       "name": "firmware-seeed-sensecap-indicator-2.7.18.fb3bf78.bin",
-      "md5": "9c260f0890bcdc2507dc08ccd4ff42de",
+      "md5": "9b98a9e0cbdfe609547edd48bda965f7",
       "bytes": 2107344,
       "part_name": "app0"
     },
     {
       "name": "firmware-seeed-sensecap-indicator-2.7.18.fb3bf78.factory.bin",
-      "md5": "b138b1991dcc66f3413bb273560e71df",
+      "md5": "95bbb6025148e13b5f802a9c145aa170",
       "bytes": 2172880
     },
     {
       "name": "littlefs-seeed-sensecap-indicator-2.7.18.fb3bf78.bin",
-      "md5": "962036101c4d38803abd20a7b81b25cc",
+      "md5": "0811d40ea38f5b8af8c5b747a9a3d78b",
       "bytes": 1572864,
       "part_name": "spiffs"
     },
     {
       "name": "mt-esp32s3-ota.bin",
-      "md5": "9d1ead73e678fa2f51a70a933b0bf017",
-      "bytes": 9,
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
       "part_name": "app1"
     }
   ],

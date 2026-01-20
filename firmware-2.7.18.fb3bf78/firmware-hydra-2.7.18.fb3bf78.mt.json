@@ -7,30 +7,30 @@
   "files": [
     {
       "name": "firmware-hydra-2.7.18.fb3bf78.elf",
-      "md5": "394fd19da0610b2dcfc9ee5c1ef5fbca",
+      "md5": "5c43e6bea38e917a07b950a35dd4d077",
       "bytes": 20465504
     },
     {
       "name": "firmware-hydra-2.7.18.fb3bf78.bin",
-      "md5": "65e29b0122ac0c2f497782415c05086f",
+      "md5": "31b4d1b76c70ad91955dcb5c58d1f17f",
       "bytes": 2202464,
       "part_name": "app0"
     },
     {
       "name": "firmware-hydra-2.7.18.fb3bf78.factory.bin",
-      "md5": "6dcaf8621f7dba9bc7dbd02d5973dacf",
+      "md5": "62e0b264158c7b82f549eb0086106000",
       "bytes": 2268000
     },
     {
       "name": "littlefs-hydra-2.7.18.fb3bf78.bin",
-      "md5": "ecfb554210c961da0384119923651aa7",
+      "md5": "0f8d91f095a5782b0e6bf3de71b3d7e4",
       "bytes": 1048576,
       "part_name": "spiffs"
     },
     {
       "name": "mt-esp32-ota.bin",
-      "md5": "9d1ead73e678fa2f51a70a933b0bf017",
-      "bytes": 9,
+      "md5": "d7376153b9d0034ac5cf534bc0e17fc0",
+      "bytes": 642096,
       "part_name": "app1"
     }
   ],

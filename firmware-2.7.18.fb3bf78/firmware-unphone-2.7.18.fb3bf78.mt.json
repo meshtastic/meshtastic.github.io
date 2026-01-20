@@ -7,30 +7,30 @@
   "files": [
     {
       "name": "firmware-unphone-2.7.18.fb3bf78.elf",
-      "md5": "a7b3388099de674a218f6d76fe6b57b8",
+      "md5": "0c6f5f6a06a5e0aaab8e6cb697a9a492",
       "bytes": 22659164
     },
     {
       "name": "firmware-unphone-2.7.18.fb3bf78.bin",
-      "md5": "395a65ccbc05307ac44ed184b44b593a",
+      "md5": "1285e3698d6d7a8f501db3ee4b8784f6",
       "bytes": 2088976,
       "part_name": "app0"
     },
     {
       "name": "firmware-unphone-2.7.18.fb3bf78.factory.bin",
-      "md5": "9a1069ce64dfc757f19d56295ea7114f",
+      "md5": "e99f9c5fd0a5c17382b1f2599044d927",
       "bytes": 2154512
     },
     {
       "name": "littlefs-unphone-2.7.18.fb3bf78.bin",
-      "md5": "5de3e1a48d13cf47ea1c92ae115b8bf4",
+      "md5": "a821ac2804ba91001b7bfc7e4d62dffb",
       "bytes": 1572864,
       "part_name": "spiffs"
     },
     {
       "name": "mt-esp32s3-ota.bin",
-      "md5": "9d1ead73e678fa2f51a70a933b0bf017",
-      "bytes": 9,
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
       "part_name": "app1"
     }
   ],

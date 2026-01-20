@@ -7,30 +7,30 @@
   "files": [
     {
       "name": "firmware-heltec-wireless-paper-2.7.18.fb3bf78.elf",
-      "md5": "0cfe8284d339552984e750decd04c4ff",
+      "md5": "03e0fa3d662dcd26a488170f6754253d",
       "bytes": 22138472
     },
     {
       "name": "firmware-heltec-wireless-paper-2.7.18.fb3bf78.bin",
-      "md5": "77642986f138ce3c4b3d71124a933b34",
+      "md5": "fe30e7f6494c4adf24a3d3e505f2d04e",
       "bytes": 2070512,
       "part_name": "app0"
     },
     {
       "name": "firmware-heltec-wireless-paper-2.7.18.fb3bf78.factory.bin",
-      "md5": "e886091fb6d973cccd9de634b21efe25",
+      "md5": "9d8bda309ac43d233de8a36f07ab26fb",
       "bytes": 2136048
     },
     {
       "name": "littlefs-heltec-wireless-paper-2.7.18.fb3bf78.bin",
-      "md5": "3c81a14caeaf1f849c3c3c5e85b83df4",
+      "md5": "556e11420d71fe908c671781efc3e408",
       "bytes": 1572864,
       "part_name": "spiffs"
     },
     {
       "name": "mt-esp32s3-ota.bin",
-      "md5": "9d1ead73e678fa2f51a70a933b0bf017",
-      "bytes": 9,
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
       "part_name": "app1"
     }
   ],

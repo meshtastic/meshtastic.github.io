@@ -14,6 +14,7 @@
 - PIO: Fix ESP32 sub-variant inheritance by @vidplace7 in https://github.com/meshtastic/firmware/pull/8983
 - Prep work for better Store and Forward by @jp-bennett in https://github.com/meshtastic/firmware/pull/8999
 - Additional Emoji by @Ixitxachitl in https://github.com/meshtastic/firmware/pull/9020
+- Add Russell, an STM32WL balloon-optimized node by @ndoo in https://github.com/meshtastic/firmware/pull/9079
 - Add menus for Smart Position, Broadcast Interval and Position Interval by @Xaositek in https://github.com/meshtastic/firmware/pull/9080
 - Improve sanitizeString function for Node Names by @Xaositek in https://github.com/meshtastic/firmware/pull/9086
 - Add Temporary Mute to Home frame and unbury Notification Options by @Xaositek in https://github.com/meshtastic/firmware/pull/9097

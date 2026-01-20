@@ -7,30 +7,30 @@
   "files": [
     {
       "name": "firmware-elecrow-adv-35-tft-2.7.18.fb3bf78.elf",
-      "md5": "ae5f5fd1e9431f826607760ff1afcf9e",
+      "md5": "32c4144a7827232454a0a6a70e413ea8",
       "bytes": 23137280
     },
     {
       "name": "firmware-elecrow-adv-35-tft-2.7.18.fb3bf78.bin",
-      "md5": "9104d93cc20510735df3cae7eef89f14",
+      "md5": "60f106c8dce2f80d135049f6a1213c3a",
       "bytes": 3162544,
       "part_name": "app0"
     },
     {
       "name": "firmware-elecrow-adv-35-tft-2.7.18.fb3bf78.factory.bin",
-      "md5": "60f6a2d1add864ac19cad14efb945a03",
+      "md5": "eac79f1a2b71b0e6aacbb7c6e61939a6",
       "bytes": 3228080
     },
     {
       "name": "littlefs-elecrow-adv-35-tft-2.7.18.fb3bf78.bin",
-      "md5": "30d2ee6b255f15829c5e327f613ca4dc",
+      "md5": "380aa3a57a0dedeaf8b96dbbe219ba73",
       "bytes": 3538944,
       "part_name": "spiffs"
     },
     {
       "name": "mt-esp32s3-ota.bin",
-      "md5": "9d1ead73e678fa2f51a70a933b0bf017",
-      "bytes": 9,
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
       "part_name": "app1"
     }
   ],

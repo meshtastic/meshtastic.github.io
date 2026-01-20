@@ -7,30 +7,30 @@
   "files": [
     {
       "name": "firmware-heltec-v4-tft-2.7.18.fb3bf78.elf",
-      "md5": "e05e5f5794256780f7505fdf9352d438",
+      "md5": "50a0ea4f129a8423aa58320437968678",
       "bytes": 24579548
     },
     {
       "name": "firmware-heltec-v4-tft-2.7.18.fb3bf78.bin",
-      "md5": "1a6d6b4ad5add7b8f2d1a16f4af91232",
+      "md5": "70b2f2136cb05dad8fb06a6ff9f30fde",
       "bytes": 3441856,
       "part_name": "app0"
     },
     {
       "name": "firmware-heltec-v4-tft-2.7.18.fb3bf78.factory.bin",
-      "md5": "d93151f2218bfcd7a8a02b04314ae6ea",
+      "md5": "9a16a41b7c75738cddf68e1a6124d4c7",
       "bytes": 3507392
     },
     {
       "name": "littlefs-heltec-v4-tft-2.7.18.fb3bf78.bin",
-      "md5": "ea67fb5e84353f168ad91a35050f6465",
+      "md5": "30cb4d4d96db46588c37576d65290350",
       "bytes": 3538944,
       "part_name": "spiffs"
     },
     {
       "name": "mt-esp32s3-ota.bin",
-      "md5": "9d1ead73e678fa2f51a70a933b0bf017",
-      "bytes": 9,
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
       "part_name": "app1"
     }
   ],

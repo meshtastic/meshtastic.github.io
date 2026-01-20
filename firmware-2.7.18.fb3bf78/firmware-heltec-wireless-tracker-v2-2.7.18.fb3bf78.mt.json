@@ -7,30 +7,30 @@
   "files": [
     {
       "name": "firmware-heltec-wireless-tracker-v2-2.7.18.fb3bf78.elf",
-      "md5": "15873a170e877dd8577009bcda06bc99",
+      "md5": "ce7814f84549f2efa0ac6fb1fb5bc173",
       "bytes": 22974104
     },
     {
       "name": "firmware-heltec-wireless-tracker-v2-2.7.18.fb3bf78.bin",
-      "md5": "f53877c59593a73aebedd658541b66ef",
+      "md5": "21322531508a84aa284786865bd223db",
       "bytes": 2133248,
       "part_name": "app0"
     },
     {
       "name": "firmware-heltec-wireless-tracker-v2-2.7.18.fb3bf78.factory.bin",
-      "md5": "aa1cd372e85c643ae35d5f3e5d8c207b",
+      "md5": "e006b6f48fe5cc69aca0639d516f3d7e",
       "bytes": 2198784
     },
     {
       "name": "littlefs-heltec-wireless-tracker-v2-2.7.18.fb3bf78.bin",
-      "md5": "c07261f9e9104c10a82661cdc1385676",
+      "md5": "c569c066ae3fbc6a1d4698b3576faf3c",
       "bytes": 1572864,
       "part_name": "spiffs"
     },
     {
       "name": "mt-esp32s3-ota.bin",
-      "md5": "9d1ead73e678fa2f51a70a933b0bf017",
-      "bytes": 9,
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
       "part_name": "app1"
     }
   ],

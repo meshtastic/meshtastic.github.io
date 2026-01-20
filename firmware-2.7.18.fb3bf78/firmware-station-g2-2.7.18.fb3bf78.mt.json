@@ -7,30 +7,30 @@
   "files": [
     {
       "name": "firmware-station-g2-2.7.18.fb3bf78.elf",
-      "md5": "bce48b39c4e00d4481becaaeb710fbcf",
+      "md5": "a49184acff102acdc025fe099ffd4d77",
       "bytes": 22409292
     },
     {
       "name": "firmware-station-g2-2.7.18.fb3bf78.bin",
-      "md5": "3c5e390e99b00e8f2e5e0304d260838a",
+      "md5": "06e0856c488ccbd94173f97b9c877cb7",
       "bytes": 2079712,
       "part_name": "app0"
     },
     {
       "name": "firmware-station-g2-2.7.18.fb3bf78.factory.bin",
-      "md5": "b936e5f25a21db77b0140a426ace3da5",
+      "md5": "ca16307a7e9c9ee314f1dccbd1e73fba",
       "bytes": 2145248
     },
     {
       "name": "littlefs-station-g2-2.7.18.fb3bf78.bin",
-      "md5": "9a1f8aa9099da8d67cb5edca84100ded",
+      "md5": "272b20bbbc415a58109fc96804db401b",
       "bytes": 3538944,
       "part_name": "spiffs"
     },
     {
       "name": "mt-esp32s3-ota.bin",
-      "md5": "9d1ead73e678fa2f51a70a933b0bf017",
-      "bytes": 9,
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
       "part_name": "app1"
     }
   ],

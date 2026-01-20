@@ -7,30 +7,30 @@
   "files": [
     {
       "name": "firmware-t-beam-1w-2.7.18.fb3bf78.elf",
-      "md5": "c378a8590b826bfddd264e0df41bd794",
+      "md5": "9901d17d8b6ef433998cc014906846ab",
       "bytes": 22963008
     },
     {
       "name": "firmware-t-beam-1w-2.7.18.fb3bf78.bin",
-      "md5": "5adaac18f0807fd67c8c5a0c4a166d85",
+      "md5": "c79ae278c383dcefd63aff9717e7a155",
       "bytes": 2117552,
       "part_name": "app0"
     },
     {
       "name": "firmware-t-beam-1w-2.7.18.fb3bf78.factory.bin",
-      "md5": "3d3055391b3590c8fac2bc6ea2b56fc5",
+      "md5": "06ff3115ccf7d768ea725e70ce6452e8",
       "bytes": 2183088
     },
     {
       "name": "littlefs-t-beam-1w-2.7.18.fb3bf78.bin",
-      "md5": "85fac4afed10df4266077dfd374c0db2",
+      "md5": "15b2aca96008b30149acae71c8e9c10a",
       "bytes": 1572864,
       "part_name": "spiffs"
     },
     {
       "name": "mt-esp32s3-ota.bin",
-      "md5": "9d1ead73e678fa2f51a70a933b0bf017",
-      "bytes": 9,
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
       "part_name": "app1"
     }
   ],

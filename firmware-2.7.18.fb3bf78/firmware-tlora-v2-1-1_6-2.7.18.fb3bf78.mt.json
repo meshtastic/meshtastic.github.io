@@ -7,30 +7,30 @@
   "files": [
     {
       "name": "firmware-tlora-v2-1-1_6-2.7.18.fb3bf78.elf",
-      "md5": "c82598589e7d7b37d3fa777a86f636a8",
+      "md5": "084312d9143e64f76e3475889a9b68c6",
       "bytes": 20440572
     },
     {
       "name": "firmware-tlora-v2-1-1_6-2.7.18.fb3bf78.bin",
-      "md5": "fef060b6b1346ca65e9c497ba13d7de4",
+      "md5": "36ace4a33697fa4fd8d05840acf58461",
       "bytes": 2188736,
       "part_name": "app0"
     },
     {
       "name": "firmware-tlora-v2-1-1_6-2.7.18.fb3bf78.factory.bin",
-      "md5": "a8853a6914869aa94e1a0a3822565ea0",
+      "md5": "8915a8aad2fe7ae08d2f01bd7a83e4ce",
       "bytes": 2254272
     },
     {
       "name": "littlefs-tlora-v2-1-1_6-2.7.18.fb3bf78.bin",
-      "md5": "3588f522b7c8383645e45e49de7f71de",
+      "md5": "ae1c8470dbd9fb31e92e7bcce53fcb8a",
       "bytes": 1048576,
       "part_name": "spiffs"
     },
     {
       "name": "mt-esp32-ota.bin",
-      "md5": "9d1ead73e678fa2f51a70a933b0bf017",
-      "bytes": 9,
+      "md5": "d7376153b9d0034ac5cf534bc0e17fc0",
+      "bytes": 642096,
       "part_name": "app1"
     }
   ],

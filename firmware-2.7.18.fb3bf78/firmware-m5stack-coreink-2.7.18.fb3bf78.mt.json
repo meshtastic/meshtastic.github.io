@@ -7,30 +7,30 @@
   "files": [
     {
       "name": "firmware-m5stack-coreink-2.7.18.fb3bf78.elf",
-      "md5": "380334f5f9bba9648d1cb4d2461e7631",
+      "md5": "0a31307cdd27740a90b8a7a110fd4aff",
       "bytes": 20478772
     },
     {
       "name": "firmware-m5stack-coreink-2.7.18.fb3bf78.bin",
-      "md5": "301c9b867bdc9ee024eeb21da60feee1",
+      "md5": "092434c7c582a84fd4ba5e4d10d8660f",
       "bytes": 2209632,
       "part_name": "app0"
     },
     {
       "name": "firmware-m5stack-coreink-2.7.18.fb3bf78.factory.bin",
-      "md5": "812eea5b2df7a1ed344636c35a5d0c7b",
+      "md5": "b4368a5d283ffe8260fe0489a923debc",
       "bytes": 2275168
     },
     {
       "name": "littlefs-m5stack-coreink-2.7.18.fb3bf78.bin",
-      "md5": "8c159eb31fcbf66dc5019cd030d9af6d",
+      "md5": "7aa7a4a52d484f5e7b823432bbd85580",
       "bytes": 1048576,
       "part_name": "spiffs"
     },
     {
       "name": "mt-esp32-ota.bin",
-      "md5": "9d1ead73e678fa2f51a70a933b0bf017",
-      "bytes": 9,
+      "md5": "d7376153b9d0034ac5cf534bc0e17fc0",
+      "bytes": 642096,
       "part_name": "app1"
     }
   ],

@@ -7,22 +7,22 @@
   "files": [
     {
       "name": "firmware-t-echo-inkhud-2.7.18.fb3bf78.elf",
-      "md5": "05d9ec9c61707f3c82f0936d4fe13542",
+      "md5": "b7e5e874c899f263f8895763c7752c6d",
       "bytes": 1186936
     },
     {
       "name": "firmware-t-echo-inkhud-2.7.18.fb3bf78.hex",
-      "md5": "eea4dffb7afe241a1c3f308c922d81a6",
+      "md5": "3cc856260b9c4d695ca9239ad064dfd6",
       "bytes": 1755929
     },
     {
       "name": "firmware-t-echo-inkhud-2.7.18.fb3bf78.uf2",
-      "md5": "d8b87ebc1cb387f01cace07559a9936b",
+      "md5": "04ac3c62a6d6f35d3dbb97789b63878e",
       "bytes": 1248768
     },
     {
       "name": "firmware-t-echo-inkhud-2.7.18.fb3bf78-ota.zip",
-      "md5": "8ed2ed7e72b3dce65a7982ed0ecf6bab",
+      "md5": "d114ddfd6aa120c30706ffbae1c0e3f0",
       "bytes": 625229
     }
   ],

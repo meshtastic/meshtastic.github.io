@@ -7,30 +7,30 @@
   "files": [
     {
       "name": "firmware-thinknode_m5-2.7.18.fb3bf78.elf",
-      "md5": "c2ccc05ed1887650dd0336c44882004b",
+      "md5": "a6689b2dc16814a60e3b2ddd1e380808",
       "bytes": 22125860
     },
     {
       "name": "firmware-thinknode_m5-2.7.18.fb3bf78.bin",
-      "md5": "dce80d425f74719d40cb3ff572e1a230",
+      "md5": "ef38222c8b7ddbece35dab98ffa841de",
       "bytes": 2064704,
       "part_name": "app0"
     },
     {
       "name": "firmware-thinknode_m5-2.7.18.fb3bf78.factory.bin",
-      "md5": "98a9bd49bf6cce92b0cb52924dc61e79",
+      "md5": "a3368874c336183e56ba3bdd357d28f4",
       "bytes": 2130240
     },
     {
       "name": "littlefs-thinknode_m5-2.7.18.fb3bf78.bin",
-      "md5": "bf52830c23c89d704c7b2b25a1dd0d25",
+      "md5": "6f5fb822b135093c2c09981a6df148c7",
       "bytes": 1048576,
       "part_name": "spiffs"
     },
     {
       "name": "mt-esp32s3-ota.bin",
-      "md5": "9d1ead73e678fa2f51a70a933b0bf017",
-      "bytes": 9,
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
       "part_name": "app1"
     }
   ],

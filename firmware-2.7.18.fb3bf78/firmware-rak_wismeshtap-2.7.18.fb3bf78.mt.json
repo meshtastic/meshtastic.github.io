@@ -7,22 +7,22 @@
   "files": [
     {
       "name": "firmware-rak_wismeshtap-2.7.18.fb3bf78.elf",
-      "md5": "25ae164dbe2faa2d5adb15ce0b3b9c8f",
+      "md5": "af707aaaac6e2dcdb118bae20bda2e77",
       "bytes": 1308872
     },
     {
       "name": "firmware-rak_wismeshtap-2.7.18.fb3bf78.hex",
-      "md5": "4997c37af04c61133afaaaae23063176",
+      "md5": "9b4b1c9003260ee4f900cabb915e343e",
       "bytes": 1944774
     },
     {
       "name": "firmware-rak_wismeshtap-2.7.18.fb3bf78.uf2",
-      "md5": "5bb68a2ed0d482c4b98af7ef11b4ba09",
+      "md5": "570a33b3fbad5e0ddfa98be93a2b993c",
       "bytes": 1382912
     },
     {
       "name": "firmware-rak_wismeshtap-2.7.18.fb3bf78-ota.zip",
-      "md5": "e6432c833c42000505ec081d4a9943cb",
+      "md5": "94a0602d26140f0e704e965fa59e069a",
       "bytes": 692375
     }
   ],

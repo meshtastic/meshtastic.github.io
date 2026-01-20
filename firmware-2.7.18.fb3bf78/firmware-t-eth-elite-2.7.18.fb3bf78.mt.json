@@ -7,30 +7,30 @@
   "files": [
     {
       "name": "firmware-t-eth-elite-2.7.18.fb3bf78.elf",
-      "md5": "ff9de5994f7b0a4750390897db1d7716",
+      "md5": "e2fb989040f22fed401470b775eb676a",
       "bytes": 23090664
     },
     {
       "name": "firmware-t-eth-elite-2.7.18.fb3bf78.bin",
-      "md5": "d0d931f1b97c6cb317df43d5964990a6",
+      "md5": "0f745b8476c54de3fbb5e0ad8d47009d",
       "bytes": 2258464,
       "part_name": "app0"
     },
     {
       "name": "firmware-t-eth-elite-2.7.18.fb3bf78.factory.bin",
-      "md5": "975778905cf1f0d43fa9ee714d397703",
+      "md5": "eef6280079b4456892ac38c6d61264a9",
       "bytes": 2324000
     },
     {
       "name": "littlefs-t-eth-elite-2.7.18.fb3bf78.bin",
-      "md5": "dfb755a45c57c6f9ccce0c65fd4f7199",
+      "md5": "7858da4bfb2b8c7910c92eb2b6fb9058",
       "bytes": 3538944,
       "part_name": "spiffs"
     },
     {
       "name": "mt-esp32s3-ota.bin",
-      "md5": "9d1ead73e678fa2f51a70a933b0bf017",
-      "bytes": 9,
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
       "part_name": "app1"
     }
   ],

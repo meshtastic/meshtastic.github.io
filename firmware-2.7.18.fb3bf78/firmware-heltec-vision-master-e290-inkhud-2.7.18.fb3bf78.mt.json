@@ -7,30 +7,30 @@
   "files": [
     {
       "name": "firmware-heltec-vision-master-e290-inkhud-2.7.18.fb3bf78.elf",
-      "md5": "b1a6b1c29387dfacac3434f7e3507067",
+      "md5": "5f242458c1afef97840a12984346bd7f",
       "bytes": 22445540
     },
     {
       "name": "firmware-heltec-vision-master-e290-inkhud-2.7.18.fb3bf78.bin",
-      "md5": "8c520c58d9c958dd7a6c51916eac1d2b",
+      "md5": "761dd39c05eac01f6cfe2f1c9d397e39",
       "bytes": 2007616,
       "part_name": "app0"
     },
     {
       "name": "firmware-heltec-vision-master-e290-inkhud-2.7.18.fb3bf78.factory.bin",
-      "md5": "1d2dd33b80ba7ed8718e356c1c0cb115",
+      "md5": "909a86507c4159d30d078e5301e0650b",
       "bytes": 2073152
     },
     {
       "name": "littlefs-heltec-vision-master-e290-inkhud-2.7.18.fb3bf78.bin",
-      "md5": "7035a1bc63aa6a2c85d942e93e50a18a",
+      "md5": "04d08b6072c5d3fbc44cdebdfe106e68",
       "bytes": 1572864,
       "part_name": "spiffs"
     },
     {
       "name": "mt-esp32s3-ota.bin",
-      "md5": "9d1ead73e678fa2f51a70a933b0bf017",
-      "bytes": 9,
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
       "part_name": "app1"
     }
   ],

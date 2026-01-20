@@ -7,18 +7,18 @@
   "files": [
     {
       "name": "firmware-rak3172-2.7.18.fb3bf78.elf",
-      "md5": "dabc41ac55e4410df901b7cde1ab94e8",
+      "md5": "fc306bee009c04c024213aca0d7a7b93",
       "bytes": 6808372
     },
     {
       "name": "firmware-rak3172-2.7.18.fb3bf78.bin",
-      "md5": "91f7c2c528c1e55d717546c4da7e4f7e",
+      "md5": "306e36d591bf7f4709a5a29b145a7cc4",
       "bytes": 170352,
       "part_name": "app0"
     },
     {
       "name": "firmware-rak3172-2.7.18.fb3bf78.hex",
-      "md5": "e17d30ba6020d554aa5d91c5dd0fd0d3",
+      "md5": "e9ea5be38989dd4e912c200a453645d9",
       "bytes": 479210
     }
   ],

@@ -7,30 +7,30 @@
   "files": [
     {
       "name": "firmware-rak3312-2.7.18.fb3bf78.elf",
-      "md5": "62bf006df7bad526db6b5a1f0f1db5b0",
+      "md5": "4b9b8848d30c5f986abd98efd3de7b34",
       "bytes": 22178716
     },
     {
       "name": "firmware-rak3312-2.7.18.fb3bf78.bin",
-      "md5": "fec7db0e1c7475232f0c3264c3b25d5d",
+      "md5": "e5841abd8335bb254f7878745721ddcd",
       "bytes": 2059024,
       "part_name": "app0"
     },
     {
       "name": "firmware-rak3312-2.7.18.fb3bf78.factory.bin",
-      "md5": "df17dbeaa2c74008d7ec289d90dd6af3",
+      "md5": "eb473546d63e2b7e343d3c4db2ce64eb",
       "bytes": 2124560
     },
     {
       "name": "littlefs-rak3312-2.7.18.fb3bf78.bin",
-      "md5": "b05fb33eefe5026d9e4dc82c96ad55e9",
+      "md5": "97b1deeb6cce49a634ece3c1d6cd265b",
       "bytes": 1048576,
       "part_name": "spiffs"
     },
     {
       "name": "mt-esp32s3-ota.bin",
-      "md5": "9d1ead73e678fa2f51a70a933b0bf017",
-      "bytes": 9,
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
       "part_name": "app1"
     }
   ],

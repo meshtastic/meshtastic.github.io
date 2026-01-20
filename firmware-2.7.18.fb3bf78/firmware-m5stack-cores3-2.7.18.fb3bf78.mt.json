@@ -7,30 +7,30 @@
   "files": [
     {
       "name": "firmware-m5stack-cores3-2.7.18.fb3bf78.elf",
-      "md5": "38aff53cce570eadca076e42c4c1bcb8",
+      "md5": "ca7181cb72aaf889ea08104a44a69930",
       "bytes": 22133408
     },
     {
       "name": "firmware-m5stack-cores3-2.7.18.fb3bf78.bin",
-      "md5": "21a8f77e8038b4faff4f5c1353489d4f",
+      "md5": "3276cfda6f0e3967a2463cb0f0ced193",
       "bytes": 2077328,
       "part_name": "app0"
     },
     {
       "name": "firmware-m5stack-cores3-2.7.18.fb3bf78.factory.bin",
-      "md5": "5615d11dac29c04431d0d2bb3c47cc4d",
+      "md5": "0b8e3dc9e425ebd0b9cc0474dbed8e89",
       "bytes": 2142864
     },
     {
       "name": "littlefs-m5stack-cores3-2.7.18.fb3bf78.bin",
-      "md5": "937ae6750da09c17d6f3ee04ed51b39d",
+      "md5": "cc2caed3e378462412546612e67b514f",
       "bytes": 3538944,
       "part_name": "spiffs"
     },
     {
       "name": "mt-esp32s3-ota.bin",
-      "md5": "9d1ead73e678fa2f51a70a933b0bf017",
-      "bytes": 9,
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
       "part_name": "app1"
     }
   ],

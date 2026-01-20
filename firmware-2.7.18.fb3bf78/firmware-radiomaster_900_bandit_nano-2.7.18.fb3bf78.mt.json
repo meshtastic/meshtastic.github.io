@@ -7,30 +7,30 @@
   "files": [
     {
       "name": "firmware-radiomaster_900_bandit_nano-2.7.18.fb3bf78.elf",
-      "md5": "449d898fc170c15c48a48acf990cbc99",
+      "md5": "a2145a3c2f84d041a55efdb9730742b9",
       "bytes": 20494296
     },
     {
       "name": "firmware-radiomaster_900_bandit_nano-2.7.18.fb3bf78.bin",
-      "md5": "3ccc2a80cf866574d173ad2bcdf805d5",
+      "md5": "672d0f7b65eef2b8ac2025c0731d6704",
       "bytes": 2186832,
       "part_name": "app0"
     },
     {
       "name": "firmware-radiomaster_900_bandit_nano-2.7.18.fb3bf78.factory.bin",
-      "md5": "ab78e7f8a863a6a17355143e7ac42c2b",
+      "md5": "957f466c34b7993bdc0e85865083b477",
       "bytes": 2252368
     },
     {
       "name": "littlefs-radiomaster_900_bandit_nano-2.7.18.fb3bf78.bin",
-      "md5": "b9d827690e419076722bf748eebecbfe",
+      "md5": "fd29667e952b8b52d0329c9672ebf4fc",
       "bytes": 1048576,
       "part_name": "spiffs"
     },
     {
       "name": "mt-esp32-ota.bin",
-      "md5": "9d1ead73e678fa2f51a70a933b0bf017",
-      "bytes": 9,
+      "md5": "d7376153b9d0034ac5cf534bc0e17fc0",
+      "bytes": 642096,
       "part_name": "app1"
     }
   ],

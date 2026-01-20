@@ -23,7 +23,7 @@
     },
     {
       "name": "littlefs-heltec-ht62-esp32c3-sx1262-2.7.18.fb3bf78.bin",
-      "md5": "d8ea4f0f4a3fb33d92e4b255e256c5d6",
+      "md5": "cafdaafe52142394c90053f72211ff07",
       "bytes": 1048576,
       "part_name": "spiffs"
     },

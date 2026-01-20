@@ -7,30 +7,30 @@
   "files": [
     {
       "name": "firmware-chatter2-2.7.18.fb3bf78.elf",
-      "md5": "e4e0e8721fe45a5b4050ee6ec5a60e2d",
+      "md5": "4dc9ec9489185ff2e55d0b71a9f524cd",
       "bytes": 20064580
     },
     {
       "name": "firmware-chatter2-2.7.18.fb3bf78.bin",
-      "md5": "1a64f6e28cef0380688351d2d3fc4670",
+      "md5": "4036612ef7e06a83fc79d6ba7b624953",
       "bytes": 2155536,
       "part_name": "app0"
     },
     {
       "name": "firmware-chatter2-2.7.18.fb3bf78.factory.bin",
-      "md5": "ae38df647f483e73eb5f84728dcd5a7e",
+      "md5": "e9320e42fce86dd04ebc16d1a22b4c4b",
       "bytes": 2221072
     },
     {
       "name": "littlefs-chatter2-2.7.18.fb3bf78.bin",
-      "md5": "baed10a34521db57c86ca290c27e32b9",
+      "md5": "b0e9534b7c20ade9fc4daa179a323b0e",
       "bytes": 1048576,
       "part_name": "spiffs"
     },
     {
       "name": "mt-esp32-ota.bin",
-      "md5": "9d1ead73e678fa2f51a70a933b0bf017",
-      "bytes": 9,
+      "md5": "d7376153b9d0034ac5cf534bc0e17fc0",
+      "bytes": 642096,
       "part_name": "app1"
     }
   ],

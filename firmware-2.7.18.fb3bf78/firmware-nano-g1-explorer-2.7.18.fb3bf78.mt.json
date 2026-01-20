@@ -7,30 +7,30 @@
   "files": [
     {
       "name": "firmware-nano-g1-explorer-2.7.18.fb3bf78.elf",
-      "md5": "8db9c8569fbec85203fa33cd3e62aa57",
+      "md5": "b6f6bf8d203c0ac3bc922a6ed3b8dbff",
       "bytes": 20667512
     },
     {
       "name": "firmware-nano-g1-explorer-2.7.18.fb3bf78.bin",
-      "md5": "5d72adf29f915926ab8fe2792a94df3a",
+      "md5": "8d42ad2162a07c122c14633183a64cbb",
       "bytes": 2262432,
       "part_name": "app0"
     },
     {
       "name": "firmware-nano-g1-explorer-2.7.18.fb3bf78.factory.bin",
-      "md5": "dc737deede5a49b5fc76deb7027469f8",
+      "md5": "fa7880aadaf1e078e0b8ef35267a7cf2",
       "bytes": 2327968
     },
     {
       "name": "littlefs-nano-g1-explorer-2.7.18.fb3bf78.bin",
-      "md5": "a373baa51645a25e8e8888b33761263a",
+      "md5": "8d698ad220d8be9461d37cecc1f40c6e",
       "bytes": 1048576,
       "part_name": "spiffs"
     },
     {
       "name": "mt-esp32-ota.bin",
-      "md5": "9d1ead73e678fa2f51a70a933b0bf017",
-      "bytes": 9,
+      "md5": "d7376153b9d0034ac5cf534bc0e17fc0",
+      "bytes": 642096,
       "part_name": "app1"
     }
   ],

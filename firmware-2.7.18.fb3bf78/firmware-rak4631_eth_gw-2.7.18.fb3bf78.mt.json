@@ -7,22 +7,22 @@
   "files": [
     {
       "name": "firmware-rak4631_eth_gw-2.7.18.fb3bf78.elf",
-      "md5": "d0c1bbac10c7e67c3fcbbc2c62a53f80",
+      "md5": "63d932a3b170bef4f41aee054affd580",
       "bytes": 1160348
     },
     {
       "name": "firmware-rak4631_eth_gw-2.7.18.fb3bf78.hex",
-      "md5": "f11e900085fe1b20984a55dfff34f8f0",
+      "md5": "cb0fc235e05d483794409d83f3379e4f",
       "bytes": 1635906
     },
     {
       "name": "firmware-rak4631_eth_gw-2.7.18.fb3bf78.uf2",
-      "md5": "0dd9b488c93ba8ff515b8ef777c202a4",
+      "md5": "033c406c42db0dce681107d2ee97a07b",
       "bytes": 1163264
     },
     {
       "name": "firmware-rak4631_eth_gw-2.7.18.fb3bf78-ota.zip",
-      "md5": "606449a5c4893521f6a83e5d5449f320",
+      "md5": "b08c4c91c83d578264478ea649d8bf34",
       "bytes": 582559
     }
   ],

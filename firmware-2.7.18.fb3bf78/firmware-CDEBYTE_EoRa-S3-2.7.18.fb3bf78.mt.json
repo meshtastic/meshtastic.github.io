@@ -7,30 +7,30 @@
   "files": [
     {
       "name": "firmware-CDEBYTE_EoRa-S3-2.7.18.fb3bf78.elf",
-      "md5": "19b956472f020f9cb607ce3e5e34722b",
+      "md5": "6b9f3e47258bf88fe2389cefed0f1a80",
       "bytes": 22966088
     },
     {
       "name": "firmware-CDEBYTE_EoRa-S3-2.7.18.fb3bf78.bin",
-      "md5": "b40f47dd5da51cf7af1a88ad5a600ddd",
+      "md5": "909b64f0e0e8769b9dce97294fc32d0c",
       "bytes": 2122688,
       "part_name": "app0"
     },
     {
       "name": "firmware-CDEBYTE_EoRa-S3-2.7.18.fb3bf78.factory.bin",
-      "md5": "48da180acda2a104638014681b9362d0",
+      "md5": "c3191664977195b6238c30259ae69bc3",
       "bytes": 2188224
     },
     {
       "name": "littlefs-CDEBYTE_EoRa-S3-2.7.18.fb3bf78.bin",
-      "md5": "645fa5c0fc7d7c1592014a71159abc84",
+      "md5": "016d3fd093cd09661937bc3fdec96dd4",
       "bytes": 1048576,
       "part_name": "spiffs"
     },
     {
       "name": "mt-esp32s3-ota.bin",
-      "md5": "9d1ead73e678fa2f51a70a933b0bf017",
-      "bytes": 9,
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
       "part_name": "app1"
     }
   ],

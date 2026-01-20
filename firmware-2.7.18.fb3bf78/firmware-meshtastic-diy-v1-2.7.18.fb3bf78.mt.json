@@ -7,30 +7,30 @@
   "files": [
     {
       "name": "firmware-meshtastic-diy-v1-2.7.18.fb3bf78.elf",
-      "md5": "7feb90c234f0a7145f78aeb89a2ecf56",
+      "md5": "e5649cddf33d4e33ed6b1b0d2d0a171e",
       "bytes": 20507332
     },
     {
       "name": "firmware-meshtastic-diy-v1-2.7.18.fb3bf78.bin",
-      "md5": "76b70e0de22ca2cd344b356268ed6c0b",
+      "md5": "2578133c7a0aad3e0e17779fba26a7c3",
       "bytes": 2225088,
       "part_name": "app0"
     },
     {
       "name": "firmware-meshtastic-diy-v1-2.7.18.fb3bf78.factory.bin",
-      "md5": "8829f0c085cfbf69926df689ae379d9c",
+      "md5": "6dbfa360fd6b708a33759574266d4dc4",
       "bytes": 2290624
     },
     {
       "name": "littlefs-meshtastic-diy-v1-2.7.18.fb3bf78.bin",
-      "md5": "c1c3120c5f09b8a895f26efc70a6950c",
+      "md5": "1ab3fe4876271ba2263381ba39061c97",
       "bytes": 1048576,
       "part_name": "spiffs"
     },
     {
       "name": "mt-esp32-ota.bin",
-      "md5": "9d1ead73e678fa2f51a70a933b0bf017",
-      "bytes": 9,
+      "md5": "d7376153b9d0034ac5cf534bc0e17fc0",
+      "bytes": 642096,
       "part_name": "app1"
     }
   ],

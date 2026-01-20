@@ -7,22 +7,22 @@
   "files": [
     {
       "name": "firmware-rak4631-2.7.18.fb3bf78.elf",
-      "md5": "ad9a49bfe1e236c8c181cb8fd1a1b68b",
+      "md5": "afc56b1e16dd9a202d7e976603c631d3",
       "bytes": 1360408
     },
     {
       "name": "firmware-rak4631-2.7.18.fb3bf78.hex",
-      "md5": "aa35c29d23433393bfa1ed4a3851a057",
+      "md5": "bee2b8baab9c2258b31631c639f52ff7",
       "bytes": 2026826
     },
     {
       "name": "firmware-rak4631-2.7.18.fb3bf78.uf2",
-      "md5": "4afe57661743b8a08217dc58193b4c56",
+      "md5": "28dcd1503cd15296e685a1bccd64cb8b",
       "bytes": 1441280
     },
     {
       "name": "firmware-rak4631-2.7.18.fb3bf78-ota.zip",
-      "md5": "518b3c610f1775925b2c0fbc1b046982",
+      "md5": "a62fd7aa81f9c04016d2d1d5b0449f98",
       "bytes": 721501
     }
   ],

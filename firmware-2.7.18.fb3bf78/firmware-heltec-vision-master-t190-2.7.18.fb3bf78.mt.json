@@ -7,30 +7,30 @@
   "files": [
     {
       "name": "firmware-heltec-vision-master-t190-2.7.18.fb3bf78.elf",
-      "md5": "acc739da037d4343738bd9a54cb491dd",
+      "md5": "21dfac8a40ea9a1815f48a8c4ba92b7c",
       "bytes": 22727040
     },
     {
       "name": "firmware-heltec-vision-master-t190-2.7.18.fb3bf78.bin",
-      "md5": "5ab133ca277ed7da098a4b973a085d3e",
+      "md5": "343975d185e08759f19f6f8f4312d56c",
       "bytes": 2091712,
       "part_name": "app0"
     },
     {
       "name": "firmware-heltec-vision-master-t190-2.7.18.fb3bf78.factory.bin",
-      "md5": "0253e0495c1c4a5995b9133e71533b6f",
+      "md5": "667676afb6481dd59ca5e1fa56d82b84",
       "bytes": 2157248
     },
     {
       "name": "littlefs-heltec-vision-master-t190-2.7.18.fb3bf78.bin",
-      "md5": "746a101795b7c479f550c36cdbabe85d",
+      "md5": "8cfc9916d0fde6e3d232506b47a90937",
       "bytes": 1572864,
       "part_name": "spiffs"
     },
     {
       "name": "mt-esp32s3-ota.bin",
-      "md5": "9d1ead73e678fa2f51a70a933b0bf017",
-      "bytes": 9,
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
       "part_name": "app1"
     }
   ],

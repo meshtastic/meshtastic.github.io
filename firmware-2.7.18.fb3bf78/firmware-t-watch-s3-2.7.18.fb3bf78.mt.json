@@ -7,30 +7,30 @@
   "files": [
     {
       "name": "firmware-t-watch-s3-2.7.18.fb3bf78.elf",
-      "md5": "4ee01d062fbbe26a1e72f5df70bd4222",
+      "md5": "fb24e236e39c1b2a18f6cfdf8691f546",
       "bytes": 22618152
     },
     {
       "name": "firmware-t-watch-s3-2.7.18.fb3bf78.bin",
-      "md5": "dab4282314eb947829b3db20a7ff149a",
+      "md5": "00960d1c0ef13d53459b0d8cb5aece98",
       "bytes": 2192240,
       "part_name": "app0"
     },
     {
       "name": "firmware-t-watch-s3-2.7.18.fb3bf78.factory.bin",
-      "md5": "ab5c931af8c303ea007c4c87d98a77ea",
+      "md5": "74e00044e6976a7d59dea1608f053d97",
       "bytes": 2257776
     },
     {
       "name": "littlefs-t-watch-s3-2.7.18.fb3bf78.bin",
-      "md5": "187bfda0b4e1c0d207e0c5cea0ddf9a9",
+      "md5": "0e65a564dd616d1f83f587db45a019f2",
       "bytes": 3538944,
       "part_name": "spiffs"
     },
     {
       "name": "mt-esp32s3-ota.bin",
-      "md5": "9d1ead73e678fa2f51a70a933b0bf017",
-      "bytes": 9,
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
       "part_name": "app1"
     }
   ],
