@@ -1,0 +1,101 @@
+{
+  "version": "2.7.27.d250d89",
+  "build_epoch": 1784332800,
+  "platformioTarget": "m5stack-unitc6l",
+  "mcu": "esp32c6",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-m5stack-unitc6l-2.7.27.d250d89.elf",
+      "md5": "9326c4063db5238528fce3ded0224ca7",
+      "bytes": 33475332
+    },
+    {
+      "name": "firmware-m5stack-unitc6l-2.7.27.d250d89.bin",
+      "md5": "de7ebf7014df2895bb800a0089fe5b74",
+      "bytes": 1970224,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-m5stack-unitc6l-2.7.27.d250d89.factory.bin",
+      "md5": "70bef2f8661316ef23b89e45315a6b94",
+      "bytes": 2035760
+    },
+    {
+      "name": "littlefs-m5stack-unitc6l-2.7.27.d250d89.bin",
+      "md5": "5ba7d158facef008bb5f4991f6842c0b",
+      "bytes": 3538944,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "bleota-c3.bin",
+      "md5": "6e996c193fc425d9d2f18a47a6006305",
+      "bytes": 509776,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x650000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0xc90000",
+      "size": "0x360000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0xFF0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 111,
+  "hwModelSlug": "M5STACK_C6L",
+  "architecture": "esp32-c6",
+  "activelySupported": true,
+  "displayName": "M5Stack Unit C6L",
+  "supportLevel": 1,
+  "images": [
+    "m5_c6l.svg"
+  ],
+  "tags": [
+    "M5Stack"
+  ]
+}

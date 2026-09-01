@@ -1,0 +1,97 @@
+{
+  "version": "2.8.0.c800fc8",
+  "build_epoch": 1785369600,
+  "platformioTarget": "rak3312",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-rak3312-2.8.0.c800fc8.elf",
+      "md5": "d36836d1d28c6a6fd3614248324caa24",
+      "bytes": 46069356
+    },
+    {
+      "name": "firmware-rak3312-2.8.0.c800fc8.bin",
+      "md5": "65f00c91671829f2ca306a2f4bd58212",
+      "bytes": 2304176,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-rak3312-2.8.0.c800fc8.factory.bin",
+      "md5": "8a3dc013d3fd27071fb071bddda39260",
+      "bytes": 2369712
+    },
+    {
+      "name": "littlefs-rak3312-2.8.0.c800fc8.bin",
+      "md5": "ab07bf7458b3f040e26459cbe5059975",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 102648,
+  "flash_bytes": 2327440,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 106,
+  "hwModelSlug": "RAK3312",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "RAK3312",
+  "supportLevel": 1,
+  "images": [
+    "rak_3312.svg"
+  ],
+  "tags": [
+    "RAK"
+  ],
+  "requiresDfu": false,
+  "partitionScheme": "16MB"
+}

@@ -1,0 +1,93 @@
+{
+  "version": "2.7.23.b246bcd",
+  "build_epoch": 1778112000,
+  "platformioTarget": "rak11200",
+  "mcu": "esp32",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-rak11200-2.7.23.b246bcd.elf",
+      "md5": "081783b4b77a99631ecc706bd63c5d00",
+      "bytes": 17735208
+    },
+    {
+      "name": "firmware-rak11200-2.7.23.b246bcd.bin",
+      "md5": "b11543520ea27e433e8c906930a8df9f",
+      "bytes": 1816992,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-rak11200-2.7.23.b246bcd.factory.bin",
+      "md5": "ca1a6f0250c12e1847133e99d651c8e8",
+      "bytes": 1882528
+    },
+    {
+      "name": "littlefs-rak11200-2.7.23.b246bcd.bin",
+      "md5": "3f1cfeebed4fb10dbe73f255d6b92dce",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32-ota.bin",
+      "md5": "d7376153b9d0034ac5cf534bc0e17fc0",
+      "bytes": 642096,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 13,
+  "hwModelSlug": "RAK11200",
+  "architecture": "esp32",
+  "activelySupported": true,
+  "displayName": "RAK WisBlock 11200",
+  "supportLevel": 3,
+  "images": [
+    "rak11200.svg"
+  ],
+  "tags": [
+    "RAK"
+  ]
+}

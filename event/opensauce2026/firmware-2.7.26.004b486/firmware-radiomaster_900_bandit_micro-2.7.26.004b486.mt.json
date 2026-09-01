@@ -1,0 +1,84 @@
+{
+  "version": "2.7.26.004b486",
+  "build_epoch": 1783382400,
+  "platformioTarget": "radiomaster_900_bandit_micro",
+  "mcu": "esp32",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-radiomaster_900_bandit_micro-2.7.26.004b486.elf",
+      "md5": "45489a76f2cb5f0afa62a598d646548b",
+      "bytes": 19944072
+    },
+    {
+      "name": "firmware-radiomaster_900_bandit_micro-2.7.26.004b486.bin",
+      "md5": "3edc232fde25acc85e2ec0dcc419852b",
+      "bytes": 2126752,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-radiomaster_900_bandit_micro-2.7.26.004b486.factory.bin",
+      "md5": "31f4b02995fe5ac0e40854bf097e8650",
+      "bytes": 2192288
+    },
+    {
+      "name": "littlefs-radiomaster_900_bandit_micro-2.7.26.004b486.bin",
+      "md5": "b0ff9d7e610a9c5c64d9fe77caa74049",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32-ota.bin",
+      "md5": "d7376153b9d0034ac5cf534bc0e17fc0",
+      "bytes": 642096,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32",
+  "displayName": "radiomaster_900_bandit_micro",
+  "activelySupported": false
+}

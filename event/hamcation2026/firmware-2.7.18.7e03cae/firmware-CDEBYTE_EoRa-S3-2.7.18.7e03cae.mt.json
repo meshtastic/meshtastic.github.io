@@ -1,0 +1,91 @@
+{
+  "version": "2.7.18.7e03cae",
+  "build_epoch": 1770249600,
+  "platformioTarget": "CDEBYTE_EoRa-S3",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-CDEBYTE_EoRa-S3-2.7.18.7e03cae.elf",
+      "md5": "b91c74ce77ed76041cc55ed1c99ea757",
+      "bytes": 22970860
+    },
+    {
+      "name": "firmware-CDEBYTE_EoRa-S3-2.7.18.7e03cae.bin",
+      "md5": "13050ae87edbb7600811ef3c7de53936",
+      "bytes": 2124496,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-CDEBYTE_EoRa-S3-2.7.18.7e03cae.factory.bin",
+      "md5": "06be4d367c8c66a640799e85ab1a987a",
+      "bytes": 2190032
+    },
+    {
+      "name": "littlefs-CDEBYTE_EoRa-S3-2.7.18.7e03cae.bin",
+      "md5": "0ecbff9c126612b8d72491e877e1e7b3",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 61,
+  "hwModelSlug": "CDEBYTE_EORA_S3",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "EBYTE EoRa-S3",
+  "supportLevel": 3,
+  "tags": [
+    "EByte"
+  ],
+  "requiresDfu": true
+}

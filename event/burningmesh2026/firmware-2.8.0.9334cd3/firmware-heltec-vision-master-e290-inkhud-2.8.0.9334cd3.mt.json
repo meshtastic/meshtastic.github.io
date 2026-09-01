@@ -1,0 +1,94 @@
+{
+  "version": "2.8.0.9334cd3",
+  "build_epoch": 1787097600,
+  "platformioTarget": "heltec-vision-master-e290-inkhud",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-heltec-vision-master-e290-inkhud-2.8.0.9334cd3.elf",
+      "md5": "5ad28b13c973fe6685c74a7ebade4b09",
+      "bytes": 50581812
+    },
+    {
+      "name": "firmware-heltec-vision-master-e290-inkhud-2.8.0.9334cd3.bin",
+      "md5": "e7114634b5d1c538a7eb125dcf0521b9",
+      "bytes": 2283648,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-heltec-vision-master-e290-inkhud-2.8.0.9334cd3.factory.bin",
+      "md5": "70f9b9a99070ea54fd0b2c8d3e0f99ed",
+      "bytes": 2349184
+    },
+    {
+      "name": "littlefs-heltec-vision-master-e290-inkhud-2.8.0.9334cd3.bin",
+      "md5": "451d7dc4d993a4482496ed2b34dd07bb",
+      "bytes": 1572864,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": true,
+  "ram_bytes": 96764,
+  "flash_bytes": 2308471,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-s3",
+  "displayName": "heltec-vision-master-e290-inkhud",
+  "activelySupported": false
+}

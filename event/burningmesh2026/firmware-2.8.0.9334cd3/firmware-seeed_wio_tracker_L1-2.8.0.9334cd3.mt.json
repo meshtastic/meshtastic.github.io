@@ -1,0 +1,46 @@
+{
+  "version": "2.8.0.9334cd3",
+  "build_epoch": 1787097600,
+  "platformioTarget": "seeed_wio_tracker_L1",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-seeed_wio_tracker_L1-2.8.0.9334cd3.elf",
+      "md5": "f5de870fb73c444eeba3e81a1ea67880",
+      "bytes": 1286348
+    },
+    {
+      "name": "firmware-seeed_wio_tracker_L1-2.8.0.9334cd3.hex",
+      "md5": "ad188cdfed4179343f6aaa05c31394e5",
+      "bytes": 2040805
+    },
+    {
+      "name": "firmware-seeed_wio_tracker_L1-2.8.0.9334cd3.uf2",
+      "md5": "2b5b959fff45d6d85adfd42d2a9a59bd",
+      "bytes": 1451520
+    },
+    {
+      "name": "firmware-seeed_wio_tracker_L1-2.8.0.9334cd3-ota.zip",
+      "md5": "6cd00de4ffbe191b1276e4aa48026d61",
+      "bytes": 726540
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 106172,
+  "flash_bytes": 725528,
+  "hwModel": 99,
+  "hwModelSlug": "SEEED_WIO_TRACKER_L1",
+  "architecture": "nrf52840",
+  "activelySupported": true,
+  "displayName": "Seeed Wio Tracker L1",
+  "supportLevel": 1,
+  "images": [
+    "wio_tracker_l1_case.svg"
+  ],
+  "tags": [
+    "Seeed"
+  ],
+  "requiresDfu": true
+}

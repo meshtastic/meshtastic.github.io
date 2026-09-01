@@ -1,0 +1,90 @@
+{
+  "version": "2.7.24.472b14c",
+  "build_epoch": 1779408000,
+  "platformioTarget": "station-g1",
+  "mcu": "esp32",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-station-g1-2.7.24.472b14c.elf",
+      "md5": "91c3aef46fd129ea2dfce66bff6abc1d",
+      "bytes": 19918620
+    },
+    {
+      "name": "firmware-station-g1-2.7.24.472b14c.bin",
+      "md5": "d6194d22b4e87801bc3ef286282ec732",
+      "bytes": 2146480,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-station-g1-2.7.24.472b14c.factory.bin",
+      "md5": "703d5a3d90b0921dfb79ca4923f39842",
+      "bytes": 2212016
+    },
+    {
+      "name": "littlefs-station-g1-2.7.24.472b14c.bin",
+      "md5": "e99f165c3c28040e4f30c85a49694e0d",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32-ota.bin",
+      "md5": "d7376153b9d0034ac5cf534bc0e17fc0",
+      "bytes": 642096,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 25,
+  "hwModelSlug": "STATION_G1",
+  "architecture": "esp32",
+  "activelySupported": true,
+  "displayName": "Station G1",
+  "supportLevel": 3,
+  "tags": [
+    "B&Q"
+  ]
+}

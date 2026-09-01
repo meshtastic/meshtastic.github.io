@@ -1,0 +1,93 @@
+{
+  "version": "2.7.18.7e03cae",
+  "build_epoch": 1770249600,
+  "platformioTarget": "heltec-ht62-esp32c3-sx1262",
+  "mcu": "esp32c3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-heltec-ht62-esp32c3-sx1262-2.7.18.7e03cae.elf",
+      "md5": "ac58feb02a45451aefa2805ad3f00deb",
+      "bytes": 19021692
+    },
+    {
+      "name": "firmware-heltec-ht62-esp32c3-sx1262-2.7.18.7e03cae.bin",
+      "md5": "0e56b99af1dda8a07776dff8eaeb3c00",
+      "bytes": 2065952,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-heltec-ht62-esp32c3-sx1262-2.7.18.7e03cae.factory.bin",
+      "md5": "126dfaee3b68966488549298f9bace12",
+      "bytes": 2131488
+    },
+    {
+      "name": "littlefs-heltec-ht62-esp32c3-sx1262-2.7.18.7e03cae.bin",
+      "md5": "802d42daa7bfd877c31e470ae2667365",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "bleota-c3.bin",
+      "md5": "20210a70e665e2b61fe1a3bdbd776d25",
+      "bytes": 509776,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 53,
+  "hwModelSlug": "HELTEC_HT62",
+  "architecture": "esp32-c3",
+  "activelySupported": true,
+  "displayName": "Heltec HT62",
+  "supportLevel": 1,
+  "images": [
+    "heltec-ht62-esp32c3-sx1262.svg"
+  ],
+  "tags": [
+    "Heltec"
+  ]
+}

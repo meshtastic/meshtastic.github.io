@@ -1,0 +1,103 @@
+{
+  "version": "2.7.25.104df5f",
+  "build_epoch": 1780963200,
+  "platformioTarget": "tbeam-s3-core",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-tbeam-s3-core-2.7.25.104df5f.elf",
+      "md5": "6c1dd99df2c5b96fee968e0f1b87bae1",
+      "bytes": 22972932
+    },
+    {
+      "name": "firmware-tbeam-s3-core-2.7.25.104df5f.bin",
+      "md5": "2bd35f5fa5a106d97a25f8e72ca195d0",
+      "bytes": 2212848,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-tbeam-s3-core-2.7.25.104df5f.factory.bin",
+      "md5": "35f07a69ad808aabc61ab95f6f892008",
+      "bytes": 2278384
+    },
+    {
+      "name": "littlefs-tbeam-s3-core-2.7.25.104df5f.bin",
+      "md5": "9345514fbc8bfa2e189f7f10484a3a04",
+      "bytes": 1572864,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 12,
+  "hwModelSlug": "LILYGO_TBEAM_S3_CORE",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "LILYGO T-Beam Supreme",
+  "supportLevel": 1,
+  "images": [
+    "tbeam-s3-core.svg"
+  ],
+  "tags": [
+    "LilyGo"
+  ],
+  "requiresDfu": true,
+  "partitionScheme": "8MB"
+}

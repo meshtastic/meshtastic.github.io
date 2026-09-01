@@ -1,0 +1,90 @@
+{
+  "version": "2.7.26.004b486",
+  "build_epoch": 1783382400,
+  "platformioTarget": "nano-g1-explorer",
+  "mcu": "esp32",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-nano-g1-explorer-2.7.26.004b486.elf",
+      "md5": "c3e5f45acea75ceea9ad355745e10e73",
+      "bytes": 19940004
+    },
+    {
+      "name": "firmware-nano-g1-explorer-2.7.26.004b486.bin",
+      "md5": "1749a74b0215ae62fa57ead0b8cf49bd",
+      "bytes": 2155616,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-nano-g1-explorer-2.7.26.004b486.factory.bin",
+      "md5": "110dc7791d63767695d5ab0611ad8066",
+      "bytes": 2221152
+    },
+    {
+      "name": "littlefs-nano-g1-explorer-2.7.26.004b486.bin",
+      "md5": "87a2ec0c70680740188fe0f0ef5d7db6",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32-ota.bin",
+      "md5": "d7376153b9d0034ac5cf534bc0e17fc0",
+      "bytes": 642096,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 17,
+  "hwModelSlug": "NANO_G1_EXPLORER",
+  "architecture": "esp32",
+  "activelySupported": true,
+  "displayName": "Nano G1 Explorer",
+  "supportLevel": 3,
+  "tags": [
+    "B&Q"
+  ]
+}

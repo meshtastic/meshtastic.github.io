@@ -1,0 +1,44 @@
+{
+  "version": "2.7.23.07741e6",
+  "build_epoch": 1777420800,
+  "platformioTarget": "rak_wismeshtag",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-rak_wismeshtag-2.7.23.07741e6.elf",
+      "md5": "46e5ec43db61095964c66040d5ce1c6b",
+      "bytes": 1086304
+    },
+    {
+      "name": "firmware-rak_wismeshtag-2.7.23.07741e6.hex",
+      "md5": "fe627fe6540aa510b752df2be442d864",
+      "bytes": 1608067
+    },
+    {
+      "name": "firmware-rak_wismeshtag-2.7.23.07741e6.uf2",
+      "md5": "6d96aab612ba6dc272d9e1494263d542",
+      "bytes": 1143808
+    },
+    {
+      "name": "firmware-rak_wismeshtag-2.7.23.07741e6-ota.zip",
+      "md5": "761ddea00bf3ca65c533e30b71d757a4",
+      "bytes": 572663
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "hwModel": 105,
+  "hwModelSlug": "WISMESH_TAG",
+  "architecture": "nrf52840",
+  "activelySupported": true,
+  "displayName": "RAK WisMesh Tag",
+  "supportLevel": 1,
+  "images": [
+    "rak_wismesh_tag.svg"
+  ],
+  "tags": [
+    "RAK"
+  ],
+  "requiresDfu": true
+}

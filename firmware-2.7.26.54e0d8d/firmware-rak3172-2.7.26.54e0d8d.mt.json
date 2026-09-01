@@ -1,0 +1,30 @@
+{
+  "version": "2.7.26.54e0d8d",
+  "build_epoch": 1782172800,
+  "platformioTarget": "rak3172",
+  "mcu": "stm32wle5ccu",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-rak3172-2.7.26.54e0d8d.elf",
+      "md5": "fd537282ab7057c1008048a2013f47e7",
+      "bytes": 7473416
+    },
+    {
+      "name": "firmware-rak3172-2.7.26.54e0d8d.bin",
+      "md5": "fd780885b3248d67869d7c5098b8ae9a",
+      "bytes": 173444,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-rak3172-2.7.26.54e0d8d.hex",
+      "md5": "4b2a8165e28b2f76fb7008fc68718150",
+      "bytes": 487916
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "stm32",
+  "displayName": "rak3172",
+  "activelySupported": false
+}

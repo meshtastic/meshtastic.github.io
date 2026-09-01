@@ -1,0 +1,84 @@
+{
+  "version": "2.7.26.54e0d8d",
+  "build_epoch": 1782259200,
+  "platformioTarget": "tlora-t3s3-epaper-inkhud",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-tlora-t3s3-epaper-inkhud-2.7.26.54e0d8d.elf",
+      "md5": "3c8163dd5978bd93e4e6baba3c817e6d",
+      "bytes": 23267924
+    },
+    {
+      "name": "firmware-tlora-t3s3-epaper-inkhud-2.7.26.54e0d8d.bin",
+      "md5": "fb60277fc055b710cff9b002f5b132cb",
+      "bytes": 2230048,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-tlora-t3s3-epaper-inkhud-2.7.26.54e0d8d.factory.bin",
+      "md5": "ad1f29d7764c41b3cb40fee576f453f5",
+      "bytes": 2295584
+    },
+    {
+      "name": "littlefs-tlora-t3s3-epaper-inkhud-2.7.26.54e0d8d.bin",
+      "md5": "e059082a96adc421739ecc845e2eee11",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": true,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-s3",
+  "displayName": "tlora-t3s3-epaper-inkhud",
+  "activelySupported": false
+}

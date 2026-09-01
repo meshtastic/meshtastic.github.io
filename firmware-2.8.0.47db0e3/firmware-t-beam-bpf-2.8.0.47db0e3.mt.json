@@ -1,0 +1,104 @@
+{
+  "version": "2.8.0.47db0e3",
+  "build_epoch": 1788220800,
+  "platformioTarget": "t-beam-bpf",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-t-beam-bpf-2.8.0.47db0e3.elf",
+      "md5": "2ddc4be7c76e01c4d3e1aa296c8e2be5",
+      "bytes": 47835008
+    },
+    {
+      "name": "firmware-t-beam-bpf-2.8.0.47db0e3.bin",
+      "md5": "15288e54617b5e72106988ac07e85e00",
+      "bytes": 2338528,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-t-beam-bpf-2.8.0.47db0e3.factory.bin",
+      "md5": "652a998e79a0e22cdc6c1be09d83c38a",
+      "bytes": 2404064
+    },
+    {
+      "name": "littlefs-t-beam-bpf-2.8.0.47db0e3.bin",
+      "md5": "dcc441ed2a431da8715f824c2a5c9db4",
+      "bytes": 3538944,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 98804,
+  "flash_bytes": 2363355,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x650000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0xc90000",
+      "size": "0x360000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0xFF0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 124,
+  "hwModelSlug": "TBEAM_BPF",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "LILYGO T-Beam BPF",
+  "supportLevel": 3,
+  "images": [
+    "tbeam-bpf.svg"
+  ],
+  "tags": [
+    "LilyGo"
+  ],
+  "partitionScheme": "16MB"
+}

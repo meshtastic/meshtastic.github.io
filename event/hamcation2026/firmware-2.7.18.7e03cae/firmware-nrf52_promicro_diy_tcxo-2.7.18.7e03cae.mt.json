@@ -1,0 +1,44 @@
+{
+  "version": "2.7.18.7e03cae",
+  "build_epoch": 1770249600,
+  "platformioTarget": "nrf52_promicro_diy_tcxo",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-nrf52_promicro_diy_tcxo-2.7.18.7e03cae.elf",
+      "md5": "765aa31eca428c16c0f4615b243fe82e",
+      "bytes": 1406804
+    },
+    {
+      "name": "firmware-nrf52_promicro_diy_tcxo-2.7.18.7e03cae.hex",
+      "md5": "898429e3d30e2722c5c4096ae51647de",
+      "bytes": 2053437
+    },
+    {
+      "name": "firmware-nrf52_promicro_diy_tcxo-2.7.18.7e03cae.uf2",
+      "md5": "2cb6f50acabdcdf067939c80fe75991a",
+      "bytes": 1460224
+    },
+    {
+      "name": "firmware-nrf52_promicro_diy_tcxo-2.7.18.7e03cae-ota.zip",
+      "md5": "031dce024ac74566f4f56db0ea89aaab",
+      "bytes": 731061
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "hwModel": 63,
+  "hwModelSlug": "NRF52_PROMICRO_DIY",
+  "architecture": "nrf52840",
+  "activelySupported": true,
+  "displayName": "NRF52 Pro-micro DIY",
+  "supportLevel": 3,
+  "images": [
+    "promicro.svg"
+  ],
+  "tags": [
+    "DIY"
+  ],
+  "requiresDfu": true
+}

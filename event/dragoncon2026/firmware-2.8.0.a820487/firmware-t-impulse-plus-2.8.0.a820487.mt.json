@@ -1,0 +1,43 @@
+{
+  "version": "2.8.0.a820487",
+  "build_epoch": 1787270400,
+  "platformioTarget": "t-impulse-plus",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-t-impulse-plus-2.8.0.a820487.elf",
+      "md5": "44b324f172662fb24222e265a80f3ead",
+      "bytes": 1285120
+    },
+    {
+      "name": "firmware-t-impulse-plus-2.8.0.a820487.hex",
+      "md5": "8ea6ad57e85a7f0c54dd2a17c252df3b",
+      "bytes": 2013866
+    },
+    {
+      "name": "firmware-t-impulse-plus-2.8.0.a820487.uf2",
+      "md5": "ac26c90144befd4b07017fed14d5f475",
+      "bytes": 1432064
+    },
+    {
+      "name": "firmware-t-impulse-plus-2.8.0.a820487-ota.zip",
+      "md5": "6b7c586d554d41ec98775dda0210d33e",
+      "bytes": 716928
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 106180,
+  "flash_bytes": 715952,
+  "hwModel": 135,
+  "hwModelSlug": "T_IMPULSE_PLUS",
+  "architecture": "nrf52840",
+  "activelySupported": true,
+  "displayName": "LILYGO T-Impulse Plus",
+  "supportLevel": 1,
+  "tags": [
+    "LilyGo"
+  ],
+  "requiresDfu": true
+}

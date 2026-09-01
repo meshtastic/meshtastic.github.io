@@ -1,0 +1,46 @@
+{
+  "version": "2.8.0.c800fc8",
+  "build_epoch": 1785369600,
+  "platformioTarget": "nano-g2-ultra",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-nano-g2-ultra-2.8.0.c800fc8.elf",
+      "md5": "fd765dfeb39bfdad45652b23fb1f2d9c",
+      "bytes": 1286460
+    },
+    {
+      "name": "firmware-nano-g2-ultra-2.8.0.c800fc8.hex",
+      "md5": "ea129fdc315f0f18ba5bcc22decffc61",
+      "bytes": 2110751
+    },
+    {
+      "name": "firmware-nano-g2-ultra-2.8.0.c800fc8.uf2",
+      "md5": "380bf794c3eb23143535a27bcb949f6a",
+      "bytes": 1501184
+    },
+    {
+      "name": "firmware-nano-g2-ultra-2.8.0.c800fc8-ota.zip",
+      "md5": "60006ebea870604e4778c50207f4ffdb",
+      "bytes": 751369
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 102604,
+  "flash_bytes": 750400,
+  "hwModel": 18,
+  "hwModelSlug": "NANO_G2_ULTRA",
+  "architecture": "nrf52840",
+  "activelySupported": true,
+  "displayName": "Nano G2 Ultra",
+  "supportLevel": 2,
+  "images": [
+    "nano-g2-ultra.svg"
+  ],
+  "tags": [
+    "B&Q"
+  ],
+  "requiresDfu": true
+}

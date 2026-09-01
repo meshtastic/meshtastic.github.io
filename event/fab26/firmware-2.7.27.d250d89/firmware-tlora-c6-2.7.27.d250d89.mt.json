@@ -1,0 +1,84 @@
+{
+  "version": "2.7.27.d250d89",
+  "build_epoch": 1784332800,
+  "platformioTarget": "tlora-c6",
+  "mcu": "esp32c6",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-tlora-c6-2.7.27.d250d89.elf",
+      "md5": "5ae2321d7b8d529aee96135a05c96f46",
+      "bytes": 29457272
+    },
+    {
+      "name": "firmware-tlora-c6-2.7.27.d250d89.bin",
+      "md5": "db35693d2dd4dd2968343cdd8f080c4d",
+      "bytes": 1661856,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-tlora-c6-2.7.27.d250d89.factory.bin",
+      "md5": "9280ee83c295145de00c03b6fdac1325",
+      "bytes": 1727392
+    },
+    {
+      "name": "littlefs-tlora-c6-2.7.27.d250d89.bin",
+      "md5": "fc13a476384cbf08cc1949e863a2f81c",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "bleota-c3.bin",
+      "md5": "6e996c193fc425d9d2f18a47a6006305",
+      "bytes": 509776,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-c6",
+  "displayName": "tlora-c6",
+  "activelySupported": false
+}

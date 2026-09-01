@@ -1,0 +1,46 @@
+{
+  "version": "2.8.0.9334cd3",
+  "build_epoch": 1787097600,
+  "platformioTarget": "heltec-mesh-tower-v2",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-heltec-mesh-tower-v2-2.8.0.9334cd3.elf",
+      "md5": "39ecfa7d907bae4d9cb2bee841d3a3e1",
+      "bytes": 1285608
+    },
+    {
+      "name": "firmware-heltec-mesh-tower-v2-2.8.0.9334cd3.hex",
+      "md5": "5955e440c95e580d3b82b7f802f36362",
+      "bytes": 2032017
+    },
+    {
+      "name": "firmware-heltec-mesh-tower-v2-2.8.0.9334cd3.uf2",
+      "md5": "93958616ef61e5d346e13562b2c672e6",
+      "bytes": 1444864
+    },
+    {
+      "name": "firmware-heltec-mesh-tower-v2-2.8.0.9334cd3-ota.zip",
+      "md5": "4f5d0b07b768e0bcce8008bd808b632d",
+      "bytes": 723421
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 97340,
+  "flash_bytes": 722408,
+  "hwModel": 139,
+  "hwModelSlug": "HELTEC_MESH_TOWER_V2",
+  "architecture": "nrf52840",
+  "activelySupported": false,
+  "displayName": "Heltec MeshTower V2",
+  "supportLevel": 1,
+  "images": [
+    "heltec-mesh-tower-v2.svg"
+  ],
+  "tags": [
+    "Heltec"
+  ],
+  "requiresDfu": true
+}

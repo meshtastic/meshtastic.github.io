@@ -1,0 +1,84 @@
+{
+  "version": "2.7.23.07741e6",
+  "build_epoch": 1777420800,
+  "platformioTarget": "m5stack-coreink",
+  "mcu": "esp32",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-m5stack-coreink-2.7.23.07741e6.elf",
+      "md5": "4fe3c531d0e2f3337a419950573e7677",
+      "bytes": 19902208
+    },
+    {
+      "name": "firmware-m5stack-coreink-2.7.23.07741e6.bin",
+      "md5": "260f0d25cecf4f1f4528c16f1e8448b8",
+      "bytes": 2137632,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-m5stack-coreink-2.7.23.07741e6.factory.bin",
+      "md5": "ca334c40871d7f7e625a7b04203c3165",
+      "bytes": 2203168
+    },
+    {
+      "name": "littlefs-m5stack-coreink-2.7.23.07741e6.bin",
+      "md5": "cab657790ac76a5935e3952ae541f665",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32-ota.bin",
+      "md5": "d7376153b9d0034ac5cf534bc0e17fc0",
+      "bytes": 642096,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32",
+  "displayName": "m5stack-coreink",
+  "activelySupported": false
+}

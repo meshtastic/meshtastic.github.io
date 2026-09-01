@@ -1,0 +1,88 @@
+{
+  "version": "2.7.23.b246bcd",
+  "build_epoch": 1778112000,
+  "platformioTarget": "picomputer-s3-tft",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-picomputer-s3-tft-2.7.23.b246bcd.elf",
+      "md5": "0f5327d36e3e9a0b5adf0f7222200d31",
+      "bytes": 24621740
+    },
+    {
+      "name": "firmware-picomputer-s3-tft-2.7.23.b246bcd.bin",
+      "md5": "9f78339b808396832c49c70106ec4b4d",
+      "bytes": 3430704,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-picomputer-s3-tft-2.7.23.b246bcd.factory.bin",
+      "md5": "e3090d8880d6fee7a899aac8a2e8dcab",
+      "bytes": 3496240
+    },
+    {
+      "name": "littlefs-picomputer-s3-tft-2.7.23.b246bcd.bin",
+      "md5": "d1d0511c7329321cce9d6aaae3a7e4d6",
+      "bytes": 1572864,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": true,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x5C0000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x5D0000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": null
+    }
+  ],
+  "hwModel": 52,
+  "hwModelSlug": "PICOMPUTER_S3",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "Pi Computer S3",
+  "supportLevel": 3,
+  "partitionScheme": "8MB"
+}

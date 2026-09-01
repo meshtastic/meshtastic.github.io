@@ -1,0 +1,104 @@
+{
+  "version": "2.8.0.47db0e3",
+  "build_epoch": 1788220800,
+  "platformioTarget": "heltec-rcc6",
+  "mcu": "esp32c6",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-heltec-rcc6-2.8.0.47db0e3.elf",
+      "md5": "91e4b9bb9fb45323041f128215edb85c",
+      "bytes": 46222780
+    },
+    {
+      "name": "firmware-heltec-rcc6-2.8.0.47db0e3.bin",
+      "md5": "9d7d9e9736381303b1a7fa6d573c3b9b",
+      "bytes": 2549776,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-heltec-rcc6-2.8.0.47db0e3.factory.bin",
+      "md5": "c35625006436da386a629acaa357bf7c",
+      "bytes": 2615312
+    },
+    {
+      "name": "littlefs-heltec-rcc6-2.8.0.47db0e3.bin",
+      "md5": "f679851fa7e2d7c99a55ecfa8041d441",
+      "bytes": 3538944,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "bleota-c3.bin",
+      "md5": "b21eaf7ef2b3f867f42032e35079f3c0",
+      "bytes": 509776,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 109344,
+  "flash_bytes": 2585255,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x650000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0xc90000",
+      "size": "0x360000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0xFF0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 143,
+  "hwModelSlug": "HELTEC_RCC6",
+  "architecture": "esp32-c6",
+  "activelySupported": true,
+  "displayName": "Heltec RCC6",
+  "supportLevel": 1,
+  "images": [
+    "heltec-rcc6.svg"
+  ],
+  "tags": [
+    "Heltec"
+  ],
+  "partitionScheme": "16MB"
+}

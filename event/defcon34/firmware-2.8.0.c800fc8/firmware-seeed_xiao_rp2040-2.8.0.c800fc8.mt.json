@@ -1,0 +1,32 @@
+{
+  "version": "2.8.0.c800fc8",
+  "build_epoch": 1785369600,
+  "platformioTarget": "seeed_xiao_rp2040",
+  "mcu": "rp2040",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-seeed_xiao_rp2040-2.8.0.c800fc8.elf",
+      "md5": "080c61f9411154adf3afeda709b3d59a",
+      "bytes": 3045760
+    },
+    {
+      "name": "firmware-seeed_xiao_rp2040-2.8.0.c800fc8.bin",
+      "md5": "290fd756233700f8f11e1e925d9f082f",
+      "bytes": 820792,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-seeed_xiao_rp2040-2.8.0.c800fc8.uf2",
+      "md5": "797529e2893a7d0b87533d249f777da0",
+      "bytes": 1641984
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 86676,
+  "flash_bytes": 998076,
+  "architecture": "rp2040",
+  "displayName": "seeed_xiao_rp2040",
+  "activelySupported": false
+}

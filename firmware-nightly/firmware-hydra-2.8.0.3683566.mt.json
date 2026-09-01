@@ -1,0 +1,92 @@
+{
+  "version": "2.8.0.3683566",
+  "build_epoch": 1788220800,
+  "platformioTarget": "hydra",
+  "mcu": "esp32",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-hydra-2.8.0.3683566.elf",
+      "md5": "6891da32c9f6d2b8b4f975d65f0e98c4",
+      "bytes": 39945120
+    },
+    {
+      "name": "firmware-hydra-2.8.0.3683566.bin",
+      "md5": "cb625ddc5446b7adda23358d86aa63dd",
+      "bytes": 2050176,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-hydra-2.8.0.3683566.factory.bin",
+      "md5": "9ba27b117099f819e38c65f935c62acd",
+      "bytes": 2115712
+    },
+    {
+      "name": "littlefs-hydra-2.8.0.3683566.bin",
+      "md5": "f7877fb7477110e79a5046c9f5785c16",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32-ota.bin",
+      "md5": "d7376153b9d0034ac5cf534bc0e17fc0",
+      "bytes": 642096,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 108644,
+  "flash_bytes": 2074846,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 39,
+  "hwModelSlug": "HYDRA",
+  "architecture": "esp32",
+  "activelySupported": true,
+  "displayName": "Hydra",
+  "supportLevel": 3,
+  "tags": [
+    "DIY"
+  ]
+}

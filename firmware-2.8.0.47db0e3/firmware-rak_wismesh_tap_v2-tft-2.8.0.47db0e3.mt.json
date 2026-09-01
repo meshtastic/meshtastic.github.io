@@ -1,0 +1,96 @@
+{
+  "version": "2.8.0.47db0e3",
+  "build_epoch": 1788220800,
+  "platformioTarget": "rak_wismesh_tap_v2-tft",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-rak_wismesh_tap_v2-tft-2.8.0.47db0e3.elf",
+      "md5": "3da796b7f83c288e56b3cdad5e1f2271",
+      "bytes": 54540360
+    },
+    {
+      "name": "firmware-rak_wismesh_tap_v2-tft-2.8.0.47db0e3.bin",
+      "md5": "6e71a4e110089e8972c3cf67b0dd1869",
+      "bytes": 3548704,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-rak_wismesh_tap_v2-tft-2.8.0.47db0e3.factory.bin",
+      "md5": "5c799e033dd929125f0824c57d8ea686",
+      "bytes": 3614240
+    },
+    {
+      "name": "littlefs-rak_wismesh_tap_v2-tft-2.8.0.47db0e3.bin",
+      "md5": "7122321c21de82390c933359d425f79d",
+      "bytes": 1572864,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": true,
+  "has_inkhud": false,
+  "ram_bytes": 100832,
+  "flash_bytes": 3573523,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x5C0000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x5D0000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": null
+    }
+  ],
+  "hwModel": 116,
+  "hwModelSlug": "WISMESH_TAP_V2",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "RAK WisMesh Tap V2",
+  "supportLevel": 1,
+  "images": [
+    "rak-wismesh-tap-v2.svg"
+  ],
+  "tags": [
+    "RAK"
+  ],
+  "partitionScheme": "16MB"
+}

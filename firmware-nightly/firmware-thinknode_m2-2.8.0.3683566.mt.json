@@ -1,0 +1,96 @@
+{
+  "version": "2.8.0.3683566",
+  "build_epoch": 1788220800,
+  "platformioTarget": "thinknode_m2",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-thinknode_m2-2.8.0.3683566.elf",
+      "md5": "c09b8dbfe91a5af37af41fc91ddc39fd",
+      "bytes": 46873824
+    },
+    {
+      "name": "firmware-thinknode_m2-2.8.0.3683566.bin",
+      "md5": "595abb74fc2c1835758584adf18ff915",
+      "bytes": 2238544,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-thinknode_m2-2.8.0.3683566.factory.bin",
+      "md5": "997d4d91bf26a152a3b56a7da34192bf",
+      "bytes": 2304080
+    },
+    {
+      "name": "littlefs-thinknode_m2-2.8.0.3683566.bin",
+      "md5": "5c8a8f9e5589de24cfcae17c7407b6f2",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 126944,
+  "flash_bytes": 2263371,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 90,
+  "hwModelSlug": "THINKNODE_M2",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "ThinkNode M2",
+  "supportLevel": 1,
+  "images": [
+    "thinknode_m2.svg"
+  ],
+  "tags": [
+    "Elecrow"
+  ],
+  "requiresDfu": false
+}

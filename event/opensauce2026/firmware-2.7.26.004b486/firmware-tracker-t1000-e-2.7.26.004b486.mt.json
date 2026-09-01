@@ -1,0 +1,44 @@
+{
+  "version": "2.7.26.004b486",
+  "build_epoch": 1783382400,
+  "platformioTarget": "tracker-t1000-e",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-tracker-t1000-e-2.7.26.004b486.elf",
+      "md5": "d172228f4a6c4fa7ce2ac6cee3fb8fa4",
+      "bytes": 962840
+    },
+    {
+      "name": "firmware-tracker-t1000-e-2.7.26.004b486.hex",
+      "md5": "322e870d0ac6fc255df4dcf41accef74",
+      "bytes": 1355694
+    },
+    {
+      "name": "firmware-tracker-t1000-e-2.7.26.004b486.uf2",
+      "md5": "dca5e6f0667969078e4eda5f96f5df04",
+      "bytes": 964096
+    },
+    {
+      "name": "firmware-tracker-t1000-e-2.7.26.004b486-ota.zip",
+      "md5": "396f6cb3fac13d3a811e74a9df87ad40",
+      "bytes": 482945
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "hwModel": 71,
+  "hwModelSlug": "TRACKER_T1000_E",
+  "architecture": "nrf52840",
+  "activelySupported": true,
+  "displayName": "Seeed SenseCAP T1000-E",
+  "supportLevel": 1,
+  "images": [
+    "tracker-t1000-e.svg"
+  ],
+  "tags": [
+    "Seeed"
+  ],
+  "requiresDfu": true
+}

@@ -1,0 +1,103 @@
+{
+  "version": "2.7.23.07741e6",
+  "build_epoch": 1777420800,
+  "platformioTarget": "tlora-pager",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-tlora-pager-2.7.23.07741e6.elf",
+      "md5": "3c76071d1428ccd4d547e60181bd52cf",
+      "bytes": 23483948
+    },
+    {
+      "name": "firmware-tlora-pager-2.7.23.07741e6.bin",
+      "md5": "f7c8f9cc75f593eab459a33bc7b0464c",
+      "bytes": 2394288,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-tlora-pager-2.7.23.07741e6.factory.bin",
+      "md5": "97e0605c402d35589b6214824291e05d",
+      "bytes": 2459824
+    },
+    {
+      "name": "littlefs-tlora-pager-2.7.23.07741e6.bin",
+      "md5": "4ed94c3003ad74f6a336298af558e81c",
+      "bytes": 3538944,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x650000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0xc90000",
+      "size": "0x360000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0xFF0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 103,
+  "hwModelSlug": "T_LORA_PAGER",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "LILYGO T-LoRa Pager",
+  "supportLevel": 1,
+  "images": [
+    "lilygo-tlora-pager.svg"
+  ],
+  "tags": [
+    "LilyGo"
+  ],
+  "requiresDfu": true,
+  "partitionScheme": "16MB"
+}

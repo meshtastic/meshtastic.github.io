@@ -1,0 +1,94 @@
+{
+  "version": "2.8.0.9334cd3",
+  "build_epoch": 1787097600,
+  "platformioTarget": "t5s3-epaper-v2",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-t5s3-epaper-v2-2.8.0.9334cd3.elf",
+      "md5": "bd48deca3b550d6fa7f2520890d52320",
+      "bytes": 48382428
+    },
+    {
+      "name": "firmware-t5s3-epaper-v2-2.8.0.9334cd3.bin",
+      "md5": "65c501cea9ff978115262bd9b4676b54",
+      "bytes": 2361392,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-t5s3-epaper-v2-2.8.0.9334cd3.factory.bin",
+      "md5": "586b414f5f575b7cf60f378819f32c80",
+      "bytes": 2426928
+    },
+    {
+      "name": "littlefs-t5s3-epaper-v2-2.8.0.9334cd3.bin",
+      "md5": "7c396c4dd0a53fd4e8fdaf3952e26dfc",
+      "bytes": 3538944,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 102468,
+  "flash_bytes": 2386215,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x650000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0xc90000",
+      "size": "0x360000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0xFF0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-s3",
+  "displayName": "t5s3-epaper-v2",
+  "activelySupported": false
+}

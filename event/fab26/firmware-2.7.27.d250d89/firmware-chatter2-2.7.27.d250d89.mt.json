@@ -1,0 +1,84 @@
+{
+  "version": "2.7.27.d250d89",
+  "build_epoch": 1784332800,
+  "platformioTarget": "chatter2",
+  "mcu": "esp32",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-chatter2-2.7.27.d250d89.elf",
+      "md5": "e1624deec2ab32bdcd2c66260be6456e",
+      "bytes": 20165940
+    },
+    {
+      "name": "firmware-chatter2-2.7.27.d250d89.bin",
+      "md5": "2f5fb8ffbc0300acd94eb963bda8f8f9",
+      "bytes": 2197712,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-chatter2-2.7.27.d250d89.factory.bin",
+      "md5": "511fe2c4e2900b137b8a919329a9dddc",
+      "bytes": 2263248
+    },
+    {
+      "name": "littlefs-chatter2-2.7.27.d250d89.bin",
+      "md5": "ff3e2f3c333bad8b277cae97c2989341",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32-ota.bin",
+      "md5": "d7376153b9d0034ac5cf534bc0e17fc0",
+      "bytes": 642096,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32",
+  "displayName": "chatter2",
+  "activelySupported": false
+}

@@ -1,0 +1,44 @@
+{
+  "version": "2.7.23.07741e6",
+  "build_epoch": 1777420800,
+  "platformioTarget": "nano-g2-ultra",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-nano-g2-ultra-2.7.23.07741e6.elf",
+      "md5": "757245bbbeff5459293ac63e81a3ee4b",
+      "bytes": 1335128
+    },
+    {
+      "name": "firmware-nano-g2-ultra-2.7.23.07741e6.hex",
+      "md5": "6000df8b96ae6f145b958d0462cb2f40",
+      "bytes": 2019872
+    },
+    {
+      "name": "firmware-nano-g2-ultra-2.7.23.07741e6.uf2",
+      "md5": "037351d51e13aa84e0bdcd5667a9e14c",
+      "bytes": 1436672
+    },
+    {
+      "name": "firmware-nano-g2-ultra-2.7.23.07741e6-ota.zip",
+      "md5": "782496c0e6cd1496aba1de93a7b3928c",
+      "bytes": 719061
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "hwModel": 18,
+  "hwModelSlug": "NANO_G2_ULTRA",
+  "architecture": "nrf52840",
+  "activelySupported": true,
+  "displayName": "Nano G2 Ultra",
+  "supportLevel": 2,
+  "images": [
+    "nano-g2-ultra.svg"
+  ],
+  "tags": [
+    "B&Q"
+  ],
+  "requiresDfu": true
+}

@@ -1,0 +1,105 @@
+{
+  "version": "2.8.0.a820487",
+  "build_epoch": 1787270400,
+  "platformioTarget": "heltec-vision-master-t190",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-heltec-vision-master-t190-2.8.0.a820487.elf",
+      "md5": "b569f214c4cb65eaf0279dfa9ff02a23",
+      "bytes": 47025776
+    },
+    {
+      "name": "firmware-heltec-vision-master-t190-2.8.0.a820487.bin",
+      "md5": "29b9ca26f165f6295ef95862dc3e907c",
+      "bytes": 2298912,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-heltec-vision-master-t190-2.8.0.a820487.factory.bin",
+      "md5": "e9db22d3e0940cea22ef402ee5b92026",
+      "bytes": 2364448
+    },
+    {
+      "name": "littlefs-heltec-vision-master-t190-2.8.0.a820487.bin",
+      "md5": "8952ba8651f0f306619185482ff30b0c",
+      "bytes": 1572864,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 98812,
+  "flash_bytes": 2323727,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 66,
+  "hwModelSlug": "HELTEC_VISION_MASTER_T190",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "Heltec Vision Master T190",
+  "supportLevel": 1,
+  "images": [
+    "heltec-vision-master-t190.svg"
+  ],
+  "tags": [
+    "Heltec"
+  ],
+  "requiresDfu": true,
+  "partitionScheme": "8MB"
+}

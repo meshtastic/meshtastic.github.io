@@ -1,0 +1,35 @@
+{
+  "version": "2.7.18.7e03cae",
+  "build_epoch": 1770249600,
+  "platformioTarget": "rak4631_eth_gw",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-rak4631_eth_gw-2.7.18.7e03cae.elf",
+      "md5": "82eddaadfdf6648f4da4b9576fba7905",
+      "bytes": 1160332
+    },
+    {
+      "name": "firmware-rak4631_eth_gw-2.7.18.7e03cae.hex",
+      "md5": "22dd937c349a60b0b317f56c814f11c6",
+      "bytes": 1636716
+    },
+    {
+      "name": "firmware-rak4631_eth_gw-2.7.18.7e03cae.uf2",
+      "md5": "3f4afef8c88cf4a6cdb0fb340761d80d",
+      "bytes": 1163776
+    },
+    {
+      "name": "firmware-rak4631_eth_gw-2.7.18.7e03cae-ota.zip",
+      "md5": "c4d97c051bf3eeb5967417171bc11df6",
+      "bytes": 582847
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "architecture": "nrf52840",
+  "requiresDfu": true,
+  "displayName": "rak4631_eth_gw",
+  "activelySupported": false
+}
