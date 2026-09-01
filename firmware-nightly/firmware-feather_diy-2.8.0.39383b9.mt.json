@@ -1,0 +1,37 @@
+{
+  "version": "2.8.0.39383b9",
+  "build_epoch": 1788220800,
+  "platformioTarget": "feather_diy",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-feather_diy-2.8.0.39383b9.elf",
+      "md5": "03265b30d180f93943a549d36bfb1f23",
+      "bytes": 1295192
+    },
+    {
+      "name": "firmware-feather_diy-2.8.0.39383b9.hex",
+      "md5": "6192023bef2df924feed0890cc8e32ee",
+      "bytes": 2063575
+    },
+    {
+      "name": "firmware-feather_diy-2.8.0.39383b9.uf2",
+      "md5": "fbae7c116e439e2cec60c36a3dc43302",
+      "bytes": 1467392
+    },
+    {
+      "name": "firmware-feather_diy-2.8.0.39383b9-ota.zip",
+      "md5": "0cb92bad31b093459027a34e72fca149",
+      "bytes": 734583
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 98740,
+  "flash_bytes": 733624,
+  "architecture": "nrf52840",
+  "requiresDfu": true,
+  "displayName": "feather_diy",
+  "activelySupported": false
+}
