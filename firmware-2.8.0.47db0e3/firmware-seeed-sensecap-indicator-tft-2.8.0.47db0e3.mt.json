@@ -12,14 +12,14 @@
     },
     {
       "name": "firmware-seeed-sensecap-indicator-tft-2.8.0.47db0e3.bin",
-      "md5": "0db160c739e3c13c9aee9a4b7c01b10d",
-      "bytes": 3802064,
+      "md5": "5c48a2f029e310a9e202c3d7751538ab",
+      "bytes": 3799568,
       "part_name": "app0"
     },
     {
       "name": "firmware-seeed-sensecap-indicator-tft-2.8.0.47db0e3.factory.bin",
-      "md5": "deb9c1e21cc3c8cd8ec8b1a78221675d",
-      "bytes": 3867600
+      "md5": "cb370fa091c471655420057df0da7938",
+      "bytes": 3865104
     },
     {
       "name": "littlefs-seeed-sensecap-indicator-tft-2.8.0.47db0e3.bin",
@@ -36,8 +36,8 @@
   ],
   "has_mui": true,
   "has_inkhud": false,
-  "ram_bytes": 122476,
-  "flash_bytes": 3826883,
+  "ram_bytes": 121340,
+  "flash_bytes": 3824387,
   "part": [
     {
       "name": "nvs",

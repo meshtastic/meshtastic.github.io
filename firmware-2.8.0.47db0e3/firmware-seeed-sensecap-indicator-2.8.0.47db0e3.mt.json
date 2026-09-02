@@ -12,14 +12,14 @@
     },
     {
       "name": "firmware-seeed-sensecap-indicator-2.8.0.47db0e3.bin",
-      "md5": "130f5b10a874ce5d6322550dfe54cbf7",
-      "bytes": 2365936,
+      "md5": "77fc2d0a09f49c077d06948dc4e69ea7",
+      "bytes": 2363488,
       "part_name": "app0"
     },
     {
       "name": "firmware-seeed-sensecap-indicator-2.8.0.47db0e3.factory.bin",
-      "md5": "dd57ed412bcd13b15d44d03cc2a1b697",
-      "bytes": 2431472
+      "md5": "9f84071c6eaa14ba46628ad5345f9fa4",
+      "bytes": 2429024
     },
     {
       "name": "littlefs-seeed-sensecap-indicator-2.8.0.47db0e3.bin",
@@ -36,8 +36,8 @@
   ],
   "has_mui": false,
   "has_inkhud": false,
-  "ram_bytes": 105636,
-  "flash_bytes": 2390763,
+  "ram_bytes": 104508,
+  "flash_bytes": 2388315,
   "part": [
     {
       "name": "nvs",
