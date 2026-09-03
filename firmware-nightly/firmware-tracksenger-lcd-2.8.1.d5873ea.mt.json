@@ -1,0 +1,99 @@
+{
+  "version": "2.8.1.d5873ea",
+  "build_epoch": 1788393600,
+  "platformioTarget": "tracksenger-lcd",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-tracksenger-lcd-2.8.1.d5873ea.elf",
+      "md5": "0bf52c9346f9b0e8ab9cc82f6ae43485",
+      "bytes": 49855208
+    },
+    {
+      "name": "firmware-tracksenger-lcd-2.8.1.d5873ea.bin",
+      "md5": "93953891d531d7c8bbcac50bd9ad96d3",
+      "bytes": 2345056,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-tracksenger-lcd-2.8.1.d5873ea.factory.bin",
+      "md5": "9906307660ca14714bc5f180ac4754f6",
+      "bytes": 2410592
+    },
+    {
+      "name": "littlefs-tracksenger-lcd-2.8.1.d5873ea.bin",
+      "md5": "10d5d8d1ebbddad4acd8a07b51df3011",
+      "bytes": 1572864,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 128156,
+  "flash_bytes": 2369883,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 48,
+  "hwModelSlug": "HELTEC_WIRELESS_TRACKER",
+  "architecture": "esp32-s3",
+  "activelySupported": false,
+  "displayName": "TrackSenger (big TFT)",
+  "supportLevel": 3,
+  "requiresDfu": true,
+  "partitionScheme": "8MB"
+}
