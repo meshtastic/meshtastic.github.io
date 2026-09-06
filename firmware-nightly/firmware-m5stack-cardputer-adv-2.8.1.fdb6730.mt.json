@@ -1,0 +1,94 @@
+{
+  "version": "2.8.1.fdb6730",
+  "build_epoch": 1788652800,
+  "platformioTarget": "m5stack-cardputer-adv",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-m5stack-cardputer-adv-2.8.1.fdb6730.elf",
+      "md5": "38c4e6887e5185bfa80957b78a6cefca",
+      "bytes": 50383804
+    },
+    {
+      "name": "firmware-m5stack-cardputer-adv-2.8.1.fdb6730.bin",
+      "md5": "a60de454c20b325abc73e4ff7fd355fd",
+      "bytes": 2441792,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-m5stack-cardputer-adv-2.8.1.fdb6730.factory.bin",
+      "md5": "b6e3e70386819a88711934c7ee9910ea",
+      "bytes": 2507328
+    },
+    {
+      "name": "littlefs-m5stack-cardputer-adv-2.8.1.fdb6730.bin",
+      "md5": "2648b7b780ca16145184c31a3f5bef3e",
+      "bytes": 1572864,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 133584,
+  "flash_bytes": 2466619,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-s3",
+  "displayName": "m5stack-cardputer-adv",
+  "activelySupported": false
+}
