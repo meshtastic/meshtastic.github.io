@@ -1,0 +1,105 @@
+{
+  "version": "2.8.1.608ff51",
+  "build_epoch": 1790208000,
+  "platformioTarget": "seeed-xiao-s3",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-seeed-xiao-s3-2.8.1.608ff51.elf",
+      "md5": "ba8562dc87e9008b4244451c688eb60f",
+      "bytes": 47489252
+    },
+    {
+      "name": "firmware-seeed-xiao-s3-2.8.1.608ff51.bin",
+      "md5": "ef8a1400dd214f833272287b9a24eb91",
+      "bytes": 2293712,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-seeed-xiao-s3-2.8.1.608ff51.factory.bin",
+      "md5": "cefe6ce601278691ccc24ed1a841679a",
+      "bytes": 2359248
+    },
+    {
+      "name": "littlefs-seeed-xiao-s3-2.8.1.608ff51.bin",
+      "md5": "1b0901e67bd0e7cdb97ece24632617b7",
+      "bytes": 1572864,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 99524,
+  "flash_bytes": 2318535,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x340000",
+      "size": "0x330000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x670000",
+      "size": "0x180000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0x7F0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 81,
+  "hwModelSlug": "SEEED_XIAO_S3",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "Seeed Xiao ESP32-S3",
+  "supportLevel": 3,
+  "images": [
+    "seeed-xiao-s3.svg"
+  ],
+  "tags": [
+    "Seeed"
+  ],
+  "requiresDfu": true,
+  "partitionScheme": "8MB"
+}
