@@ -1,0 +1,46 @@
+{
+  "version": "2.8.1.2028484",
+  "build_epoch": 1790294400,
+  "platformioTarget": "heltec-rc52",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-heltec-rc52-2.8.1.2028484.elf",
+      "md5": "8a6cc098411d57c772371597be39528f",
+      "bytes": 1300048
+    },
+    {
+      "name": "firmware-heltec-rc52-2.8.1.2028484.hex",
+      "md5": "d08cad4b696cb29c0888d7fe0cc77500",
+      "bytes": 2033613
+    },
+    {
+      "name": "firmware-heltec-rc52-2.8.1.2028484.uf2",
+      "md5": "3a180008a5a25ae9dfd6a00604140cdc",
+      "bytes": 1446400
+    },
+    {
+      "name": "firmware-heltec-rc52-2.8.1.2028484-ota.zip",
+      "md5": "a5ccc2f619dc29a4be2ed6c34f2b5c0c",
+      "bytes": 723931
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 96788,
+  "flash_bytes": 722972,
+  "hwModel": 142,
+  "hwModelSlug": "HELTEC_RC52",
+  "architecture": "nrf52840",
+  "activelySupported": true,
+  "displayName": "Heltec RC52",
+  "supportLevel": 1,
+  "images": [
+    "heltec-rc52.svg"
+  ],
+  "tags": [
+    "Heltec"
+  ],
+  "requiresDfu": true
+}
