@@ -1,0 +1,32 @@
+{
+  "version": "2.8.1.8e6a88d",
+  "build_epoch": 1790553600,
+  "platformioTarget": "wio-e5",
+  "mcu": "stm32wle5jc",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-wio-e5-2.8.1.8e6a88d.elf",
+      "md5": "6e2c528efc1880d1102dff2e82f9e4f8",
+      "bytes": 9121368
+    },
+    {
+      "name": "firmware-wio-e5-2.8.1.8e6a88d.bin",
+      "md5": "aca7f615a78ee112c7bc6d93209381d2",
+      "bytes": 231584,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-wio-e5-2.8.1.8e6a88d.hex",
+      "md5": "faf63a35e1bfd42db9ea817739368431",
+      "bytes": 651447
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 26900,
+  "flash_bytes": 231572,
+  "architecture": "stm32",
+  "displayName": "wio-e5",
+  "activelySupported": false
+}
