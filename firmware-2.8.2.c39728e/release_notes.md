@@ -1,0 +1,119 @@
+## 🚀 Enhancements
+
+- Meshtasticd notifications by @jp-bennett in https://github.com/meshtastic/firmware/pull/10216
+- Improved LBT behaviour - CAD-to-RX, correct symbol times, better thresholds by @NomDeTom in https://github.com/meshtastic/firmware/pull/11137
+- Feat(portduino): BLE peripheral support via BlueZ for meshtasticd (Raspberry Pi) by @jp-bennett in https://github.com/meshtastic/firmware/pull/11396
+- Feat(raksensorhub): SensorHub uplink for WisMesh Hub (RAK2560) by @Ethan-chen1234-zy in https://github.com/meshtastic/firmware/pull/11817
+- Select InkHUD font code page with the OLED_* language flags by @caveman99 in https://github.com/meshtastic/firmware/pull/11869
+- Feat(portduino): add a test-menu action to power off the host by @jp-bennett in https://github.com/meshtastic/firmware/pull/11920
+- Dmshell by @jp-bennett in https://github.com/meshtastic/firmware/pull/11976
+- Improve performance of encrypted packets with a shared secret cache by @jp-bennett in https://github.com/meshtastic/firmware/pull/11979
+- Read received LoRa frames out from a FreeRTOS task by @jp-bennett in https://github.com/meshtastic/firmware/pull/11983
+- Show Ethernet status on the WiFi screen by @caveman99 in https://github.com/meshtastic/firmware/pull/11991
+- Radiolib recording hal tests by @NomDeTom in https://github.com/meshtastic/firmware/pull/11997
+- CH341: fewer waits on the USB bus per radio command by @jp-bennett in https://github.com/meshtastic/firmware/pull/12013
+- Ch341 server fixes by @jp-bennett in https://github.com/meshtastic/firmware/pull/12016
+- Radio: 1 ms TCXO start-up delay by default, settable per variant by @jp-bennett in https://github.com/meshtastic/firmware/pull/12018
+- Claude/dmshell lock by @jp-bennett in https://github.com/meshtastic/firmware/pull/12024
+- Add native Portduino mDNS discovery with Avahi and Bonjour by @jake-b in https://github.com/meshtastic/firmware/pull/12032
+- Update libch341-spi-userspace URL in portduino.ini by @jp-bennett in https://github.com/meshtastic/firmware/pull/12042
+- Feat(portduino): admin keys in config.yaml, beyond the protobuf's three by @jp-bennett in https://github.com/meshtastic/firmware/pull/12056
+- Update portduino to gnu++20 by @vidplace7 in https://github.com/meshtastic/firmware/pull/12069
+- Gate verbose radio logging behind LOG_DEBUG_RADIO (RADIO_DEBUG) by @jp-bennett in https://github.com/meshtastic/firmware/pull/12071
+- Logging: cut per-packet lines that carry nothing, rate-limit busyRx by @jp-bennett in https://github.com/meshtastic/firmware/pull/12083
+- NRF52840: run X25519 and Ed25519 verify on the CC310 by @Kongduino in https://github.com/meshtastic/firmware/pull/12098
+- Bound RadioLib's BUSY wait to 50 ms by @jp-bennett in https://github.com/meshtastic/firmware/pull/12105
+- DMShell: an on-board test client for the remote shell by @jp-bennett in https://github.com/meshtastic/firmware/pull/12111
+- Makerfabs nomad terminal by @caveman99 in https://github.com/meshtastic/firmware/pull/12112
+- AG3352 GPS update for ThinkNode M5 by @mverch67 in https://github.com/meshtastic/firmware/pull/12113
+- Feat(portduino): Adafruit Arcade Bonnet input driver by @jp-bennett in https://github.com/meshtastic/firmware/pull/12116
+- InkHUD: Feature/sdcard eink maps by @techtruth in https://github.com/meshtastic/firmware/pull/12118
+- Feat(beacon): per-target and offered frequency slots by @caveman99 in https://github.com/meshtastic/firmware/pull/12126
+- Fix native discovery recovery, retry backoff, and worker logging by @jake-b in https://github.com/meshtastic/firmware/pull/12142
+- Add configurable USB console light sleep veto for ESP32 by @jp-bennett in https://github.com/meshtastic/firmware/pull/12160
+
+## 🐛 Bug fixes and maintenance
+
+- Fix(rp2040): feed hardware watchdog during long GPS ACK waits by @Simplycissmus in https://github.com/meshtastic/firmware/pull/11630
+- Fix(traffic): round the default position dedup window to 6h, derive the floor from it by @garthvh in https://github.com/meshtastic/firmware/pull/11765
+- Fix RF95 optional pins and CannedMessage initialization by @uyseali in https://github.com/meshtastic/firmware/pull/11913
+- Fix(nodedb): keep deferred node saves pending instead of dropping them by @starlessoblivion in https://github.com/meshtastic/firmware/pull/11930
+- Actions: Update/pin to Ubuntu 26.04 by @vidplace7 in https://github.com/meshtastic/firmware/pull/11941
+- Nrf promicro hf by @NomDeTom in https://github.com/meshtastic/firmware/pull/11966
+- Log: report LOG_TRACE lines to the API as TRACE rather than UNSET by @jp-bennett in https://github.com/meshtastic/firmware/pull/11977
+- Nrf52 promicro: LR2021 LF PA table from the LR20xx datasheet by @NomDeTom in https://github.com/meshtastic/firmware/pull/11980
+- SX126x: follow RadioLib's silent XTAL fallback and log the chip's state after init by @NomDeTom in https://github.com/meshtastic/firmware/pull/11995
+- Fix(gps): stop the AIROHA engine before power-down on boards with GPS_SLEEP_INT (ThinkNode M9) by @mverch67 in https://github.com/meshtastic/firmware/pull/12004
+- Actions: Support MemBrowse memory/flash tracking by @vidplace7 in https://github.com/meshtastic/firmware/pull/12006
+- Feat(variants): add RAK WisMesh Dongle (USB Type-C) by @Ethan-chen1234-zy in https://github.com/meshtastic/firmware/pull/12009
+- TftSetup: don't claim the SPI bus after a timed-out take by @jp-bennett in https://github.com/meshtastic/firmware/pull/12025
+- BaseUI: use function pointers for banner callbacks by @Xaositek in https://github.com/meshtastic/firmware/pull/12026
+- BaseUI: merge number/hex/alphanumeric pickers into one renderer by @Xaositek in https://github.com/meshtastic/firmware/pull/12031
+- Fix(boards): add the missing openocd_target to t-impulse-plus by @jp-bennett in https://github.com/meshtastic/firmware/pull/12034
+- Meshnology W12: report MESHNOLOGY_W12 hardware model by @GeorgWolter in https://github.com/meshtastic/firmware/pull/12037
+- Remove TMM relayed-position precision clamp by @jp-bennett in https://github.com/meshtastic/firmware/pull/12039
+- Fix(portduino): rate-limit the BLE setup retry by @jp-bennett in https://github.com/meshtastic/firmware/pull/12043
+- Fix compass rejecting negative GPS headings by @terokorp in https://github.com/meshtastic/firmware/pull/12053
+- DMShell: give the shell TERM, a UTF-8 locale and a clean environment by @jamesarich in https://github.com/meshtastic/firmware/pull/12054
+- Clear the local-only fields a UDP sender must not set by @jamesarich in https://github.com/meshtastic/firmware/pull/12060
+- Fix(admin): cap the beacon message at the generated field size by @caveman99 in https://github.com/meshtastic/firmware/pull/12066
+- OSThread: keep a due time set during a run by @jp-bennett in https://github.com/meshtastic/firmware/pull/12067
+- Reset the radio's AGC only when it has gone quiet, or once a day by @jp-bennett in https://github.com/meshtastic/firmware/pull/12072
+- SerialConsole: restart a latched HWCDC TX path on ESP32-S3 by @jp-bennett in https://github.com/meshtastic/firmware/pull/12076
+- Fix(baseui): don't put the screen to sleep when toggling the backlight by @Cafe-FPGA in https://github.com/meshtastic/firmware/pull/12077
+- Turn the screen on, when the firmware update screen is shown by @blitzdose in https://github.com/meshtastic/firmware/pull/12087
+- Stop NodeInfo relays rewriting the User payload by @jp-bennett in https://github.com/meshtastic/firmware/pull/12088
+- Stop NeighborInfo relays rewriting the payload by @jp-bennett in https://github.com/meshtastic/firmware/pull/12090
+- Stop treating BATTERY_PIN -1 as a battery ADC by @jamesarich in https://github.com/meshtastic/firmware/pull/12091
+- Clamp an imported private key before deriving its public key by @jamesarich in https://github.com/meshtastic/firmware/pull/12095
+- Elecrow ThinkNode M5 InkHUD port by @tornadus in https://github.com/meshtastic/firmware/pull/12097
+- SX126x: re-stage a TX in full after the modem params move by @jp-bennett in https://github.com/meshtastic/firmware/pull/12101
+- Rename lora-frametastic to lora-usb-frametastic by @valzzu in https://github.com/meshtastic/firmware/pull/12104
+- Uplink PKI DMs the gateway relays but cannot decrypt to MQTT by @jp-bennett in https://github.com/meshtastic/firmware/pull/12110
+- Test(nodedb): drive the deferred node save from a real peer by @starlessoblivion in https://github.com/meshtastic/firmware/pull/12114
+- LoRa: size the preamble hold for the worst-case frame, and let the CAD settle an old bare preamble by @jp-bennett in https://github.com/meshtastic/firmware/pull/12125
+- ESP32 light sleep crash due to DIO1 ISR storm by @mverch67 in https://github.com/meshtastic/firmware/pull/12131
+- Wio Tracker L2 fixes by @mverch67 in https://github.com/meshtastic/firmware/pull/12133
+- Create the radio sequence lock before any sequence can start by @jp-bennett in https://github.com/meshtastic/firmware/pull/12134
+- Drain pending notifications before standby on RF95 too by @jp-bennett in https://github.com/meshtastic/firmware/pull/12135
+- Increase timeout for dput publish steps to 45 minutes by @vidplace7 in https://github.com/meshtastic/firmware/pull/12140
+- Don't light sleep while a USB host has the console open by @jp-bennett in https://github.com/meshtastic/firmware/pull/12141
+- Disarm the PMU_IRQ light-sleep wake after the sleep by @jp-bennett in https://github.com/meshtastic/firmware/pull/12143
+- Radio: end a CAD handoff whose RX hits a damaged header by @jp-bennett in https://github.com/meshtastic/firmware/pull/12144
+- Let a configured ls_secs survive the phone API round trip by @jp-bennett in https://github.com/meshtastic/firmware/pull/12145
+- ThinkNode M8: make button E the cancel button by @jp-bennett in https://github.com/meshtastic/firmware/pull/12150
+- ThinkNode M8: switch the GPS to the AG3352Q by @jp-bennett in https://github.com/meshtastic/firmware/pull/12151
+- Fix rak_wismeshtap build after GCC 12 update: replace non-standard uint by @vidplace7 in https://github.com/meshtastic/firmware/pull/12152
+- Don't let a stale RX flag re-arm RX over a live frame by @jp-bennett in https://github.com/meshtastic/firmware/pull/12153
+- Prepare the LoRa wake pin on every ESP32 variant, not just ESP32/S2/S3 by @jp-bennett in https://github.com/meshtastic/firmware/pull/12154
+- Latch the LoRa IRQ skip-sleep give-up until the line is seen low by @jp-bennett in https://github.com/meshtastic/firmware/pull/12155
+- Track meshtastic/Crypto with git-refs on rp2040/rp2350 and bump to 9ceb213 by @cvaldess in https://github.com/meshtastic/firmware/pull/12157
+- Fix esp32 shutdown: RTCIO number error and button pullup behavior by @mverch67 in https://github.com/meshtastic/firmware/pull/12159
+- Build no firmware in the merge queue; trim repeated CI work by @jp-bennett in https://github.com/meshtastic/firmware/pull/12162
+- Fix(gps): match Airoha idle_int sleep to the documented sequence by @jp-bennett in https://github.com/meshtastic/firmware/pull/12167
+- Fix crash when enabling Store & Forward after a disabled boot by @ftc2 in https://github.com/meshtastic/firmware/pull/12168
+- Let a running push run finish instead of cancelling it by @jp-bennett in https://github.com/meshtastic/firmware/pull/12182
+- LR2021: time received frames on the configured coding rate by @jp-bennett in https://github.com/meshtastic/firmware/pull/12183
+- Rework XEdDSA signing policy: Compatible stops signing, AES-CCM overrides, Strict exemptions by @jp-bennett in https://github.com/meshtastic/firmware/pull/12191
+- Fix(motion): include NodeDB.h so MotionSensor always sees the global config by @obabin in https://github.com/meshtastic/firmware/pull/12192
+- Key verification: create the responder's NodeDB entry on commit by @jp-bennett in https://github.com/meshtastic/firmware/pull/12194
+- Key verification: refuse in licensed (ham) mode by @jp-bennett in https://github.com/meshtastic/firmware/pull/12201
+- T-Beam 1W: support the LR1121 and LR2021 radio modules by @jp-bennett in https://github.com/meshtastic/firmware/pull/12204
+- Fail the native simulator job on a sanitizer fault, and fix the one it found by @jp-bennett in https://github.com/meshtastic/firmware/pull/12205
+- Pin membrowse-action to a SHA to unbreak CI by @jp-bennett in https://github.com/meshtastic/firmware/pull/12209
+- Actions: pin python to 3.14 where platformio is used by @vidplace7 in https://github.com/meshtastic/firmware/pull/12210
+- Add the Nodara nRF52840 board by @jp-bennett in https://github.com/meshtastic/firmware/pull/12211
+- Reset into BLE OTA DFU instead of jumping from the DFU callback by @jamesarich in https://github.com/meshtastic/firmware/pull/12220
+- STM32WL: seed random() from the on-chip RNG at boot by @jp-bennett in https://github.com/meshtastic/firmware/pull/12234
+
+## ⚙️ Dependencies
+
+- Update meshtastic/device-ui digest to 57c7bc6 by @app/renovate in https://github.com/meshtastic/firmware/pull/11982
+- NRF52: Update gcc to v12.3.1 (same as nRF54) by @vidplace7 in https://github.com/meshtastic/firmware/pull/12027
+- Update pioarduino to v3.3.12-1 by @vidplace7 in https://github.com/meshtastic/firmware/pull/12052
+- README: Add Membrowse badge by @vidplace7 in https://github.com/meshtastic/firmware/pull/12057
+- Update RAKwireless RAK12034 library git ref by @vidplace7 in https://github.com/meshtastic/firmware/pull/12147
+- Use github zip for ZinggJM/GFX_Root by @vidplace7 in https://github.com/meshtastic/firmware/pull/12174
+- Renovate: Fix lookup errors / tag formatting by @vidplace7 in https://github.com/meshtastic/firmware/pull/12176
+
+**Full Changelog**: https://github.com/meshtastic/firmware/compare/v2.8.1.8e6a88d...v2.8.2.c39728e
