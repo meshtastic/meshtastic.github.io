@@ -1,0 +1,105 @@
+{
+  "version": "2.8.2.f9c2650",
+  "build_epoch": 1793404800,
+  "platformioTarget": "meshnology_w10",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-meshnology_w10-2.8.2.f9c2650.elf",
+      "md5": "fbfbdce53009bad941c6fe62ae908b9e",
+      "bytes": 54195140
+    },
+    {
+      "name": "firmware-meshnology_w10-2.8.2.f9c2650.bin",
+      "md5": "29641f127480e296e232e047bb5598a7",
+      "bytes": 2471312,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-meshnology_w10-2.8.2.f9c2650.factory.bin",
+      "md5": "f35e37eb2ad494528c4f040c34f16fd8",
+      "bytes": 2536848
+    },
+    {
+      "name": "littlefs-meshnology_w10-2.8.2.f9c2650.bin",
+      "md5": "70883e82d3df6aa6b5c30e70508ab6e0",
+      "bytes": 3538944,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 134944,
+  "flash_bytes": 2496131,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x650000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0xc90000",
+      "size": "0x360000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0xFF0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "hwModel": 140,
+  "hwModelSlug": "MESHNOLOGY_W10",
+  "architecture": "esp32-s3",
+  "activelySupported": true,
+  "displayName": "Meshnology W10",
+  "supportLevel": 1,
+  "images": [
+    "meshnology_w10.svg"
+  ],
+  "tags": [
+    "Meshnology"
+  ],
+  "requiresDfu": true,
+  "partitionScheme": "16MB"
+}
