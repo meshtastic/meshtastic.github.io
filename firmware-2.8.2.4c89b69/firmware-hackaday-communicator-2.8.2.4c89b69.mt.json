@@ -1,0 +1,94 @@
+{
+  "version": "2.8.2.4c89b69",
+  "build_epoch": 1793491200,
+  "platformioTarget": "hackaday-communicator",
+  "mcu": "esp32s3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-hackaday-communicator-2.8.2.4c89b69.elf",
+      "md5": "cf7ddf1a46ca0e2a4974b0dd1a41a51a",
+      "bytes": 48098164
+    },
+    {
+      "name": "firmware-hackaday-communicator-2.8.2.4c89b69.bin",
+      "md5": "07ab9e02a627fe205368897caa26cfe2",
+      "bytes": 2317280,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-hackaday-communicator-2.8.2.4c89b69.factory.bin",
+      "md5": "858ba5611b2d67038bd015b2bd7eb965",
+      "bytes": 2382816
+    },
+    {
+      "name": "littlefs-hackaday-communicator-2.8.2.4c89b69.bin",
+      "md5": "c1940a6a9a22b66896ff0e03147c38ee",
+      "bytes": 3538944,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32s3-ota.bin",
+      "md5": "497d3108c038f8a6b5f4e234a1156c8a",
+      "bytes": 636544,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 99612,
+  "flash_bytes": 2342103,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x9000",
+      "size": "0x5000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0xe000",
+      "size": "0x2000",
+      "flags": ""
+    },
+    {
+      "name": "app0",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x10000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "app1",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x650000",
+      "size": "0x640000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0xc90000",
+      "size": "0x360000",
+      "flags": ""
+    },
+    {
+      "name": "coredump",
+      "type": "data",
+      "subtype": "coredump",
+      "offset": "0xFF0000",
+      "size": "0x10000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-s3",
+  "displayName": "hackaday-communicator",
+  "activelySupported": false
+}

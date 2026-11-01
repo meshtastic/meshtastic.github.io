@@ -1,0 +1,86 @@
+{
+  "version": "2.8.2.4c89b69",
+  "build_epoch": 1793491200,
+  "platformioTarget": "tlora-v3-3-0-tcxo",
+  "mcu": "esp32",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-tlora-v3-3-0-tcxo-2.8.2.4c89b69.elf",
+      "md5": "dd3c569048c9c94bbb43259d14b961e6",
+      "bytes": 39709172
+    },
+    {
+      "name": "firmware-tlora-v3-3-0-tcxo-2.8.2.4c89b69.bin",
+      "md5": "2fe963a19383fe39b5fa79195b807aaf",
+      "bytes": 2018096,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-tlora-v3-3-0-tcxo-2.8.2.4c89b69.factory.bin",
+      "md5": "13c40ee4eec33cd7f855e05857f2e1c7",
+      "bytes": 2083632
+    },
+    {
+      "name": "littlefs-tlora-v3-3-0-tcxo-2.8.2.4c89b69.bin",
+      "md5": "40f1de238b65a0a6e29f68c62a001cc7",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "mt-esp32-ota.bin",
+      "md5": "d7376153b9d0034ac5cf534bc0e17fc0",
+      "bytes": 642096,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 108740,
+  "flash_bytes": 2042774,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32",
+  "displayName": "tlora-v3-3-0-tcxo",
+  "activelySupported": false
+}
