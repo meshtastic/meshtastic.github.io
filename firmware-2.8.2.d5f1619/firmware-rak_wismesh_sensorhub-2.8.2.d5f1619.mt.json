@@ -1,0 +1,46 @@
+{
+  "version": "2.8.2.d5f1619",
+  "build_epoch": 1793664000,
+  "platformioTarget": "rak_wismesh_sensorhub",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-rak_wismesh_sensorhub-2.8.2.d5f1619.elf",
+      "md5": "7db437f50c4ba641c44d022a6df7f2c3",
+      "bytes": 1183112
+    },
+    {
+      "name": "firmware-rak_wismesh_sensorhub-2.8.2.d5f1619.hex",
+      "md5": "f1a0a6fc268b900a4abb38bcce60a46b",
+      "bytes": 2044662
+    },
+    {
+      "name": "firmware-rak_wismesh_sensorhub-2.8.2.d5f1619.uf2",
+      "md5": "8d5b2fd9d36085bbb28ae7f8cc1804a3",
+      "bytes": 1454080
+    },
+    {
+      "name": "firmware-rak_wismesh_sensorhub-2.8.2.d5f1619-ota.zip",
+      "md5": "967bcfe499f3fdb6b3c2217ccded8394",
+      "bytes": 727923
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 98120,
+  "flash_bytes": 726904,
+  "hwModel": 22,
+  "hwModelSlug": "WISMESH_HUB",
+  "architecture": "nrf52840",
+  "activelySupported": true,
+  "displayName": "RAK WisMesh Repeater (SensorHub uplink)",
+  "supportLevel": 1,
+  "images": [
+    "rak2560.svg"
+  ],
+  "tags": [
+    "RAK"
+  ],
+  "requiresDfu": true
+}

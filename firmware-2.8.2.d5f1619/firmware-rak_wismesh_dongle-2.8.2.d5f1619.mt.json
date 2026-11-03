@@ -1,0 +1,46 @@
+{
+  "version": "2.8.2.d5f1619",
+  "build_epoch": 1793664000,
+  "platformioTarget": "rak_wismesh_dongle",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-rak_wismesh_dongle-2.8.2.d5f1619.elf",
+      "md5": "9b83355ab0fbc982d35e13b56e8bb1da",
+      "bytes": 883896
+    },
+    {
+      "name": "firmware-rak_wismesh_dongle-2.8.2.d5f1619.hex",
+      "md5": "7aeb387d8c1d9f7e60a148249e8e7eca",
+      "bytes": 1492670
+    },
+    {
+      "name": "firmware-rak_wismesh_dongle-2.8.2.d5f1619.uf2",
+      "md5": "a364fcf9a5ef7ee78f2974ec53c11a09",
+      "bytes": 1061376
+    },
+    {
+      "name": "firmware-rak_wismesh_dongle-2.8.2.d5f1619-ota.zip",
+      "md5": "b30c9250c9b799f7a2eed70472c42b44",
+      "bytes": 531657
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 86144,
+  "flash_bytes": 530656,
+  "hwModel": 9,
+  "hwModelSlug": "RAK4631",
+  "architecture": "nrf52840",
+  "activelySupported": true,
+  "displayName": "RAK WisMesh Dongle",
+  "supportLevel": 1,
+  "images": [
+    "rak4631.svg"
+  ],
+  "tags": [
+    "RAK"
+  ],
+  "requiresDfu": true
+}

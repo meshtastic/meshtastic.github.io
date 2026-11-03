@@ -1,0 +1,43 @@
+{
+  "version": "2.8.2.d5f1619",
+  "build_epoch": 1793664000,
+  "platformioTarget": "nodara",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-nodara-2.8.2.d5f1619.elf",
+      "md5": "7b87976c45bad730c3948552febb7af7",
+      "bytes": 1192612
+    },
+    {
+      "name": "firmware-nodara-2.8.2.d5f1619.hex",
+      "md5": "04a8f2e217b74a67bd89860801550288",
+      "bytes": 2057066
+    },
+    {
+      "name": "firmware-nodara-2.8.2.d5f1619.uf2",
+      "md5": "f63a626acbc2e9f1f081481f8cc0fb80",
+      "bytes": 1462784
+    },
+    {
+      "name": "firmware-nodara-2.8.2.d5f1619-ota.zip",
+      "md5": "f78721ae295540378817f36a17122886",
+      "bytes": 732241
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 95968,
+  "flash_bytes": 731312,
+  "hwModel": 151,
+  "hwModelSlug": "NODARA",
+  "architecture": "nrf52840",
+  "activelySupported": true,
+  "displayName": "Nodara",
+  "supportLevel": 1,
+  "tags": [
+    "Nodara"
+  ],
+  "requiresDfu": true
+}

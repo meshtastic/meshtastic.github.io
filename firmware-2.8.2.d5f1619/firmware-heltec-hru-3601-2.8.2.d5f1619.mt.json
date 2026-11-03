@@ -1,0 +1,86 @@
+{
+  "version": "2.8.2.d5f1619",
+  "build_epoch": 1793664000,
+  "platformioTarget": "heltec-hru-3601",
+  "mcu": "esp32c3",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-heltec-hru-3601-2.8.2.d5f1619.elf",
+      "md5": "6ab6d72f826be173bf43f93e4fc3a293",
+      "bytes": 43407844
+    },
+    {
+      "name": "firmware-heltec-hru-3601-2.8.2.d5f1619.bin",
+      "md5": "3a7bd7b293ab6c3ee7e105388d480e5a",
+      "bytes": 2142272,
+      "part_name": "app0"
+    },
+    {
+      "name": "firmware-heltec-hru-3601-2.8.2.d5f1619.factory.bin",
+      "md5": "d8ce6ab12243d91b81cb0b4ea21438bf",
+      "bytes": 2207808
+    },
+    {
+      "name": "littlefs-heltec-hru-3601-2.8.2.d5f1619.bin",
+      "md5": "a0ea47630b80b16f93c358656a1f8249",
+      "bytes": 1048576,
+      "part_name": "spiffs"
+    },
+    {
+      "name": "bleota-c3.bin",
+      "md5": "b21eaf7ef2b3f867f42032e35079f3c0",
+      "bytes": 509776,
+      "part_name": "app1"
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 110456,
+  "flash_bytes": 2168101,
+  "part": [
+    {
+      "name": "nvs",
+      "type": "data",
+      "subtype": "nvs",
+      "offset": "0x009000",
+      "size": "0x005000",
+      "flags": ""
+    },
+    {
+      "name": "otadata",
+      "type": "data",
+      "subtype": "ota",
+      "offset": "0x00e000",
+      "size": "0x002000",
+      "flags": ""
+    },
+    {
+      "name": "app",
+      "type": "app",
+      "subtype": "ota_0",
+      "offset": "0x010000",
+      "size": "0x250000",
+      "flags": ""
+    },
+    {
+      "name": "flashApp",
+      "type": "app",
+      "subtype": "ota_1",
+      "offset": "0x260000",
+      "size": "0x0A0000",
+      "flags": ""
+    },
+    {
+      "name": "spiffs",
+      "type": "data",
+      "subtype": "spiffs",
+      "offset": "0x300000",
+      "size": "0x100000",
+      "flags": ""
+    }
+  ],
+  "architecture": "esp32-c3",
+  "displayName": "heltec-hru-3601",
+  "activelySupported": false
+}

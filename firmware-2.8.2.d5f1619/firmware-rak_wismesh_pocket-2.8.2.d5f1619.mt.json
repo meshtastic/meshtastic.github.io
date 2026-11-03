@@ -1,0 +1,46 @@
+{
+  "version": "2.8.2.d5f1619",
+  "build_epoch": 1793664000,
+  "platformioTarget": "rak_wismesh_pocket",
+  "mcu": "nrf52840",
+  "repo": "meshtastic/firmware",
+  "files": [
+    {
+      "name": "firmware-rak_wismesh_pocket-2.8.2.d5f1619.elf",
+      "md5": "8cfabac30e0c8320caabc5f5379cb535",
+      "bytes": 1171108
+    },
+    {
+      "name": "firmware-rak_wismesh_pocket-2.8.2.d5f1619.hex",
+      "md5": "c012d89ffd8e2abd09c31484798127d0",
+      "bytes": 2019266
+    },
+    {
+      "name": "firmware-rak_wismesh_pocket-2.8.2.d5f1619.uf2",
+      "md5": "b978f766456f9e0b050adb3175915aee",
+      "bytes": 1436160
+    },
+    {
+      "name": "firmware-rak_wismesh_pocket-2.8.2.d5f1619-ota.zip",
+      "md5": "2c93171b8f03c77a2b468938807bebf8",
+      "bytes": 718873
+    }
+  ],
+  "has_mui": false,
+  "has_inkhud": false,
+  "ram_bytes": 96632,
+  "flash_bytes": 717872,
+  "hwModel": 9,
+  "hwModelSlug": "RAK4631",
+  "architecture": "nrf52840",
+  "activelySupported": true,
+  "displayName": "RAK WisMesh Pocket V3",
+  "supportLevel": 1,
+  "images": [
+    "rak_wismesh_pocket.svg"
+  ],
+  "tags": [
+    "RAK"
+  ],
+  "requiresDfu": true
+}
